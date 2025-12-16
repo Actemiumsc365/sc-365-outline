@@ -1,0 +1,11 @@
+﻿{
+  "name": "docfx-bridge-scripts",
+  "version": "1.0.0",
+  "description": "Hulpscripts om content voor DocFX te genereren",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "export:outline": "node ./export_outline.js"
+  },
+  "dependencies": {}
+}

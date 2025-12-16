@@ -1,0 +1,18 @@
+﻿{
+  "build": {
+    "content": [
+      { "files": [ "articles/**.md", "index.md", "toc.yml" ] }
+    ],
+    "resource": [
+      { "files": [ "images/**" ] }
+    ],
+    "output": "site",
+    "globalMetadata": {
+      "_appTitle": "Mijn DocFX Site",
+      "_enableSearch": true
+    },
+    "template": [
+      "default"
+    ]
+  }
+}
