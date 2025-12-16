@@ -1,0 +1,228 @@
+---
+uid: 35d8de40-a5a6-4b51-b067-7646b8db3d2f
+title: "SupplyChain365 User license agreement"
+---
+
+\n**User agreement SaaS**
+
+with regard to SupplyChain365
+
+
+ 
+
+between
+
+ 
+
+**OPAL Associates BV**
+
+as Contractor
+
+ 
+
+and
+
+ 
+
+**SupplyChain365 Tenant user**
+
+as User
+
+ 
+
+  
+
+# Parties
+
+
+1. OPAL Associates BV, having as its address Kerkenbos 1019, 6546 BB Nijmegen, with KvK number 09154054, duly represented for this purpose by Stephan Smink. (the **Contractor**)
+2. SupplyChain365 Tenant Administrator, duly represented for this purpose by the **User**
+
+OPAL Associates BV and User each being a **Party** and together **Parties**.
+
+# **Background**
+
+
+1. Contractor has developed and exclusively owns the software SupplyChain365 which makes SupplyChain365 an extension (expansion) for Microsoft Dynamics 365 Business Central. SupplyChain365 is a software-as-a-service supply chain execution solution and adds Warehouse management and Transport management functionalities to Microsoft Dynamics 365 Business Central. The system provides internet web-based technology and mobile applications which are available via Cloud computing. SupplyChain365 increases inventory visibility in the supply chain and enables supply chain partners to collaborate digitally. (The **Software**).
+2. Contractor provides the Software via Software-as-a-Service (**SaaS**). This means that Contractor offers User access to the Software via the Internet.
+3. User wishes to use the Software via SaaS. Contractor wishes to offer User this possibility, under the conditions set out in this agreement (the **Agreement**).
+4. Contractor also works with partners (the **Partner**) to deliver the Software to Users. A Partner is, for example, a Microsoft Cloud Solutions Provider or Microsoft Solution Partner or Microsoft Dynamics partner.
+
+# **Definitions**
+
+
+1. OPAL BV: Is the creator, developer, owner and supplier of the SupplyChain365 Software.
+2. The Software: SupplyChain365 is the SaaS software solution supplied by OPAL BV to end customers and users. Possibly with the help of Partner.
+3. SaaS: Software as a Service provides access to software applications via the internet, on a subscription basis. 
+4. Tenant: Tenant is a hirer or subscriber of the SaaS solution. This is often a company, institution or group.
+5. User: A User is a person with an identity with the Tenant who uses the SaaS solution.
+6. Microsoft: Microsoft develops, distributes, licences and supports a wide range of computer-related products and services. The SaaS software SupplyChain365 is based on Microsoft products and services and extends the functionality of Microsoft Business Central.
+7. Partner: Partner is a Microsoft ICT partner that provides products and services from Microsoft. Specifically, partner is a provider of Microsoft Dynamics 365 Business Central solutions and services. 
+
+
+# **Agreement**
+
+**1. Permission to use the Software**
+
+
+1. Contractor authorises User to use the Software. Whereby the Contractor remains the owner of the Software. User may not copy the Software. This permission is non-exclusive and non-transferable.
+2. User may only use the Software for automating and digitising logistics and supply chain execution processes for its organisation. User needs Contractor's prior consent if it wishes to use the Software for any other purpose.
+3. User must register on Contractor's registration website with a valid Microsoft for work or school account. The registration is validated on the validity of an EU VAT number, a valid Microsoft Tenant ID and a valid payment method. After Contractor has approved the registration, User will receive access to the SupplyChain365 portal and an email with further instructions to start using the Software.
+4. Registration for the Software can only be carried out by a Tenant Administrator. This is a User of the organisation authorised to enter into such Agreements. By agreeing, completing the registration, the User declares that he agrees with the NLdigital general terms and conditions and User Agreement SaaS of OPAL Associates BV and thereby digitally signs this Agreement.
+5. User may import any Office365/Microsoft365 user accounts within the Microsoft tenant. These Users become sub-Users of the Software. User is responsible for the use of the Software by the sub-Users.
+6. On the SupplyChain365 portal, Tenant Administrators can add their Office365 users and specify whether or not these Users are given administrator rights within the SupplyChain365 portal and whether they can log in to the SupplyChain365 portal. The portal gives Users access to general functions such as linking devices and printers etc. The portal gives administrators access to functions such as setting access rights for Users, viewing invoices and licence management etc.
+
+**2. General terms and conditions**
+
+
+1. The NLdigital general terms and conditions (the General Terms and Conditions) form part of this Agreement. User is aware of the contents and has been able to read and download a copy of the Terms and Conditions from [https://www.opalbv.com/algemene-voorwaarden/](https://support.supplychain365.com/a/solutions/articles/about%3Ablank) prior to agreement. These terms and conditions are available in 4 languages: Dutch, English, German and French. 
+
+**3. Prices and payment**
+
+
+1. For the use of the Software, User shall pay the charges as specified in the licence section of the SupplyChain365 portal. 
+2. The User can change the number of licences himself at any time. Every 24 hours, the number of licences used is determined and charged on the monthly invoice.
+3. The Licences are delivered in the form of a subscription according to a pay-as-you-go model. 
+4. The quoted cost of the licences does not include VAT. Current licence prices can be found on the SupplyChain365 portal.
+5. Contractor shall collect the said charges monthly.
+6. Contractor may change the prices referred to in paragraph 1 at any time. Price changes shall be notified by email to the Tenant's administrator contact person at least 1 month in advance.
+
+**4. Duration, renewal and end of Agreement**
+
+
+1. The parties enter into this Agreement for an indefinite period of time.
+2. A user with Administrator rights may terminate the subscription and therefore this Agreement at any time, whereby the rights and ownership of the Software remain with Contractor. 
+3. The Software is available to User free of charge for a trial period (Trail period) of 10 days.  All functionality and licences will be available during the trial period, but User cannot add additional licences.
+4. User can end the trial period and purchase licences to start working with the system.
+5. If the trial period ends and no licences are purchased, the User is in a grace period. This grace period lasts a maximum of 10 days. If the User does not purchase any licences during this period, the subscription is automatically terminated. 
+6. User will be notified by email of the time remaining in the trial and/or grace period 5, 3 and 1 day(s) prior to the expiry of this period.
+7. Contractor may terminate this Agreement in writing with immediate effect in the following cases:
+
+   
+   a. upon an application for suspension of payments by the other party; 
+   b. in case of non-compliance with the payment obligation;
+   c. upon grant of suspension of payment to the other party;
+   d. in case of an application for bankruptcy by the other party;
+   e. upon declaration of bankruptcy of the other party;
+   f. in case of administration, guardianship or debt restructuring of the other party.
+8. User may, within 24 hours of termination of this Agreement, download the data that has been collected, processed and stored with the Software, and store the data under its own management. After expiry of this period, User will no longer have access to the data.
+
+**5. Obligations Contractor**
+
+
+1. During the term of this Agreement, Contractor and User will enter into a service level agreement (SLA). In this, the parties agree on the support that Contractor will provide when the Software is used (the 'Service Level Agreement'). In addition, the SLA contains the availability of the service and the monitoring functions associated with the SLA. Under the terms of the Service Level Agreement, the Parties agree as follows:
+   * Contractor provides support times on working days from 09:00h to 17:00h from Monday to Friday excluding official holidays in the Netherlands. (New Year's Day, Good Friday, Easter Sunday and Monday, King's Day, Liberation Day, Ascension Day, Whitsun, Christmas). 
+   * Support requests are processed and answered within 24 hours during business days. If there is no resolution to the request, a case will be created for further investigation. 
+   * Contractor provides first- and second-line technical support to User via email, via the support portal [(](https://support.supplychain365.com/a/solutions/articles/about%3Ablank)[https://support.supplychain365.com](https://support.supplychain365.com/)) and the support request form. Support is provided on the basis of a ticket system. If User works with the Software through a Microsoft Partner, this support is provided by the Partner. 
+   * Contractor further provides a product manual explaining the functions and use of the software. Likewise, Contractor provides video manuals (tutorials) demonstrating specific functions. 
+   * Contractor shall provide an FAQ - frequently asked questions - document in the Software manual so that User can quickly search for answers for frequently asked questions about the Software. 
+   * Updates are continuously delivered by Contractor to User. Updates come in various forms:
+
+
+1. Via the Microsoft AppSource portal (for the extension) and the Business Central Admin Centre.
+2. Google PlayStore for the APP.  Or download the latest version of the APP from the SupplyChain365 portal.
+3. Updates to the SupplyChain365 Back-end are delivered in the maintenance window on Wednesdays UTC time 19:00h - 19:15h. During this maintenance window, service may be temporarily interrupted. 
+
+* To provide the software, Contractor depends on the services of Microsoft and Google. 
+
+  
+  1. Microsoft Azure SLA: [https://azure.microsoft.com/en-us/support/legal/sla/](https://support.supplychain365.com/a/solutions/articles/about%3Ablank)
+  2. Google Playstore SLA: <https://cloud.google.com/terms/sla>
+* Contractor delivers minimum 98.8% availability of the SaaS Software solution delivered via internet. (166/168 hours per week) based on the combined SLAs of all parties involved. 
+
+**6. Obligations User**
+
+
+1. User shall give Contractor all the information and materials that Contractor requires for the performance of this Agreement, and shall do so on time. Contractor shall not be liable if it cannot perform this Agreement or cannot perform it on time because User has given the materials or information too late.
+2. User is solely responsible for the technical operation and maintenance of the Internet connection, the internal network and all other IT systems that are necessary in accordance with the system requirements for the use of the Software. Contractor is not responsible for Incidents related to any of the aforementioned matters. If User uses the Software unwisely and thereby causes an Incident, Contractor is not responsible for this. 
+3. At the User's request, Contractor provides incident resolution, training or consultancy services. The cost of this is EUR 150.00 per hour.
+4. User will use the Software in accordance with applicable laws and regulations (such as the General Data Protection Regulation).
+5. User may not use the Software for purposes other than those for which the Software is intended. Contractor shall not be liable for any damage caused by User's misuse of the Software.
+6. User may not: 
+
+
+1. attempt to) hire, encumber, license or otherwise misuse the Software;
+2. (attempt to) create a derivative or competing version of the Software;
+3. copy, reverse engineer or use the Software for illegal practices.
+
+8\. Contractor may exclude User from using the Software if there is a suspicion of misuse or if any of the provisions are not complied with.
+
+**7. Force Majeure**
+
+
+1. Neither party shall be held liable for any damages arising from the other party being delayed, hindered or prevented from performing its obligations under this Agreement, caused by direct or indirect consequences or other force majeure situations. Force majeure situations include war (whether declared or not), mobilisation, terrorism, natural disasters, strikes, lock-out, lock-down, damage to production facilities, import and export regulations, fire and other unforeseen circumstances beyond the control of the parties concerned.
+
+**8. Limitation of liability**
+
+
+1. Contractor shall not be liable to User for any loss or damage of any kind or any cause whatsoever arising directly from or indirectly in connection with this Agreement, the Software, its use or otherwise.
+2. The Contractor expressly excludes liability for any indirect, special, incidental or consequential damage or loss arising in relation to the Software, its use or in relation to ownership of the Equipment, or for loss of profits, business income, data, goodwill or anticipated savings.
+3. In the event that any exclusion in this agreement is declared invalid for any reason, and the Contractor becomes liable for loss or damage that may be limited by law, such liability shall be limited to the amount of the charges actually paid by the User.
+4. Contractor can never be liable to the user for system failure or other downtime or unavailability of the service, due to actions on the part of Microsoft. 
+
+**9. Data**
+
+
+1. User is the exclusive owner of all data collected, processed and stored by means of the Software (the **Data**). Contractor shall not have access to the Data without User's prior consent. User is responsible for the data collection and ensures that this is done in accordance with applicable laws and regulations (such as the General Data Protection Regulation).
+2. The Data is stored on Microsoft Azure's servers and data centres. Since User is already a tenant of Microsoft, it has entered into a processor agreement with it. The processor agreement includes agreements on security measures, confidentiality and the loss and location of the Data.
+3. Contractor can never be held responsible for the handling and processing of Data by Microsoft.
+4. Other provisions relating to processing are set out in Section 2 of the NLdigital general terms and conditions which apply to this agreement. 
+
+**10. Privacy**
+
+
+1. If, in the opinion of Contractor, this is relevant for the performance of the agreement, User shall, upon request, inform Contractor in writing of the manner in which User fulfils its obligations under personal data protection legislation.
+2. User shall indemnify Contractor against claims of persons whose personal data have been or are being processed for which User is responsible under the law, unless User proves that the facts underlying the claim are attributable to Contractor.
+3. The responsibility for the data, which is processed by User using a service of Contractor, lies with User. User warrants to Contractor that the content, use and/or processing of the data are not unlawful and do not infringe any right of a third party. User shall indemnify Contractor against any legal claim by a third party, on whatever grounds, in connection with such data or the performance of the agreement.
+4. If, pursuant to a request or authorised order issued by a public authority or in connection with a legal obligation, Contractor performs work on data of User, its Employees or sub-Users, all related costs may be charged to User.
+
+**11. Confidentiality**
+
+
+1. Contractor is obliged to keep User's confidential information secret. By "confidential information" the Parties understand all information which User has indicated is confidential or in respect of which this can be inferred from of the nature of the information. In any case, the following is confidential information:
+
+   
+   a. information related to research and development, trade secrets or business information;
+   b. personal data as referred to in the General Data Protection Regulation (GDPR);
+   c. Information about Customers, Suppliers, Partners and other persons;
+   d. Intellectual property such as logos, drawings, designs or other items stored in the system in a digital manner.
+
+**12. Intellectual property rights**
+
+
+1. All rights to the Software belong to the Contractor. The User only acquires a limited, non-exclusive and non-transferable right to use the Software in connection with the User's day-to-day affairs. The same applies to all Software made available by Contractor tailored to User's individual needs.
+2. Accordingly, the Software cannot be sold, transferred, given away or in any way transferred to another use or owner. However, the Software may be included as part of a full or partial business transfer.
+3. User acknowledges that all copyrights, trademarks, trade names and other intellectual property rights existing in or used in connection with the Software, including all documentation and manuals relating thereto, are and shall remain the exclusive property of Contractor and related parties with respect to copyrights, trademarks and other intellectual property rights. The User shall not during or at any time after the termination of this Licence Agreement in any way question or dispute the title of the Contractor thereto.
+4. User agrees that Contractor may use User's name in lists, presentations, web pages and displays used by Contractor that generally describe its Customers.
+
+**13. Transfer**
+
+
+1. The parties may not assign the rights and obligations under this Agreement to a third party without prior consent.
+
+**14. Costs, default**
+
+
+1. User must reimburse all costs incurred by Contractor to force User to comply with this Agreement.
+2. If a certain obligation is not fulfilled or a certain deadline for fulfilling an obligation expires, User is automatically in default. Notice of default Is not required.
+
+**15. Penalty clause**
+
+
+1. User shall be liable to pay a penalty to Contractor if it fails to comply with any provision of this Agreement and does not remedy this, after being given a reasonable period of 14 days to do so. This penalty of EUR 1,000.00 (one thousand Euros) per day is immediately due and payable and applies from the moment User is in default. In addition, User must compensate the damage incurred by Contractor as a result of User's breach of this Agreement.
+
+**16. Nullity**
+
+
+1. If any part of this Agreement is void or voidable, that does not change the validity of the rest of the Agreement. The void part shall be replaced by a provision that follows as far as possible the contents of the invalid provision.
+
+**17. Final provision**
+
+
+1. Only written amendments to this Agreement are valid.
+2. All Appendices are part of this Agreement.
+3. This Agreement supersedes all previous Agreements between the Parties.
+4. This Agreement is exclusively governed by Dutch law
+5. Disputes arising from this Agreement shall be settled in the Gelderland District Court in the Netherlands. 
+
+\n

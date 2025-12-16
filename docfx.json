@@ -1,18 +1,24 @@
 ﻿{
   "build": {
     "content": [
-      { "files": [ "articles/**.md", "index.md", "toc.yml" ] }
+      {
+        "files": ["articles/**.md", "toc.yml"]
+      },
+      {
+        "files": ["index.md"],
+        "src": "."
+      }
     ],
     "resource": [
-      { "files": [ "images/**" ] }
+      {
+        "files": ["images/**"]
+      }
     ],
-    "output": "site",
+    "dest": "_site",
     "globalMetadata": {
-      "_appTitle": "Mijn DocFX Site",
+      "_appTitle": "SupplyChain365 Documentation",
       "_enableSearch": true
     },
-    "template": [
-      "default"
-    ]
+    "template": ["default"]
   }
 }

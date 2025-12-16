@@ -1,32 +1,33 @@
-﻿name: Build & Publish DocFX
+﻿name: Deploy DocFX Site
 
 on:
   push:
-    branches: [ "main" ]
-  workflow_dispatch:
+    branches:
+      - main  # Trigger on pushes to main
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup .NET (alleen nodig als je DocFX via .NET gebruikt)
+      - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: "8.0.x"
+          dotnet-version: 8.0.x
 
-      - name: Install DocFX (global tool)
+      - name: Install DocFX
         run: dotnet tool update -g docfx
 
-      - name: Build site
-        run: |
-          cd docfx-project
-          docfx build
+      - name: Build DocFX
+        run: docfx docfx.json
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docfx-project/site
+          publish_dir: ./_site

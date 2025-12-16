@@ -1,26 +1,28 @@
-﻿param(
-  [string]$Branch = "main",
-  [switch]$BuildSite = $true
-)
+﻿# sync_and_push.ps1
+$ErrorActionPreference = "Stop"
 
-# Eenvoudig sync- & push-script
-Write-Host "Synchroniseren en pushen..." -ForegroundColor Cyan
+Write-Host "🔄 Starting Synchronization..." -ForegroundColor Cyan
 
-# Optioneel: DocFX builden lokaal (vereist docfx in PATH)
-if ($BuildSite) {
-  if (Get-Command docfx -ErrorAction SilentlyContinue) {
-    Write-Host "DocFX build uitvoeren..." -ForegroundColor Cyan
-    docfx build
-  } else {
-    Write-Host "DocFX niet gevonden in PATH; build wordt overgeslagen." -ForegroundColor Yellow
-  }
+# 1. Run the Node.js Export Script
+Set-Location "./scripts"
+node export_outline.js
+if ($LASTEXITCODE -ne 0) {
+    Write-Error "Node.js export script failed."
+    exit
+}
+Set-Location ".."
+
+# 2. Check for Git Changes
+$gitStatus = git status --porcelain
+if ([string]::IsNullOrWhiteSpace($gitStatus)) {
+    Write-Host "✅ No changes detected. Nothing to push." -ForegroundColor Green
+    exit
 }
 
-git add -A
-git commit -m "Content update ($(Get-Date -Format 'yyyy-MM-dd HH:mm:ss'))" 2>$null
-git branch --show-current | Out-Null
-if ($LASTEXITCODE -ne 0) { git checkout -b $Branch }
+# 3. Commit and Push
+Write-Host "📦 Changes detected. Committing..." -ForegroundColor Yellow
+git add .
+git commit -m "Auto-sync: Updated content from Outline $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
+git push origin main
 
-git pull --rebase origin $Branch 2>$null
-git push -u origin $Branch
-Write-Host "Klaar." -ForegroundColor Green
+Write-Host "🚀 Success! Changes pushed to GitHub." -ForegroundColor Green
