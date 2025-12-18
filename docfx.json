@@ -1,24 +1,40 @@
-﻿{
+{
   "build": {
     "content": [
       {
-        "files": ["articles/**.md", "toc.yml"]
+        "files": [
+          "articles/**.md",
+          "toc.yml"
+        ]
       },
       {
-        "files": ["index.md"],
+        "files": [
+          "index.md"
+        ],
         "src": "."
       }
     ],
     "resource": [
       {
-        "files": ["images/**"]
+        "files": [
+          "images/**"
+        ]
       }
     ],
     "dest": "_site",
     "globalMetadata": {
-      "_appTitle": "SupplyChain365 Documentation",
-      "_enableSearch": true
+      "_appTitle": "SupplyChain365",
+      "_enableSearch": true,
+      "_appLogoPath": "images/logo.png",
+      "_appFaviconPath": "images/favicon.ico"
     },
-    "template": ["default"]
+    "template": [
+      "default",
+      "templates/custom"
+    ],
+    "markdownEngineName": "markdig",
+    "markdownEngineProperties": {
+      "html": true
+    }
   }
 }
