@@ -1,5 +1,7 @@
 - name: SupplyChain365 General information
   href: articles/supplychain365-general-information.md
+- name: index
+  href: articles/index.md
 - name: ''
   href: articles/.md
 - name: SupplyChain365 System requirements
