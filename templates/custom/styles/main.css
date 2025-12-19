@@ -185,3 +185,210 @@ body, p, li, .net-hero p, .net-card p {
 h1, h2, h3, h4, h5, h6, .net-hero h1, .net-card-title {
     text-align: left !important;
 }
+
+/* ==========================================================================
+   KNOWLEDGE BASE PAGE STYLES (MATCHING SCREENSHOT)
+   ========================================================================== */
+.kb-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* White Card Container */
+.kb-section {
+    background: #ffffff;
+    border: 1px solid #e1dfdd;
+    border-radius: 4px; /* Slight round */
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05); /* Very subtle shadow */
+}
+
+/* Header Area (Icon + Title) */
+.kb-main-header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #f3f2f1;
+    padding-bottom: 15px;
+}
+
+.kb-main-icon {
+    font-size: 32px;
+    margin-right: 15px;
+    line-height: 1;
+}
+
+.kb-main-header h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #171717;
+    margin: 0 0 5px 0;
+    border: none;
+}
+
+.kb-main-header p {
+    font-size: 14px;
+    color: #605e5c;
+    margin: 0;
+}
+
+/* 2-Column Grid */
+.kb-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Equal split */
+    gap: 40px; /* Space between columns */
+}
+
+/* Sub-Category Folder Header */
+.kb-folder {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0078d4; /* Microsoft Blue */
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.kb-folder .icon {
+    margin-right: 8px;
+    font-size: 18px;
+    opacity: 0.7;
+}
+
+/* File List */
+.kb-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.kb-list li {
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+
+.kb-list a {
+    color: #0078d4;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+}
+
+.kb-list a:hover {
+    text-decoration: underline;
+    color: #004578;
+}
+
+/* "View All" Link */
+.kb-view-all {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #605e5c;
+    text-decoration: none;
+}
+.kb-view-all:hover {
+    color: #0078d4;
+    text-decoration: underline;
+}
+
+/* Responsive: Stack columns on mobile */
+@media (max-width: 768px) {
+    .kb-grid-2 {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+/* FORCE DESKTOP WIDTH */
+.kb-wrapper {
+    max-width: 1400px !important; /* Forces it wide */
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.kb-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Forces 2 columns side-by-side */
+    gap: 50px;
+}
+
+/* Ensure columns don't stack unless screen is actually small */
+@media (min-width: 800px) {
+    .kb-grid-2 {
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+/* ==========================================================================
+   COOKIE POPUP STYLES
+   ========================================================================== */
+.cookie-modal {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    z-index: 99999; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.6);
+    backdrop-filter: blur(2px);
+}
+
+.cookie-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    position: relative;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.cookie-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 20px;
+}
+
+.cookie-close:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cookie-content h3 {
+    margin-top: 0;
+    color: #171717;
+    font-weight: 600;
+}
+
+.cookie-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+    text-align: left !important;
+}
+
+.cookie-btn {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.cookie-btn:hover {
+    background-color: #005a9e;
+}

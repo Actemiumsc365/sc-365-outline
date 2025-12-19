@@ -12,6 +12,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/supplychain365-general-information.md",
       "output": {
         ".html": {
@@ -36,6 +46,16 @@
       "output": {
         ".html": {
           "relative_path": "articles/supplychain365-user-license-agreement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/what-is-new.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/what-is-new.html"
         }
       },
       "version": ""

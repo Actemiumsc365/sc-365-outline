@@ -1,10 +1,4 @@
-- name: SupplyChain365 General information
-  href: articles/supplychain365-general-information.md
-- name: index
+- name: SupplyChain365
+  href: index.md
+- name: Knowledge Base
   href: articles/index.md
-- name: ''
-  href: articles/.md
-- name: SupplyChain365 System requirements
-  href: articles/supplychain365-system-requirements.md
-- name: SupplyChain365 User license agreement
-  href: articles/supplychain365-user-license-agreement.md

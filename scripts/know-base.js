@@ -1,52 +1,59 @@
----
+﻿import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+// SETUP PATHS
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const ROOT_DIR = path.join(__dirname, '../');
+const DOCFX_JSON_PATH = path.join(ROOT_DIR, 'docfx.json');
+const KB_INDEX_PATH = path.join(ROOT_DIR, 'articles/index.md');
+
+console.log("🚑 FIXING: HTML Rendering & Knowledge Base Layout...");
+
+// =============================================================================
+// 1. FIX DOCFX.JSON (CRITICAL: ALLOW HTML)
+// =============================================================================
+if (fs.existsSync(DOCFX_JSON_PATH)) {
+    try {
+        let rawContent = fs.readFileSync(DOCFX_JSON_PATH, 'utf8');
+        // Remove BOM if present (prevents JSON parse errors)
+        if (rawContent.charCodeAt(0) === 0xFEFF) {
+            rawContent = rawContent.slice(1);
+        }
+        
+        const config = JSON.parse(rawContent);
+
+        // FORCE MARKDIG ENGINE WITH HTML ENABLED
+        config.build.markdownEngineName = "markdig";
+        config.build.markdownEngineProperties = {
+            "html": true
+        };
+
+        // Remove disable flags that hide sidebars
+        if (!config.build.globalMetadata) config.build.globalMetadata = {};
+        delete config.build.globalMetadata._disableToc;
+        delete config.build.globalMetadata._disableSideFilter;
+        delete config.build.globalMetadata._disableAffix;
+
+        fs.writeFileSync(DOCFX_JSON_PATH, JSON.stringify(config, null, 2));
+        console.log("✅ docfx.json fixed: HTML rendering enabled.");
+    } catch (e) {
+        console.error("❌ Error fixing docfx.json:", e);
+    }
+}
+
+// =============================================================================
+// 2. REWRITE ARTICLES/INDEX.MD (Ensure No Indentation)
+// =============================================================================
+// Indentation in Markdown creates code blocks. We must remove all indentation.
+const kbContent = `---
 title: Knowledge Base
 _disableToc: true
 _disableSideFilter: true
 _disableBreadcrumb: true
 ---
-<style>
-    /* 1. Unlock the main DocFX containers so they can be wide */
-    .container, 
-    .body-content, 
-    .main-container {
-        max-width: 100% !important;
-        width: 100% !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
 
-    /* 2. Control the specific Knowledge Base wrapper */
-    .kb-wrapper {
-        max-width: 1400px !important; /* Wide Desktop Width */
-        margin: 0 auto;               /* Center it */
-        padding: 40px;                /* Breathing room */
-        display: block;
-    }
-
-    /* 3. Force the Grid to be 2 Columns (Side-by-Side) */
-    .kb-grid-2 {
-        display: grid !important;
-        grid-template-columns: 1fr 1fr !important; /* Force 50% / 50% split */
-        gap: 40px !important;
-        width: 100% !important;
-    }
-
-    /* 4. Fix the Cards */
-    .kb-section {
-        width: 100% !important;
-        box-sizing: border-box; /* Ensures padding doesn't break width */
-    }
-
-    /* 5. Only stack on ACTUAL mobile screens (phones) */
-    @media (max-width: 768px) {
-        .kb-grid-2 {
-            grid-template-columns: 1fr !important; /* Stack only on phones */
-        }
-        .kb-wrapper {
-            padding: 15px;
-        }
-    }
-</style>
 <div class="kb-wrapper">
 
 <div class="kb-section">
@@ -57,12 +64,12 @@ _disableBreadcrumb: true
 <p>SupplyChain365 Business Central general documentation: Getting started, FAQ, Installation</p>
 </div>
 </div>
-
+        
 <div class="kb-grid-2">
 <div class="kb-category">
 <h3 class="kb-folder"><span class="icon">📂</span> General information (3)</h3>
 <ul class="kb-list">
-<li><a href="supplychain365-general-information.html">📄 SupplyChain365 General information</a></li>
+<li><a href="general-info.html">📄 SupplyChain365 General information</a></li>
 <li><a href="license.html">📄 SupplyChain365 User license agreement</a></li>
 <li><a href="demo.html">📄 SupplyChain365 Demo Company Skynet</a></li>
 </ul>
@@ -106,7 +113,7 @@ _disableBreadcrumb: true
 <h2>Module Warehouse (2)</h2>
 </div>
 </div>
-
+        
 <div class="kb-grid-2">
 <div class="kb-category">
 <h3 class="kb-folder"><span class="icon">📂</span> Warehouse Extension (24)</h3>
@@ -137,7 +144,7 @@ _disableBreadcrumb: true
 <p>SupplyChain365 Release Notes</p>
 </div>
 </div>
-
+        
 <div class="kb-grid-2">
 <div class="kb-category">
 <h3 class="kb-folder"><span class="icon">📂</span> Release Notes Sprint 12-2025 (2)</h3>
@@ -157,3 +164,13 @@ _disableBreadcrumb: true
 </div>
 
 </div>
+`;
+
+// Ensure directory exists
+const articleDir = path.dirname(KB_INDEX_PATH);
+if (!fs.existsSync(articleDir)) fs.mkdirSync(articleDir, { recursive: true });
+
+fs.writeFileSync(KB_INDEX_PATH, kbContent);
+console.log("✅ articles/index.md updated (Indentation removed to prevent code block rendering).");
+
+console.log("🚀 FIX COMPLETE. Run: docfx docfx.json --serve");
