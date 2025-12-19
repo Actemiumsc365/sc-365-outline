@@ -17,7 +17,7 @@ const API_TOKEN = process.env.OUTLINE_API_TOKEN ? process.env.OUTLINE_API_TOKEN.
 const COLLECTION_ID = process.env.OUTLINE_COLLECTION_ID ? process.env.OUTLINE_COLLECTION_ID.trim() : "";
 
 const OUTPUT_DIR = path.join(__dirname, '../articles');
-// SAFETY FIX: We write to a separate TOC file so we don't destroy your existing navigation
+// We write a separate TOC to avoid breaking your manual one
 const NEW_TOC_PATH = path.join(__dirname, '../toc_from_outline.yml'); 
 
 const client = axios.create({
@@ -26,21 +26,21 @@ const client = axios.create({
 });
 
 async function main() {
-    console.log(`🚀 Starting ADD-ONLY Export for Collection ID: ${COLLECTION_ID}`);
+    console.log(`🚀 Starting FOLDER-AWARE Export for Collection ID: ${COLLECTION_ID}`);
 
     if (!API_TOKEN || !COLLECTION_ID) {
         console.error("❌ Error: Missing Token or ID in .env file.");
         return;
     }
 
-    // 1. Ensure directory exists (Never delete it)
+    // 1. Ensure root directory exists
     if (!fs.existsSync(OUTPUT_DIR)) {
         fs.mkdirSync(OUTPUT_DIR, { recursive: true });
     }
 
     try {
         // 2. Fetch All Documents
-        console.log("📥 Fetching document list from Outline...");
+        console.log("📥 Fetching all documents...");
         const res = await client.post('/documents.list', { 
             collectionId: COLLECTION_ID,
             limit: 100 
@@ -49,34 +49,61 @@ async function main() {
         const docs = res.data.data;
         console.log(`✅ Found ${docs.length} documents.`);
 
-        const docMap = new Map();
+        // 3. Build an ID Map to resolve Parents/Folders
+        const docLookup = new Map();
+        docs.forEach(doc => {
+            docLookup.set(doc.id, doc);
+        });
+
+        const tocMap = new Map(); // For building TOC structure
         const rootItems = [];
 
-        // 3. Process & Add ONLY NEW Files
+        // 4. Process Each Document
         for (const doc of docs) {
+            // A. Calculate Folder Path based on Parents
+            let currentParentId = doc.parentDocumentId;
+            const folderStack = [];
+
+            // Trace parents upwards to build the path (e.g., articles/models/warehouse)
+            while (currentParentId && docLookup.has(currentParentId)) {
+                const parentDoc = docLookup.get(currentParentId);
+                const safeParentName = slugify(parentDoc.title, { lower: true, strict: true });
+                folderStack.unshift(safeParentName); // Add to front
+                currentParentId = parentDoc.parentDocumentId;
+            }
+
+            // Create the specific subfolder path
+            const targetFolder = path.join(OUTPUT_DIR, ...folderStack);
+            if (!fs.existsSync(targetFolder)) {
+                fs.mkdirSync(targetFolder, { recursive: true });
+            }
+
+            // B. Fetch Full Content
             const docDetails = await client.post('/documents.info', { id: doc.id });
             const fullDoc = docDetails.data.data;
 
             const safeTitle = slugify(fullDoc.title, { lower: true, strict: true });
             const fileName = `${safeTitle}.md`;
-            const fullPath = path.join(OUTPUT_DIR, fileName);
+            const fullPath = path.join(targetFolder, fileName); // Write into the SUBFOLDER
 
-            // 🛑 SAFETY CHECK: If file exists, SKIP IT completely.
+            // C. Prepare Relative Path for TOC (e.g. articles/models/file.md)
+            const relativePath = path.join('articles', ...folderStack, fileName).replace(/\\/g, '/');
+
+            // 🛑 SAFETY CHECK: If file exists, SKIP IT.
             if (fs.existsSync(fullPath)) {
-                console.log(`⏩ Skipping Existing File: ${fileName} (Your local edits are safe)`);
+                console.log(`⏩ Skipping Existing: ${relativePath}`);
                 
-                // We still add it to our internal map so we can build the 'new' TOC file correctly
-                // but we DO NOT touch the physical file on disk.
+                // Add to TOC Logic even if skipped
                 const tocItem = {
                     name: fullDoc.title,
-                    href: `articles/${fileName}`,
+                    href: relativePath,
                     items: [] 
                 };
-                docMap.set(fullDoc.id, { item: tocItem, parentId: fullDoc.parentDocumentId });
+                tocMap.set(fullDoc.id, { item: tocItem, parentId: fullDoc.parentDocumentId });
                 continue; 
             }
 
-            console.log(`🆕 Downloading NEW File: ${fileName}`);
+            console.log(`🆕 Downloading: ${relativePath}`);
 
             const fileContent = `---
 uid: ${fullDoc.id}
@@ -87,29 +114,25 @@ ${fullDoc.text}
 `;
             fs.writeFileSync(fullPath, fileContent);
 
-            // Prepare TOC Item for the new file
+            // Add to TOC Logic
             const tocItem = {
                 name: fullDoc.title,
-                href: `articles/${fileName}`,
+                href: relativePath,
                 items: [] 
             };
-
-            docMap.set(fullDoc.id, { 
-                item: tocItem, 
-                parentId: fullDoc.parentDocumentId 
-            });
+            tocMap.set(fullDoc.id, { item: tocItem, parentId: fullDoc.parentDocumentId });
         }
 
-        // 4. Build a SEPARATE TOC file (toc_from_outline.yml)
-        // We do NOT overwrite your main toc.yml.
-        docMap.forEach((node, id) => {
-            if (node.parentId && docMap.has(node.parentId)) {
-                docMap.get(node.parentId).item.items.push(node.item);
+        // 5. Build the TOC Structure
+        tocMap.forEach((node, id) => {
+            if (node.parentId && tocMap.has(node.parentId)) {
+                tocMap.get(node.parentId).item.items.push(node.item);
             } else {
                 rootItems.push(node.item);
             }
         });
 
+        // Cleanup empty items arrays
         const cleanToc = (items) => {
             return items.map(item => {
                 if (item.items.length === 0) {
@@ -123,9 +146,8 @@ ${fullDoc.text}
 
         const finalToc = cleanToc(rootItems);
         fs.writeFileSync(NEW_TOC_PATH, yaml.dump(finalToc));
-        console.log("✅ Sync Complete."); 
-        console.log("👉 Existing files were IGNORED."); 
-        console.log("👉 New TOC structure saved to 'toc_from_outline.yml' (Use this to manually update your main toc.yml)");
+        console.log("✅ Sync Complete.");
+        console.log("👉 Files are now organized in folders matching Outline.");
 
     } catch (error) {
         console.error("❌ Export Failed:", error.response?.data || error.message);
