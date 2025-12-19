@@ -4,6 +4,7 @@ _disableToc: true
 _disableSideFilter: true
 _disableBreadcrumb: true
 ---
+
 <style>
     /* 1. Unlock the main DocFX containers so they can be wide */
     .container, 
@@ -62,9 +63,9 @@ _disableBreadcrumb: true
 <div class="kb-category">
 <h3 class="kb-folder"><span class="icon">📂</span> General information (3)</h3>
 <ul class="kb-list">
-<li><a href="supplychain365-general-information.html">📄 SupplyChain365 General information</a></li>
-<li><a href="license.html">📄 SupplyChain365 User license agreement</a></li>
-<li><a href="demo.html">📄 SupplyChain365 Demo Company Skynet</a></li>
+<li><a href="gettingstarted/generalinformation/generalinformation.html">📄 SupplyChain365 General information</a></li>
+<li><a href="gettingstarted/generalinformation/userlicenseagreement.html">📄 SupplyChain365 User license agreement</a></li>
+<li><a href="democompanyskynet.html">📄 SupplyChain365 Demo Company Skynet</a></li>
 </ul>
 </div>
 <div class="kb-category">

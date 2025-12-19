@@ -392,3 +392,59 @@ h1, h2, h3, h4, h5, h6, .net-hero h1, .net-card-title {
 .cookie-btn:hover {
     background-color: #005a9e;
 }
+
+/* ==========================================================================
+   BREADCRUMB NAVIGATION (Dark Blue Style)
+   ========================================================================== */
+/* The main bar container */
+.subnav {
+    background-color: #002050 !important; /* Dark Blue matching screenshot */
+    color: #ffffff !important;
+    border-bottom: 1px solid #001535;
+    min-height: 40px; /* Force height */
+    margin-bottom: 0 !important;
+}
+
+/* Ensure the container inside aligns correctly */
+.subnav .container {
+    width: 100% !important;
+    max-width: 1400px !important; /* Match your main layout width */
+    padding: 0 40px !important;
+}
+
+/* The List Items */
+.breadcrumb {
+    background-color: transparent !important; /* Remove default grey bg */
+    padding: 10px 0 !important;
+    margin: 0 !important;
+    font-size: 14px;
+}
+
+/* Links (Home, Knowledge Base, etc) */
+.breadcrumb > li > a {
+    color: #ffffff !important; /* White Text */
+    font-weight: 600;
+    text-decoration: none;
+}
+.breadcrumb > li > a:hover {
+    color: #ffd700 !important; /* Gold on hover */
+    text-decoration: underline;
+}
+
+/* The active page (Last item) */
+.breadcrumb > li.active {
+    color: #aebfd6 !important; /* Light blue-grey for current page */
+}
+
+/* The Slash Separator (/) */
+.breadcrumb > li + li:before {
+    color: #ffffff !important;
+    content: ">" !important; /* Replace slash with Arrow */
+    opacity: 0.6;
+    padding: 0 8px;
+}
+
+/* Fix positioning */
+.body-content {
+    margin-top: 20px !important; 
+}
