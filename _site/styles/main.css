@@ -1,17 +1,16 @@
-
 /* ==========================================================================
-   MICROSOFT .NET STYLE SYSTEM (FINAL POLISH)
+   MICROSOFT .NET STYLE SYSTEM (RESTORED DEFAULT LAYOUT)
    ========================================================================== */
 :root {
   --net-purple: #512bd4;
   --net-link-blue: #0078d4;
   --net-black: #171717;
   --nav-height: 60px;
-  --sidebar-width: 280px;
 }
 
 body {
   font-family: 'Segoe UI', -apple-system, sans-serif;
+  /* DocFX default layout requires padding for the fixed navbar */
   padding-top: var(--nav-height);
   background-color: #ffffff;
   color: var(--net-black);
@@ -22,15 +21,8 @@ body {
 a { text-decoration: none; color: var(--net-link-blue); }
 a:hover { text-decoration: underline; }
 
-/* RESET WRAPPERS */
-#wrapper, .body-content, .main-container {
-    background: transparent !important;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-}
-
 /* ==========================================================================
-   1. NAVBAR & LOGO FIX
+   1. NAVBAR STYLING (Kept Custom)
    ========================================================================== */
 .navbar {
   background: #ffffff !important;
@@ -38,13 +30,13 @@ a:hover { text-decoration: underline; }
   height: var(--nav-height);
   position: fixed;
   top: 0; left: 0; width: 100%;
-  z-index: 99999;
+  z-index: 1000;
   display: flex;
   align-items: center;
   padding: 0 24px;
 }
 
-/* LOGO FIX: Increased size */
+/* LOGO FIX */
 .navbar-brand {
     height: 100% !important;
     display: flex !important;
@@ -53,7 +45,7 @@ a:hover { text-decoration: underline; }
     margin-right: 20px !important;
 }
 .navbar-brand img, img#logo {
-    height: 40px !important; /* BIGGER (Was 24px) */
+    height: 40px !important;
     width: auto !important;
     max-width: 250px !important;
     display: block !important;
@@ -76,7 +68,7 @@ a:hover { text-decoration: underline; }
 }
 
 /* ==========================================================================
-   2. HOMEPAGE HERO (SMART BREAKOUT)
+   2. HOMEPAGE HERO (Smart Breakout)
    ========================================================================== */
 .net-hero {
     background-color: var(--net-purple);
@@ -92,7 +84,7 @@ a:hover { text-decoration: underline; }
 .net-hero h1 { font-size: 42px; margin: 0 0 16px 0; color: white !important; }
 .net-hero p { font-size: 18px; max-width: 800px; color: #e2e2e2; margin: 0; }
 
-/* GRID */
+/* HOMEPAGE GRID */
 .net-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -118,76 +110,31 @@ a:hover { text-decoration: underline; }
 .net-card-title { font-size: 18px; font-weight: 600; color: var(--net-link-blue); margin: 0; }
 
 /* ==========================================================================
-   3. SIDEBARS (VISIBILITY FIX)
+   3. SIDEBAR RESTORATION (Standard DocFX)
    ========================================================================== */
-.toc-side, .sideaffix {
-    display: block !important;
-    position: fixed !important;
-    top: 60px;
-    bottom: 0;
-    width: var(--sidebar-width);
-    overflow-y: auto;
-    z-index: 100;
-}
-
-/* LEFT SIDEBAR (TOC) */
-.toc-side {
-    left: 0;
-    background: #f3f2f1;
+/* We style the sidebar visually, but let DocFX handle the positioning */
+.sidetoc {
+    background-color: #f3f2f1; /* Light grey background like MS Docs */
     border-right: 1px solid #e1dfdd;
-    padding: 20px;
-    color: #000 !important; /* Force Visible Text */
+    padding: 15px;
+    font-size: 14px;
 }
 
-/* RIGHT SIDEBAR (In This Article) */
-.sideaffix {
-    right: 0;
+/* Ensure the Search Bar is visible on top of the grey background */
+.form-group #search-query {
     background: #ffffff;
-    padding: 20px;
-    border-left: 1px solid transparent; 
-    color: #000 !important; /* Force Visible Text */
-}
-.sideaffix h5 { font-size: 12px; font-weight: 700; color: #666; text-transform: uppercase; margin-bottom: 10px; }
-
-/* CENTER CONTENT */
-.col-md-10, .col-md-8 {
-    margin-left: var(--sidebar-width) !important;
-    margin-right: var(--sidebar-width) !important;
-    width: auto !important;
-    padding: 40px 60px;
-    float: none !important;
-    max-width: 1400px;
+    border: 1px solid #8a8886;
+    color: #000;
 }
 
-/* HIDE EDIT BUTTON */
-.contribution-link { display: none !important; }
-
-/* RESPONSIVE */
-@media (max-width: 1200px) {
-    .sideaffix { display: none !important; } 
-    .col-md-10, .col-md-8 { margin-right: 0 !important; }
-}
-@media (max-width: 768px) {
-    .toc-side { display: none !important; }
-    .col-md-10, .col-md-8 { margin-left: 0 !important; margin-right: 0 !important; width: 100% !important; padding: 20px; }
-    .net-hero { width: 100%; margin-left: 0; margin-right: 0; padding-left: 20px; padding-right: 20px; }
+/* Adjust the right-side "In this article" */
+.sideaffix {
+    padding-left: 20px;
+    font-size: 13px;
 }
 
 /* ==========================================================================
-   TEXT ALIGNMENT: JUSTIFY
-   ========================================================================== */
-body, p, li, .net-hero p, .net-card p {
-    text-align: justify !important;
-    text-justify: inter-word !important; /* Makes spacing look cleaner */
-}
-
-/* Optional: Ensure headings remain Left-Aligned (usually looks better) */
-h1, h2, h3, h4, h5, h6, .net-hero h1, .net-card-title {
-    text-align: left !important;
-}
-
-/* ==========================================================================
-   KNOWLEDGE BASE PAGE STYLES (MATCHING SCREENSHOT)
+   4. KNOWLEDGE BASE STYLES
    ========================================================================== */
 .kb-wrapper {
     max-width: 1200px;
@@ -195,17 +142,15 @@ h1, h2, h3, h4, h5, h6, .net-hero h1, .net-card-title {
     padding: 20px;
 }
 
-/* White Card Container */
 .kb-section {
     background: #ffffff;
     border: 1px solid #e1dfdd;
-    border-radius: 4px; /* Slight round */
+    border-radius: 4px;
     padding: 30px;
     margin-bottom: 30px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.05); /* Very subtle shadow */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
-/* Header Area (Icon + Title) */
 .kb-main-header {
     display: flex;
     align-items: flex-start;
@@ -214,11 +159,7 @@ h1, h2, h3, h4, h5, h6, .net-hero h1, .net-card-title {
     padding-bottom: 15px;
 }
 
-.kb-main-icon {
-    font-size: 32px;
-    margin-right: 15px;
-    line-height: 1;
-}
+.kb-main-icon { font-size: 32px; margin-right: 15px; }
 
 .kb-main-header h2 {
     font-size: 22px;
@@ -227,111 +168,88 @@ h1, h2, h3, h4, h5, h6, .net-hero h1, .net-card-title {
     margin: 0 0 5px 0;
     border: none;
 }
+.kb-main-header p { font-size: 14px; color: #605e5c; margin: 0; }
 
-.kb-main-header p {
-    font-size: 14px;
-    color: #605e5c;
-    margin: 0;
-}
-
-/* 2-Column Grid */
 .kb-grid-2 {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Equal split */
-    gap: 40px; /* Space between columns */
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
 }
 
-/* Sub-Category Folder Header */
 .kb-folder {
     font-size: 16px;
     font-weight: 600;
-    color: #0078d4; /* Microsoft Blue */
+    color: #0078d4;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
 }
-.kb-folder .icon {
-    margin-right: 8px;
-    font-size: 18px;
-    opacity: 0.7;
-}
+.kb-folder .icon { margin-right: 8px; font-size: 18px; opacity: 0.7; }
 
-/* File List */
-.kb-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+.kb-list { list-style: none; padding: 0; margin: 0; }
+.kb-list li { margin-bottom: 10px; padding-left: 5px; }
+.kb-list a { color: #0078d4; text-decoration: none; font-size: 14px; display: block; }
+.kb-list a:hover { text-decoration: underline; color: #004578; }
 
-.kb-list li {
-    margin-bottom: 10px;
-    padding-left: 5px;
-}
-
-.kb-list a {
-    color: #0078d4;
-    text-decoration: none;
-    font-size: 14px;
-    display: block;
-}
-
-.kb-list a:hover {
-    text-decoration: underline;
-    color: #004578;
-}
-
-/* "View All" Link */
+/* View All Link */
 .kb-view-all {
     display: inline-block;
     margin-top: 10px;
     font-size: 13px;
     color: #605e5c;
     text-decoration: none;
+    cursor: pointer;
 }
-.kb-view-all:hover {
-    color: #0078d4;
-    text-decoration: underline;
-}
+.kb-view-all:hover { color: #0078d4; text-decoration: underline; }
 
-/* Responsive: Stack columns on mobile */
 @media (max-width: 768px) {
-    .kb-grid-2 {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-}
-/* FORCE DESKTOP WIDTH */
-.kb-wrapper {
-    max-width: 1400px !important; /* Forces it wide */
-    width: 100% !important;
-    margin: 0 auto;
-    padding: 0 40px;
-}
-
-.kb-grid-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Forces 2 columns side-by-side */
-    gap: 50px;
-}
-
-/* Ensure columns don't stack unless screen is actually small */
-@media (min-width: 800px) {
-    .kb-grid-2 {
-        grid-template-columns: 1fr 1fr !important;
-    }
+    .kb-grid-2 { grid-template-columns: 1fr; gap: 30px; }
 }
 
 /* ==========================================================================
-   COOKIE POPUP STYLES
+   5. BREADCRUMBS (Dark Text Fix)
+   ========================================================================== */
+.subnav {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e6e6e6 !important;
+    color: #000000 !important;
+    margin-bottom: 0 !important;
+    min-height: 48px;
+    position: relative;
+    z-index: 10;
+}
+
+.subnav a, .breadcrumb > li > a {
+    color: #333333 !important;
+    font-weight: 400 !important;
+    text-decoration: none !important;
+}
+
+.breadcrumb > li + li:before {
+    color: #333333 !important;
+    content: ">" !important;
+    padding: 0 8px;
+}
+
+.breadcrumb > li.active {
+    color: #666666 !important;
+    font-weight: 600 !important;
+}
+
+.subnav a:hover, .breadcrumb > li > a:hover {
+    color: #0078d4 !important;
+    text-decoration: underline !important;
+}
+
+/* ==========================================================================
+   6. COOKIE POPUP
    ========================================================================== */
 .cookie-modal {
-    display: none; /* Hidden by default */
+    display: none;
     position: fixed; 
     z-index: 99999; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
+    left: 0; top: 0;
+    width: 100%; height: 100%; 
     overflow: auto; 
     background-color: rgba(0,0,0,0.6);
     backdrop-filter: blur(2px);
@@ -346,37 +264,15 @@ h1, h2, h3, h4, h5, h6, .net-hero h1, .net-card-title {
     max-width: 600px;
     border-radius: 8px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-    position: relative;
     font-family: 'Segoe UI', sans-serif;
 }
 
 .cookie-close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-    line-height: 20px;
+    color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;
 }
-
-.cookie-close:hover {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.cookie-content h3 {
-    margin-top: 0;
-    color: #171717;
-    font-weight: 600;
-}
-
-.cookie-content p {
-    font-size: 14px;
-    line-height: 1.6;
-    color: #333;
-    text-align: left !important;
-}
+.cookie-close:hover { color: black; }
+.cookie-content h3 { margin-top: 0; color: #171717; font-weight: 600; }
+.cookie-content p { font-size: 14px; line-height: 1.6; color: #333; }
 
 .cookie-btn {
     background-color: #0078d4;
@@ -388,63 +284,4 @@ h1, h2, h3, h4, h5, h6, .net-hero h1, .net-card-title {
     font-weight: 600;
     margin-top: 10px;
 }
-
-.cookie-btn:hover {
-    background-color: #005a9e;
-}
-
-/* ==========================================================================
-   BREADCRUMB NAVIGATION (Dark Blue Style)
-   ========================================================================== */
-/* The main bar container */
-.subnav {
-    background-color: #002050 !important; /* Dark Blue matching screenshot */
-    color: #ffffff !important;
-    border-bottom: 1px solid #001535;
-    min-height: 40px; /* Force height */
-    margin-bottom: 0 !important;
-}
-
-/* Ensure the container inside aligns correctly */
-.subnav .container {
-    width: 100% !important;
-    max-width: 1400px !important; /* Match your main layout width */
-    padding: 0 40px !important;
-}
-
-/* The List Items */
-.breadcrumb {
-    background-color: transparent !important; /* Remove default grey bg */
-    padding: 10px 0 !important;
-    margin: 0 !important;
-    font-size: 14px;
-}
-
-/* Links (Home, Knowledge Base, etc) */
-.breadcrumb > li > a {
-    color: #ffffff !important; /* White Text */
-    font-weight: 600;
-    text-decoration: none;
-}
-.breadcrumb > li > a:hover {
-    color: #ffd700 !important; /* Gold on hover */
-    text-decoration: underline;
-}
-
-/* The active page (Last item) */
-.breadcrumb > li.active {
-    color: #aebfd6 !important; /* Light blue-grey for current page */
-}
-
-/* The Slash Separator (/) */
-.breadcrumb > li + li:before {
-    color: #ffffff !important;
-    content: ">" !important; /* Replace slash with Arrow */
-    opacity: 0.6;
-    padding: 0 8px;
-}
-
-/* Fix positioning */
-.body-content {
-    margin-top: 20px !important; 
-}
+.cookie-btn:hover { background-color: #005a9e; }

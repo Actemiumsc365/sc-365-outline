@@ -1,15 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: 35d8de40-a5a6-4b51-b067-7646b8db3d2f
-  name: SupplyChain365 User license agreement
-  href: articles/supplychain365-user-license-agreement.html
-- uid: 389cc95a-55aa-48ec-8b02-3c284d532d51
-  name: What is new
-  href: articles/what-is-new.html
 - uid: 4a4e6070-5425-4abe-a9d3-608ccb3be754
   name: SupplyChain365 General information
   href: articles/gettingstarted/generalinformation/generalinformation.html
-- uid: 5027c5aa-edba-40de-9402-c18526fc9405
-  name: SupplyChain365 System requirements
-  href: articles/supplychain365-system-requirements.html

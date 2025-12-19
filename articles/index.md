@@ -1,103 +1,72 @@
 ---
 title: Knowledge Base
-_disableToc: true
-_disableSideFilter: true
-_disableBreadcrumb: true
 ---
 
-<style>
-    /* 1. Unlock the main DocFX containers so they can be wide */
-    .container, 
-    .body-content, 
-    .main-container {
-        max-width: 100% !important;
-        width: 100% !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-
-    /* 2. Control the specific Knowledge Base wrapper */
-    .kb-wrapper {
-        max-width: 1400px !important; /* Wide Desktop Width */
-        margin: 0 auto;               /* Center it */
-        padding: 40px;                /* Breathing room */
-        display: block;
-    }
-
-    /* 3. Force the Grid to be 2 Columns (Side-by-Side) */
-    .kb-grid-2 {
-        display: grid !important;
-        grid-template-columns: 1fr 1fr !important; /* Force 50% / 50% split */
-        gap: 40px !important;
-        width: 100% !important;
-    }
-
-    /* 4. Fix the Cards */
-    .kb-section {
-        width: 100% !important;
-        box-sizing: border-box; /* Ensures padding doesn't break width */
-    }
-
-    /* 5. Only stack on ACTUAL mobile screens (phones) */
-    @media (max-width: 768px) {
-        .kb-grid-2 {
-            grid-template-columns: 1fr !important; /* Stack only on phones */
-        }
-        .kb-wrapper {
-            padding: 15px;
-        }
-    }
-</style>
-<div class="kb-wrapper">
-
 <div class="kb-section">
-<div class="kb-main-header">
-<span class="kb-main-icon">📚</span>
-<div>
-<h2>Getting Started (4)</h2>
-<p>SupplyChain365 Business Central general documentation: Getting started, FAQ, Installation</p>
-</div>
-</div>
+    <div class="kb-main-header">
+        <span class="kb-main-icon">📚</span>
+        <div>
+            <h2>Getting Started With SupplyChain365</h2>
+            <p>Documentation, installation, and configuration guides.</p>
+        </div>
+    </div>
 
-<div class="kb-grid-2">
-<div class="kb-category">
-<h3 class="kb-folder"><span class="icon">📂</span> General information (3)</h3>
-<ul class="kb-list">
-<li><a href="gettingstarted/generalinformation/generalinformation.html">📄 SupplyChain365 General information</a></li>
-<li><a href="gettingstarted/generalinformation/userlicenseagreement.html">📄 SupplyChain365 User license agreement</a></li>
-<li><a href="democompanyskynet.html">📄 SupplyChain365 Demo Company Skynet</a></li>
-</ul>
-</div>
-<div class="kb-category">
-<h3 class="kb-folder"><span class="icon">📂</span> Modules (6)</h3>
-<ul class="kb-list">
-<li><a href="modules-overview.html">📄 SupplyChain365 Modules overview</a></li>
-<li><a href="warehouse-exec.html">📄 SupplyChain365 - Features: Warehouse execution</a></li>
-<li><a href="transport-exec.html">📄 SupplyChain365 - Features: Transport execution</a></li>
-</ul>
-<a href="#" class="kb-view-all">View all 6</a>
-</div>
-</div>
+    
+<div class="kb-grid-2">  
+      <div class="kb-category">
+            <h3 class="kb-folder"><span class="icon">📂</span> General Information</h3>
+            <ul class="kb-list">
+                <li><a href="gettingstarted/generalinformation/generalinformation.html">📄 SC365 General Information</a></li>
+                <li><a href="gettingstarted/generalinformation/userlicenseagreement.html">📄 SC365 User License Agreement</a></li>
+                <li><a href="gettingstarted/generalinformation/democompanyskynet.html">📄 SC365 Demo Company Skynet</a></li>
+            </ul>
+        </div>
 
+ <div class="kb-category">
+            <h3 class="kb-folder"><span class="icon">📂</span> Modules</h3>
+            <ul class="kb-list">
+                <li><a href="gettingstarted/modules/3plandval.html">📄 3PL & VAL</a></li>
+                <li><a href="gettingstarted/modules/collaborateandexchange.html">📄 Collaborate and Exchange</a></li>
+                <li><a href="gettingstarted/modules/modulesoverview.html">📄 Modules Overview</a></li>
+                <li><a href="gettingstarted/modules/scheduler.html">📄 Scheduler</a></li>
+                <li><a href="gettingstarted/modules/transport.html">📄 Transport</a></li>
+                <li><a href="gettingstarted/modules/warehouse.html">📄 Warehouse</a></li>
+            </ul>
+        </div>
+    </div>
 <div class="kb-grid-2" style="margin-top: 30px;">
+        
+ <div class="kb-category">
+            <h3 class="kb-folder"><span class="icon">📂</span> Components</h3>
+            <ul class="kb-list">
+                <li><a href="gettingstarted/components/app.html">📄 App</a></li>
+                <li><a href="gettingstarted/components/extension.html">📄 Extension</a></li>
+                <li><a href="gettingstarted/components/portal.html">📄 Portal</a></li>
+            </ul>
+        </div>
+
 <div class="kb-category">
-<h3 class="kb-folder"><span class="icon">📂</span> Components (3)</h3>
-<ul class="kb-list">
-<li><a href="extension.html">📄 SupplyChain365 Extension component</a></li>
-<li><a href="app.html">📄 SupplyChain365 APP component</a></li>
-<li><a href="portal.html">📄 SupplyChain365 Portal component</a></li>
-</ul>
-</div>
-<div class="kb-category">
-<h3 class="kb-folder"><span class="icon">📂</span> Getting Started (15)</h3>
-<ul class="kb-list">
-<li><a href="register.html">📄 How to register for SupplyChain365</a></li>
-<li><a href="start.html">📄 Getting started with SupplyChain365</a></li>
-<li><a href="portal-use.html">📄 How to use the SupplyChain365 Portal (overview)</a></li>
-</ul>
-<a href="#" class="kb-view-all">View all 15</a>
-</div>
-</div>
+            <h3 class="kb-folder"><span class="icon">📂</span> Getting Started</h3>
+            <ul class="kb-list">
+                <li><a href="gettingstarted/gettingstarted/createnewcompany.html">📄 Create new company</a></li>
+                <li><a href="gettingstarted/gettingstarted/createsandbox.html">📄 Create Sandbox</a></li>
+                <li><a href="gettingstarted/gettingstarted/demodata.html">📄 Demodata</a></li>
+                <li><a href="gettingstarted/gettingstarted/gettingstarted.html">📄 Getting Started</a></li>
+                <li><a href="gettingstarted/gettingstarted/howtogetextension.html">📄 How to get extension</a></li>
+                <li><a href="gettingstarted/gettingstarted/howtoregister.html">📄 How to register</a></li>
+                <li><a href="gettingstarted/gettingstarted/installmobileapp.html">📄 Install Mobile APP</a></li>
+                <li><a href="gettingstarted/gettingstarted/labelfields.html">📄 Label Fields</a></li>
+                <li><a href="gettingstarted/gettingstarted/labelprinterlayouts.html">📄 Label Printer Layouts</a></li>
+                <li><a href="gettingstarted/gettingstarted/labelprinters.html">📄 Label Printers</a></li>
+                <li><a href="gettingstarted/gettingstarted/licensecost.html">📄 License Cost</a></li>
+                <li><a href="gettingstarted/gettingstarted/linkenvironment.html">📄 Link Environment</a></li>
+                <li><a href="gettingstarted/gettingstarted/portaloverview.html">📄 Portal Overview</a></li>
+                <li><a href="gettingstarted/gettingstarted/register.html">📄 Register</a></li>
+                <li><a href="gettingstarted/gettingstarted/updatelicenes.html">📄 Update Licenses</a></li>
+                <li><a href="gettingstarted/gettingstarted/zplcode.html">📄 ZPLcode</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 <div class="kb-section">
@@ -116,7 +85,7 @@ _disableBreadcrumb: true
 <li><a href="#">📄 How to create warehouse shipments (with item tracking)</a></li>
 <li><a href="#">📄 How to create warehouse receipt (basic)</a></li>
 </ul>
-<a href="#" class="kb-view-all">View all 24</a>
+
 </div>
 <div class="kb-category">
 <h3 class="kb-folder"><span class="icon">📂</span> Warehouse Mobile APP (17)</h3>
@@ -125,7 +94,7 @@ _disableBreadcrumb: true
 <li><a href="#">📄 Show content of a bin on the mobile app</a></li>
 <li><a href="#">📄 How to change the location on mobile app</a></li>
 </ul>
-<a href="#" class="kb-view-all">View all 17</a>
+
 </div>
 </div>
 </div>
@@ -135,7 +104,7 @@ _disableBreadcrumb: true
 <span class="kb-main-icon">🚀</span>
 <div>
 <h2>Release Notes (31)</h2>
-<p>SupplyChain365 Release Notes</p>
+<p>SC365 Release Notes</p>
 </div>
 </div>
 
@@ -158,3 +127,74 @@ _disableBreadcrumb: true
 </div>
 
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // CONFIGURATION
+    const listSelector = '.kb-list'; 
+    const itemLimit = 3; 
+    
+    // FIND ALL LISTS
+    const lists = document.querySelectorAll(listSelector);
+    
+    lists.forEach(list => {
+        const items = list.querySelectorAll('li');
+        const totalCount = items.length;
+
+        // ONLY RUN IF ITEMS EXCEED LIMIT
+        if (totalCount > itemLimit) {
+            
+            // 1. INITIAL HIDE
+            for (let i = itemLimit; i < totalCount; i++) {
+                items[i].style.display = 'none';
+            }
+
+            // 2. UPDATE FOLDER COUNT 
+            let container = list.parentElement;
+            let header = container.querySelector('.kb-folder');
+            
+            // Fix: Check text content safely to ensure we don't duplicate counts
+            // or overwrite the icon <span>
+            if (header && !header.innerText.includes('(')) {
+                 // Use insertAdjacentText to avoid wiping out the <span class="icon">
+                 header.insertAdjacentText('beforeend', ` (${totalCount})`);
+            }
+
+            // 3. CREATE THE BUTTON
+            let btn = document.createElement('a');
+            btn.className = 'kb-view-all'; 
+            btn.href = '#'; 
+            btn.innerText = `View all ${totalCount}`;
+            btn.style.display = 'inline-block';
+            btn.style.cursor = 'pointer';
+
+            // 4. CLICK HANDLER (TOGGLE LOGIC)
+            let isExpanded = false;
+
+            btn.onclick = function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                if (isExpanded) {
+                    // ACTION: COLLAPSE (Show Less -> View All)
+                    for (let i = itemLimit; i < totalCount; i++) {
+                        items[i].style.display = 'none';
+                    }
+                    btn.innerText = `View all ${totalCount}`;
+                    isExpanded = false;
+                } else {
+                    // ACTION: EXPAND (View All -> Show Less)
+                    for (let i = itemLimit; i < totalCount; i++) {
+                        items[i].style.display = 'list-item'; 
+                    }
+                    btn.innerText = 'Show less';
+                    isExpanded = true;
+                }
+            };
+
+            // 5. INSERT BUTTON AFTER LIST
+            list.parentNode.insertBefore(btn, list.nextSibling);
+        }
+    });
+});
+</script>

@@ -331,41 +331,14 @@
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "articles/supplychain365-general-information.md",
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "articles/supplychain365-general-information.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/supplychain365-system-requirements.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/supplychain365-system-requirements.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/supplychain365-user-license-agreement.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/supplychain365-user-license-agreement.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/what-is-new.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/what-is-new.html"
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
         }
       },
       "version": ""

@@ -6,7 +6,6 @@ _disableSideFilter: true
 _disableBreadcrumb: true
 _disableAffix: true
 ---
-
 <div class="net-hero">
 <div class="net-container">
 <h1>Welcome To SupplyChain365</h1>
