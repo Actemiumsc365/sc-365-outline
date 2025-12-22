@@ -1,75 +1,12 @@
-<!DOCTYPE html>
-<!--[if IE]><![endif]-->
-<html>
-
-  <head>
-    <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>How to add label printer layouts to SupplyChain365 | SupplyChain365 </title>
-      <meta name="viewport" content="width=device-width">
-      <meta name="title" content="How to add label printer layouts to SupplyChain365 | SupplyChain365 ">
-    
-    
-      <link rel="shortcut icon" href="../../../images/favicon.ico">
-      <link rel="stylesheet" href="../../../styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="../../../styles/docfx.css">
-      <link rel="stylesheet" href="../../../styles/main.css">
-      <meta property="docfx:navrel" content="../../../toc.html">
-      <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    <meta property="docfx:rel" content="../../../">
-    
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-              <a class="navbar-brand" href="../../../index.html">
-                <img id="logo" class="svg" src="../../../images/logo.png" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
-      </header>
-      <div class="container body-content">
-
-        <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
-          <div class="sr-items">
-            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
-          </div>
-          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
-        </div>
-      </div>
-      <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
+﻿---
+title: LABELPRINTERLAYOUTS
+---
+<style>
+  /* This creates a general setup for THIS page only */
+  p, li {
+    text-align: justify;
+  }
+</style>
 <h1 id="how-to-add-label-printer-layouts-to-supplychain365">How to add label printer layouts to SupplyChain365</h1>
 
 <h2 id="what-is-a-label">What is a label?</h2>
@@ -82,8 +19,8 @@ Identification of the product or brand are other important functions performed b
 <li>Select a name for the label, for example: Receipt Header or Receipt line. In SupplyChain365 we have various processes like: inventory count header, inventory count line, item, license plate header, receipt header, receipt line. All of these processes have their own properties. In the receipt header process, we have many properties: Number, Location Code, Bin Code, Posting Date, and more. In the receipt line process, we have the following item properties. Source document, source number, item number, description and more. These are the item properties that can be seen on the label and that can be printed.</li>
 </ul>
 <h2 id="zpl-code-zebra-programming-language">ZPL Code (Zebra Programming Language)</h2>
-<p>ZPL is the language used by all ZPL compatible printers. It is a command  based language that is used by the printers as instructions to create the images on the labels. Here I have the codes for the Receipt header process and the Receipt line process. To add the code, you have to make sure it is active. If it is not active, then the label will not be printed. You can make more than one label per process. When it’s finished, in the preview you can see all the information on the label which comes from different processes. Save the label so you can print it later.
-Note: In part 2 of the video, we will see that it is possible to create a label just by using Zebra Designer software, without any knowledge of coding. It is so easy. Just try it. We are going to create a label for the receipt header process and one for the receipt line process. How to edit and delete labels. Let’s look at a label. Here we can edit a label, for example the receipt header label Click edit and change ‘Posting Date’ to ‘Assign Date’. Preview it and see how it has changed. When you're finished, save the current changes. You can simply delete a label by clicking the delete button. The item will be deleted permanently.</p>
+<p>ZPL is the language used by all ZPL compatible printers. It is a command  based language that is used by the printers as instructions to create the images on the labels. Here I have the codes for the Receipt header process and the Receipt line process. To add the code, you have to make sure it is active. If it is not active, then the label will not be printed. You can make more than one label per process. When itâ€™s finished, in the preview you can see all the information on the label which comes from different processes. Save the label so you can print it later.
+Note: In part 2 of the video, we will see that it is possible to create a label just by using Zebra Designer software, without any knowledge of coding. It is so easy. Just try it. We are going to create a label for the receipt header process and one for the receipt line process. How to edit and delete labels. Letâ€™s look at a label. Here we can edit a label, for example the receipt header label Click edit and change â€˜Posting Dateâ€™ to â€˜Assign Dateâ€™. Preview it and see how it has changed. When you're finished, save the current changes. You can simply delete a label by clicking the delete button. The item will be deleted permanently.</p>
 <p>How to create a label with the help of software (without coding). This is in part 2 of the videos below. We use Zebra Designer to create labels and edit labels. Here are the steps:</p>
 <ol>
 <li>Go to <a href="http://www.zebra.com">www.zebra.com</a> and select Support and Downloads, then Printer and click on Software Support.</li>
@@ -100,44 +37,3 @@ This area is called the line, the receipt line. We will also make a label for th
 Let's start the Zebra software and see how labels are made.</p>
 <p>Part1: Below a video to understand the steps visually:
 <iframe src="https://player.vimeo.com/video/885584293?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Label part3 Reciept Header & line label" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation" data-identifyelement="531"></iframe></p>
-
-</article>
-          </div>
-
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/Actemiumsc365/sc-365-outline/blob/main/articles/gettingstarted/gettingstarted/labelprinterlayouts.md/#L1" class="contribution-link">Edit this page</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In this article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
-    </div>
-
-    <script type="text/javascript" src="../../../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../../../styles/docfx.js"></script>
-    <script type="text/javascript" src="../../../styles/main.js"></script>
-  </body>
-</html>

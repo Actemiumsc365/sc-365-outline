@@ -28,7 +28,8 @@
       "_appTitle": "SupplyChain365",
       "_enableSearch": true,
       "_appLogoPath": "images/logo.png",
-      "_appFaviconPath": "images/favicon.ico"
+      "_appFaviconPath": "images/favicon.ico",
+      "_disableContribution": true
     },
     "template": [
       "default",

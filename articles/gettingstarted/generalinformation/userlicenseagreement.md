@@ -1,3 +1,12 @@
+﻿---
+title: USERLICENSEAGREEMENT
+---
+<style>
+  /* This creates a general setup for THIS page only */
+  p, li {
+    text-align: justify;
+  }
+</style>
 ---
 title: User License 
 ---
@@ -164,7 +173,7 @@ Updates to the SupplyChain365 Back-end are delivered in the maintenance window o
 </li>
 <li><p>Intellectual property rights</p>
 <ol>
-<li>All rights to the Software belong to the Contractor. The User only acquires a limited, non-exclusive and non-transferable right to use the Software in connection with the User’s day-to-day affairs. The same applies to all Software made available by Contractor tailored to User's individual needs.</li>
+<li>All rights to the Software belong to the Contractor. The User only acquires a limited, non-exclusive and non-transferable right to use the Software in connection with the Userâ€™s day-to-day affairs. The same applies to all Software made available by Contractor tailored to User's individual needs.</li>
 <li>Accordingly, the Software cannot be sold, transferred, given away or in any way transferred to another use or owner. However, the Software may be included as part of a full or partial business transfer.</li>
 <li>User acknowledges that all copyrights, trademarks, trade names and other intellectual property rights existing in or used in connection with the Software, including all documentation and manuals relating thereto, are and shall remain the exclusive property of Contractor and related parties with respect to copyrights, trademarks and other intellectual property rights. The User shall not during or at any time after the termination of this Licence Agreement in any way question or dispute the title of the Contractor thereto.</li>
 <li>User agrees that Contractor may use User's name in lists, presentations, web pages and displays used by Contractor that generally describe its Customers.</li>
@@ -201,3 +210,4 @@ Updates to the SupplyChain365 Back-end are delivered in the maintenance window o
 </ol>
 </li>
 </ol>
+

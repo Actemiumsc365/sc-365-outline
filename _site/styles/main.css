@@ -285,3 +285,8 @@ a:hover { text-decoration: underline; }
     margin-top: 10px;
 }
 .cookie-btn:hover { background-color: #005a9e; }
+
+/* Justifies paragraphs and list items only */
+body {
+    text-align: justify;
+}

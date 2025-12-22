@@ -1,3 +1,12 @@
+﻿---
+title: DEMOCOMPANYSKYNET
+---
+<style>
+  /* This creates a general setup for THIS page only */
+  p, li {
+    text-align: justify;
+  }
+</style>
 To properly and quickly experience the functionalities of SupplyChain365, a demo company Skynet has been set up. In a sandbox environment it is easily possible to load the demo data associated with this customer case.
 
 TABLE OF CONTENTS
@@ -14,7 +23,7 @@ SkyNet is a company that specializes in Drones. They assemble drones and sell re
 SkyNet sells as many products as possible from stock to end customers and stores. They are known for keeping a neat stock administration because they check their stock very regularly with counts and make corrections if necessary. Because new products are introduced very quickly in the world of drones, it is crucial for SkyNet that they are never left with outdated products that customers no longer want to buy. After all, drones are very expensive. SkyNet has its own fleet of trucks with which they can pick up products from suppliers and deliver them to customers. Possibly with a temporary storage in one of the warehouses. SkyNet also does warehousing and logistics for third parties (3PL-third party logistics), these are webshop and traders who do not have a warehouse and / or transport themselves.
 
 SkyNet wants to introduce a new system to support their supply chain execution
-Supply chain execution refers to the process of controlling the flow of goods within the supply chain – from procurement to the delivery of the last mile. Activities included in the execution of the supply chain are production, distribution, storage, fulfillment and transport.
+Supply chain execution refers to the process of controlling the flow of goods within the supply chain â€“ from procurement to the delivery of the last mile. Activities included in the execution of the supply chain are production, distribution, storage, fulfillment and transport.
 
 Skynet team
 SkyNet has assembled a team of employees responsible for implementing a new IT system for the entire supply chain execution of SkyNet.
@@ -107,3 +116,4 @@ In SkyNet's warehouses, items are placed as much as possible on pallets, contain
 
 3PL Customer
 Because of their expertise in drone logistics, there are a number of webshop customers (3PL customers) who use SkyNet's logistics organization to have their own products delivered by SkyNet to their customers (3PL fulfillment). SkyNet therefore does stock management and deliveries for third parties. This stock is therefore not from SkyNet but from the relevant 3PL customer. SkyNet charges these customers a custody fee for the use of warehouse locations and rates for handling logistics activities (goods receipt, storage, picking, shipping, transport, delivery, collection, cash on delivery payments, etc.). SkyNet wants to pass on all warehouse and transport activities to 3PL customers based on activity, numbers, weight, volume, distance (kilometers) and time (time registration). SkyNet wants to be able to give 3PL customers a volume discount for the invoicing of these matters.
+

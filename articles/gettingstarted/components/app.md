@@ -1,3 +1,12 @@
+﻿---
+title: APP
+---
+<style>
+  /* This creates a general setup for THIS page only */
+  p, li {
+    text-align: justify;
+  }
+</style>
 ---
 title: APP
 ---
@@ -34,3 +43,4 @@ Record time registrations per warehouse employee, warehouse activity and documen
 It is possible to schedule specific orders for a certain time so that they do not become visible to the employee or specifically to a certain employee or group in the mobile application before a certain date or time.</p>
 <p>Version management
 It is possible to view the actual version of the mobile app. Besides that the app checks if all the necessary versions are available that are in use. If the backend required a new version of the app there will be a message shown.</p>
+

@@ -1,75 +1,12 @@
-<!DOCTYPE html>
-<!--[if IE]><![endif]-->
-<html>
-
-  <head>
-    <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Labels &amp; BC-Fields in SupplyChain365? | SupplyChain365 </title>
-      <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Labels &amp; BC-Fields in SupplyChain365? | SupplyChain365 ">
-    
-    
-      <link rel="shortcut icon" href="../../../images/favicon.ico">
-      <link rel="stylesheet" href="../../../styles/docfx.vendor.min.css">
-      <link rel="stylesheet" href="../../../styles/docfx.css">
-      <link rel="stylesheet" href="../../../styles/main.css">
-      <meta property="docfx:navrel" content="../../../toc.html">
-      <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    <meta property="docfx:rel" content="../../../">
-    
-  </head>
-  <body data-spy="scroll" data-target="#affix" data-offset="120">
-    <div id="wrapper">
-      <header>
-
-        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-
-              <a class="navbar-brand" href="../../../index.html">
-                <img id="logo" class="svg" src="../../../images/logo.png" alt="">
-              </a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar">
-              <form class="navbar-form navbar-right" role="search" id="search">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
-                </div>
-              </form>
-            </div>
-          </div>
-        </nav>
-
-        <div class="subnav navbar navbar-default">
-          <div class="container hide-when-search" id="breadcrumb">
-            <ul class="breadcrumb">
-              <li></li>
-            </ul>
-          </div>
-        </div>
-      </header>
-      <div class="container body-content">
-
-        <div id="search-results">
-          <div class="search-list">Search Results for <span></span></div>
-          <div class="sr-items">
-            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
-          </div>
-          <ul id="pagination" data-first=First data-prev=Previous data-next=Next data-last=Last></ul>
-        </div>
-      </div>
-      <div role="main" class="container body-content hide-when-search">
-        <div class="article row grid">
-          <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="">
+﻿---
+title: LABELFIELDS
+---
+<style>
+  /* This creates a general setup for THIS page only */
+  p, li {
+    text-align: justify;
+  }
+</style>
 <h1 id="labels--bc-fields-in-supplychain365">Labels &amp; BC-Fields in SupplyChain365?</h1>
 
 <p>Information about the fields in Business Central and labels in the mobile SupplyChain365 app.</p>
@@ -84,299 +21,299 @@ Movement process
 License Plate process</p>
 <p>Item label
 Item</p>
-<p>• Etag</p>
-<p>• ItemId</p>
-<p>• Number</p>
-<p>• IdentifierCode</p>
-<p>• Description</p>
-<p>• Blocked</p>
-<p>• Type</p>
-<p>• ItemCategoryId</p>
-<p>• ItemCategoryCode</p>
-<p>• BaseUnitOfMeasureId</p>
-<p>• Gtin</p>
-<p>• UnitPrice</p>
-<p>• PriceIncludesTax</p>
-<p>• UnitCost</p>
-<p>• TaxGroupId</p>
-<p>• TaxGroupCode</p>
-<p>• LastModifiedDateTime</p>
-<p>• ItemTrackingCode</p>
-<p>• SerialNos</p>
-<p>• LotNos</p>
-<p>• ExpirationCalculation</p>
-<p>• BaseUnitOfMeasure</p>
-<p>• OverReceiptCode</p>
-<p>• OverReceiptTolerancePercentage</p>
-<p>• DynamicNo (For serial and lotno labels when printing itemtracking)</p>
+<p>â€¢ Etag</p>
+<p>â€¢ ItemId</p>
+<p>â€¢ Number</p>
+<p>â€¢ IdentifierCode</p>
+<p>â€¢ Description</p>
+<p>â€¢ Blocked</p>
+<p>â€¢ Type</p>
+<p>â€¢ ItemCategoryId</p>
+<p>â€¢ ItemCategoryCode</p>
+<p>â€¢ BaseUnitOfMeasureId</p>
+<p>â€¢ Gtin</p>
+<p>â€¢ UnitPrice</p>
+<p>â€¢ PriceIncludesTax</p>
+<p>â€¢ UnitCost</p>
+<p>â€¢ TaxGroupId</p>
+<p>â€¢ TaxGroupCode</p>
+<p>â€¢ LastModifiedDateTime</p>
+<p>â€¢ ItemTrackingCode</p>
+<p>â€¢ SerialNos</p>
+<p>â€¢ LotNos</p>
+<p>â€¢ ExpirationCalculation</p>
+<p>â€¢ BaseUnitOfMeasure</p>
+<p>â€¢ OverReceiptCode</p>
+<p>â€¢ OverReceiptTolerancePercentage</p>
+<p>â€¢ DynamicNo (For serial and lotno labels when printing itemtracking)</p>
 <p>Receipt process
 ReceiptHeader</p>
-<p>• No</p>
-<p>• LocationCode</p>
-<p>• BinCode</p>
-<p>• DocumentStatus</p>
-<p>• PostingDate</p>
-<p>• VendorShipmentNo</p>
-<p>• AssignedUserId</p>
-<p>• AssignmentDate</p>
-<p>• AssignmentTime</p>
-<p>• SortingMethod</p>
-<p>• Blocked</p>
+<p>â€¢ No</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ BinCode</p>
+<p>â€¢ DocumentStatus</p>
+<p>â€¢ PostingDate</p>
+<p>â€¢ VendorShipmentNo</p>
+<p>â€¢ AssignedUserId</p>
+<p>â€¢ AssignmentDate</p>
+<p>â€¢ AssignmentTime</p>
+<p>â€¢ SortingMethod</p>
+<p>â€¢ Blocked</p>
 <p>ReceiptLine</p>
-<p>• No</p>
-<p>• LineNo</p>
-<p>• SourceDocument</p>
-<p>• SourceNo</p>
-<p>• ItemNo</p>
-<p>• Description</p>
-<p>• BinCode</p>
-<p>• Quantity</p>
-<p>• QuantityToReceive</p>
-<p>• QuantityToCrossDock</p>
-<p>• QuantityReceived</p>
-<p>• QuantityOutstanding</p>
-<p>• DueDate</p>
-<p>• UnitOfMeasureCode</p>
-<p>• QuantityPerUnitOfMeasure</p>
-<p>• LocationCode</p>
-<p>• Picture</p>
-<p>• ItemId</p>
-<p>• AuxiliaryIndex1</p>
-<p>• PictureContentType</p>
-<p>• Blocked</p>
-<p>• ItemIdentifierCode</p>
+<p>â€¢ No</p>
+<p>â€¢ LineNo</p>
+<p>â€¢ SourceDocument</p>
+<p>â€¢ SourceNo</p>
+<p>â€¢ ItemNo</p>
+<p>â€¢ Description</p>
+<p>â€¢ BinCode</p>
+<p>â€¢ Quantity</p>
+<p>â€¢ QuantityToReceive</p>
+<p>â€¢ QuantityToCrossDock</p>
+<p>â€¢ QuantityReceived</p>
+<p>â€¢ QuantityOutstanding</p>
+<p>â€¢ DueDate</p>
+<p>â€¢ UnitOfMeasureCode</p>
+<p>â€¢ QuantityPerUnitOfMeasure</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ Picture</p>
+<p>â€¢ ItemId</p>
+<p>â€¢ AuxiliaryIndex1</p>
+<p>â€¢ PictureContentType</p>
+<p>â€¢ Blocked</p>
+<p>â€¢ ItemIdentifierCode</p>
 <p>Pick process
 PickHeader</p>
-<p>• ActivityType</p>
-<p>• No</p>
-<p>• AssignedUserID</p>
-<p>• WhsGroup</p>
-<p>• Blocked</p>
-<p>• AutoOpenHeader</p>
-<p>• AutoOpenLine</p>
-<p>• LocationCode</p>
-<p>• LineCount</p>
-<p>• TotalQty</p>
-<p>• TotalQuantityHandled</p>
-<p>• TotalQuantityOutstanding</p>
-<p>• SourceNo</p>
-<p>• ExternalDocumentNo</p>
-<p>• ShiptoName</p>
-<p>• ShiptoAddress</p>
-<p>• ShiptoCity</p>
-<p>• ShiptoPostCode</p>
-<p>• ShipmentDate</p>
-<p>• DueDate</p>
+<p>â€¢ ActivityType</p>
+<p>â€¢ No</p>
+<p>â€¢ AssignedUserID</p>
+<p>â€¢ WhsGroup</p>
+<p>â€¢ Blocked</p>
+<p>â€¢ AutoOpenHeader</p>
+<p>â€¢ AutoOpenLine</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ LineCount</p>
+<p>â€¢ TotalQty</p>
+<p>â€¢ TotalQuantityHandled</p>
+<p>â€¢ TotalQuantityOutstanding</p>
+<p>â€¢ SourceNo</p>
+<p>â€¢ ExternalDocumentNo</p>
+<p>â€¢ ShiptoName</p>
+<p>â€¢ ShiptoAddress</p>
+<p>â€¢ ShiptoCity</p>
+<p>â€¢ ShiptoPostCode</p>
+<p>â€¢ ShipmentDate</p>
+<p>â€¢ DueDate</p>
 <p>PickLine (not Outbound Transfer)</p>
-<p>• ActivityType</p>
-<p>• DueDate</p>
-<p>• ExternalDocumentNo</p>
-<p>• LocationCode</p>
-<p>• No</p>
-<p>• ShipmentDate</p>
-<p>• ShiptoAddress</p>
-<p>• ShiptoCity</p>
-<p>• ShiptoName</p>
-<p>• ShiptoPostCode</p>
-<p>• SourceNo</p>
-<p>• QuantityOutstanding</p>
-<p>• ItemNo</p>
-<p>• Description</p>
-<p>• QuantityToHandle</p>
-<p>• QuantityHandled</p>
-<p>• UomCode</p>
-<p>• BinCode</p>
-<p>• AuxiliaryIndex1</p>
-<p>• AuxiliaryIndex2</p>
-<p>• ShiptoAddress2</p>
-<p>• ShiptoName2</p>
-<p>• PromisedDeliveryDate</p>
-<p>• ShiptoCountryRegionCode</p>
-<p>• ShiptoCounty</p>
-<p>• VariantCode</p>
-<p>• SerialNo</p>
-<p>• LotNo</p>
+<p>â€¢ ActivityType</p>
+<p>â€¢ DueDate</p>
+<p>â€¢ ExternalDocumentNo</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ No</p>
+<p>â€¢ ShipmentDate</p>
+<p>â€¢ ShiptoAddress</p>
+<p>â€¢ ShiptoCity</p>
+<p>â€¢ ShiptoName</p>
+<p>â€¢ ShiptoPostCode</p>
+<p>â€¢ SourceNo</p>
+<p>â€¢ QuantityOutstanding</p>
+<p>â€¢ ItemNo</p>
+<p>â€¢ Description</p>
+<p>â€¢ QuantityToHandle</p>
+<p>â€¢ QuantityHandled</p>
+<p>â€¢ UomCode</p>
+<p>â€¢ BinCode</p>
+<p>â€¢ AuxiliaryIndex1</p>
+<p>â€¢ AuxiliaryIndex2</p>
+<p>â€¢ ShiptoAddress2</p>
+<p>â€¢ ShiptoName2</p>
+<p>â€¢ PromisedDeliveryDate</p>
+<p>â€¢ ShiptoCountryRegionCode</p>
+<p>â€¢ ShiptoCounty</p>
+<p>â€¢ VariantCode</p>
+<p>â€¢ SerialNo</p>
+<p>â€¢ LotNo</p>
 <p>PickLine Outbound Transfer</p>
-<p>• ActivityType</p>
-<p>• DueDate</p>
-<p>• ExternalDocumentNo</p>
-<p>• LocationCode</p>
-<p>• No</p>
-<p>• ShipmentDate</p>
-<p>• ShiptoAddress</p>
-<p>• ShiptoCity</p>
-<p>• ShiptoName</p>
-<p>• ShiptoPostCode</p>
-<p>• SourceNo</p>
-<p>• QuantityOutstanding</p>
-<p>• ItemNo</p>
-<p>• Description</p>
-<p>• QuantityToHandle</p>
-<p>• QuantityHandled</p>
-<p>• UomCode</p>
-<p>• BinCode</p>
-<p>• AuxiliaryIndex1</p>
-<p>• AuxiliaryIndex2</p>
-<p>• ShiptoAddress2</p>
-<p>• ShiptoName2</p>
-<p>• PromisedDeliveryDate</p>
-<p>• ShiptoCountryRegionCode</p>
-<p>• ShiptoCounty</p>
-<p>• VariantCode</p>
-<p>• SerialNo</p>
-<p>• LotNo</p>
+<p>â€¢ ActivityType</p>
+<p>â€¢ DueDate</p>
+<p>â€¢ ExternalDocumentNo</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ No</p>
+<p>â€¢ ShipmentDate</p>
+<p>â€¢ ShiptoAddress</p>
+<p>â€¢ ShiptoCity</p>
+<p>â€¢ ShiptoName</p>
+<p>â€¢ ShiptoPostCode</p>
+<p>â€¢ SourceNo</p>
+<p>â€¢ QuantityOutstanding</p>
+<p>â€¢ ItemNo</p>
+<p>â€¢ Description</p>
+<p>â€¢ QuantityToHandle</p>
+<p>â€¢ QuantityHandled</p>
+<p>â€¢ UomCode</p>
+<p>â€¢ BinCode</p>
+<p>â€¢ AuxiliaryIndex1</p>
+<p>â€¢ AuxiliaryIndex2</p>
+<p>â€¢ ShiptoAddress2</p>
+<p>â€¢ ShiptoName2</p>
+<p>â€¢ PromisedDeliveryDate</p>
+<p>â€¢ ShiptoCountryRegionCode</p>
+<p>â€¢ ShiptoCounty</p>
+<p>â€¢ VariantCode</p>
+<p>â€¢ SerialNo</p>
+<p>â€¢ LotNo</p>
 <p>Shipment process
 ShipmentHeader</p>
-<p>• No</p>
-<p>• ExternalDocumentNo</p>
-<p>• LocationCode</p>
-<p>• BinCode</p>
-<p>• DocumentStatus</p>
-<p>• PostingDate</p>
-<p>• AssignedUserId</p>
-<p>• AssignmentDate</p>
-<p>• AssignmentTime</p>
-<p>• SortingMethod</p>
-<p>• Blocked</p>
+<p>â€¢ No</p>
+<p>â€¢ ExternalDocumentNo</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ BinCode</p>
+<p>â€¢ DocumentStatus</p>
+<p>â€¢ PostingDate</p>
+<p>â€¢ AssignedUserId</p>
+<p>â€¢ AssignmentDate</p>
+<p>â€¢ AssignmentTime</p>
+<p>â€¢ SortingMethod</p>
+<p>â€¢ Blocked</p>
 <p>ShipmentLine</p>
-<p>• No</p>
-<p>• LineNo</p>
-<p>• SourceDocument</p>
-<p>• SourceNo</p>
-<p>• ItemNo</p>
-<p>• Description</p>
-<p>• BinCode</p>
-<p>• Quantity</p>
-<p>• QuantityToShip</p>
-<p>• QuantityToCrossDock</p>
-<p>• QuantityShipped</p>
-<p>• QuantityPicked</p>
-<p>• QuantityOutstanding</p>
-<p>• DueDate</p>
-<p>• UnitOfMeasureCode</p>
-<p>• QuantityPerUnitOfMeasure</p>
-<p>• LocationCode</p>
-<p>• Picture</p>
-<p>• ItemId</p>
-<p>• AuxiliaryIndex1</p>
-<p>• PictureContentType</p>
+<p>â€¢ No</p>
+<p>â€¢ LineNo</p>
+<p>â€¢ SourceDocument</p>
+<p>â€¢ SourceNo</p>
+<p>â€¢ ItemNo</p>
+<p>â€¢ Description</p>
+<p>â€¢ BinCode</p>
+<p>â€¢ Quantity</p>
+<p>â€¢ QuantityToShip</p>
+<p>â€¢ QuantityToCrossDock</p>
+<p>â€¢ QuantityShipped</p>
+<p>â€¢ QuantityPicked</p>
+<p>â€¢ QuantityOutstanding</p>
+<p>â€¢ DueDate</p>
+<p>â€¢ UnitOfMeasureCode</p>
+<p>â€¢ QuantityPerUnitOfMeasure</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ Picture</p>
+<p>â€¢ ItemId</p>
+<p>â€¢ AuxiliaryIndex1</p>
+<p>â€¢ PictureContentType</p>
 <p>Receipt process
 ReceiptHeader</p>
-<p>• No</p>
-<p>• LocationCode</p>
-<p>• BinCode</p>
-<p>• DocumentStatus</p>
-<p>• PostingDate</p>
-<p>• VendorShipmentNo</p>
-<p>• AssignedUserId</p>
-<p>• AssignmentDate</p>
-<p>• AssignmentTime</p>
-<p>• SortingMethod</p>
-<p>• Blocked</p>
+<p>â€¢ No</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ BinCode</p>
+<p>â€¢ DocumentStatus</p>
+<p>â€¢ PostingDate</p>
+<p>â€¢ VendorShipmentNo</p>
+<p>â€¢ AssignedUserId</p>
+<p>â€¢ AssignmentDate</p>
+<p>â€¢ AssignmentTime</p>
+<p>â€¢ SortingMethod</p>
+<p>â€¢ Blocked</p>
 <p>ReceiptLine</p>
-<p>• No</p>
-<p>• LineNo</p>
-<p>• SourceDocument</p>
-<p>• SourceNo</p>
-<p>• ItemNo</p>
-<p>• Description</p>
-<p>• BinCode</p>
-<p>• Quantity</p>
-<p>• QuantityToReceive</p>
-<p>• QuantityToCrossDock</p>
-<p>• QuantityReceived</p>
-<p>• QuantityOutstanding</p>
-<p>• DueDate</p>
-<p>• UnitOfMeasureCode</p>
-<p>• QuantityPerUnitOfMeasure</p>
-<p>• LocationCode</p>
-<p>• Picture</p>
-<p>• ItemId</p>
-<p>• AuxiliaryIndex1</p>
-<p>• PictureContentType</p>
-<p>• Blocked</p>
-<p>• ItemIdentifierCode</p>
+<p>â€¢ No</p>
+<p>â€¢ LineNo</p>
+<p>â€¢ SourceDocument</p>
+<p>â€¢ SourceNo</p>
+<p>â€¢ ItemNo</p>
+<p>â€¢ Description</p>
+<p>â€¢ BinCode</p>
+<p>â€¢ Quantity</p>
+<p>â€¢ QuantityToReceive</p>
+<p>â€¢ QuantityToCrossDock</p>
+<p>â€¢ QuantityReceived</p>
+<p>â€¢ QuantityOutstanding</p>
+<p>â€¢ DueDate</p>
+<p>â€¢ UnitOfMeasureCode</p>
+<p>â€¢ QuantityPerUnitOfMeasure</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ Picture</p>
+<p>â€¢ ItemId</p>
+<p>â€¢ AuxiliaryIndex1</p>
+<p>â€¢ PictureContentType</p>
+<p>â€¢ Blocked</p>
+<p>â€¢ ItemIdentifierCode</p>
 <p>Inventory process
 ItemCount</p>
-<p>• ItemNo</p>
-<p>• BinCode</p>
-<p>• LocationCode</p>
-<p>• VariantCode</p>
-<p>• UnitOfMeasureCode</p>
-<p>• ReservedQty</p>
-<p>• ReservedQtyBase</p>
-<p>• Customer</p>
+<p>â€¢ ItemNo</p>
+<p>â€¢ BinCode</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ VariantCode</p>
+<p>â€¢ UnitOfMeasureCode</p>
+<p>â€¢ ReservedQty</p>
+<p>â€¢ ReservedQtyBase</p>
+<p>â€¢ Customer</p>
 <p>LicensePlateHeader</p>
-<p>• OdataEtag</p>
-<p>• No</p>
-<p>• Barcode</p>
-<p>• LocationCode</p>
-<p>• Zone</p>
-<p>• BinCode</p>
-<p>• State</p>
-<p>• DateTime CreationDate</p>
-<p>• Blocked</p>
-<p>• Description</p>
-<p>• ExternalIdentifier</p>
-<p>• GS1</p>
+<p>â€¢ OdataEtag</p>
+<p>â€¢ No</p>
+<p>â€¢ Barcode</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ Zone</p>
+<p>â€¢ BinCode</p>
+<p>â€¢ State</p>
+<p>â€¢ DateTime CreationDate</p>
+<p>â€¢ Blocked</p>
+<p>â€¢ Description</p>
+<p>â€¢ ExternalIdentifier</p>
+<p>â€¢ GS1</p>
 <p>InventoryCountLine</p>
-<p>• BinCode</p>
-<p>• DateTime DateRecorded</p>
-<p>• Description</p>
-<p>• ItemNo</p>
-<p>• LineNo</p>
-<p>• Description2</p>
-<p>• LocationCode</p>
-<p>• LotNo</p>
-<p>• OrderLineNo</p>
-<p>• OrderNo</p>
-<p>• PersonRecorded</p>
-<p>• QtyperUnitofMeasure</p>
-<p>• Quantity</p>
-<p>• QuantityBase</p>
-<p>• Recorded</p>
-<p>• RecordedWithoutOrder</p>
-<p>• RecordingNo</p>
-<p>• SerialNo</p>
-<p>• ShelfNo</p>
-<p>• TimeRecorded</p>
-<p>• UnitofMeasure</p>
-<p>• UnitofMeasureCode</p>
-<p>• UseItemTracking</p>
-<p>• VariantCode</p>
-<p>• Picture</p>
-<p>• PictureContentType</p>
-<p>• ItemId</p>
+<p>â€¢ BinCode</p>
+<p>â€¢ DateTime DateRecorded</p>
+<p>â€¢ Description</p>
+<p>â€¢ ItemNo</p>
+<p>â€¢ LineNo</p>
+<p>â€¢ Description2</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ LotNo</p>
+<p>â€¢ OrderLineNo</p>
+<p>â€¢ OrderNo</p>
+<p>â€¢ PersonRecorded</p>
+<p>â€¢ QtyperUnitofMeasure</p>
+<p>â€¢ Quantity</p>
+<p>â€¢ QuantityBase</p>
+<p>â€¢ Recorded</p>
+<p>â€¢ RecordedWithoutOrder</p>
+<p>â€¢ RecordingNo</p>
+<p>â€¢ SerialNo</p>
+<p>â€¢ ShelfNo</p>
+<p>â€¢ TimeRecorded</p>
+<p>â€¢ UnitofMeasure</p>
+<p>â€¢ UnitofMeasureCode</p>
+<p>â€¢ UseItemTracking</p>
+<p>â€¢ VariantCode</p>
+<p>â€¢ Picture</p>
+<p>â€¢ PictureContentType</p>
+<p>â€¢ ItemId</p>
 <p>Movement process
 MovementLine</p>
-<p>• ActivityType</p>
-<p>• DueDate</p>
-<p>• ExternalDocumentNo</p>
-<p>• LocationCode</p>
-<p>• No</p>
-<p>• ShipmentDate</p>
-<p>• ShiptoAddress</p>
-<p>• ShiptoCity</p>
-<p>• ShiptoName</p>
-<p>• ShiptoPostCode</p>
-<p>• SourceNo</p>
-<p>• QuantityOutstanding</p>
-<p>• ItemNo</p>
-<p>• Description</p>
-<p>• QuantityToHandle</p>
-<p>• QuantityHandled</p>
-<p>• UomCode</p>
-<p>• BinCode</p>
-<p>• AuxiliaryIndex1</p>
-<p>• AuxiliaryIndex2</p>
-<p>• ShiptoAddress2</p>
-<p>• ShiptoName2</p>
-<p>• PromisedDeliveryDate</p>
-<p>• ShiptoCountryRegionCode</p>
-<p>• ShiptoCounty</p>
-<p>• VariantCode</p>
-<p>• SerialNo</p>
-<p>• LotNo</p>
+<p>â€¢ ActivityType</p>
+<p>â€¢ DueDate</p>
+<p>â€¢ ExternalDocumentNo</p>
+<p>â€¢ LocationCode</p>
+<p>â€¢ No</p>
+<p>â€¢ ShipmentDate</p>
+<p>â€¢ ShiptoAddress</p>
+<p>â€¢ ShiptoCity</p>
+<p>â€¢ ShiptoName</p>
+<p>â€¢ ShiptoPostCode</p>
+<p>â€¢ SourceNo</p>
+<p>â€¢ QuantityOutstanding</p>
+<p>â€¢ ItemNo</p>
+<p>â€¢ Description</p>
+<p>â€¢ QuantityToHandle</p>
+<p>â€¢ QuantityHandled</p>
+<p>â€¢ UomCode</p>
+<p>â€¢ BinCode</p>
+<p>â€¢ AuxiliaryIndex1</p>
+<p>â€¢ AuxiliaryIndex2</p>
+<p>â€¢ ShiptoAddress2</p>
+<p>â€¢ ShiptoName2</p>
+<p>â€¢ PromisedDeliveryDate</p>
+<p>â€¢ ShiptoCountryRegionCode</p>
+<p>â€¢ ShiptoCounty</p>
+<p>â€¢ VariantCode</p>
+<p>â€¢ SerialNo</p>
+<p>â€¢ LotNo</p>
 <p>License Plate process
 License Plate Header</p>
 <p>GTIN
@@ -391,44 +328,3 @@ Gs1ExpirationDate</p>
 <p>Gs1Quantity</p>
 <p>TotalQuantity</p>
 <p>CustomerName</p>
-
-</article>
-          </div>
-
-          <div class="hidden-sm col-md-2" role="complementary">
-            <div class="sideaffix">
-              <div class="contribution">
-                <ul class="nav">
-                  <li>
-                    <a href="https://github.com/Actemiumsc365/sc-365-outline/blob/main/articles/gettingstarted/gettingstarted/labelfields.md/#L1" class="contribution-link">Edit this page</a>
-                  </li>
-                </ul>
-              </div>
-              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In this article</h5>
-                <div></div>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-      
-      <span>Generated by <strong>DocFX</strong></span>
-          </div>
-        </div>
-      </footer>
-    </div>
-
-    <script type="text/javascript" src="../../../styles/docfx.vendor.min.js"></script>
-    <script type="text/javascript" src="../../../styles/docfx.js"></script>
-    <script type="text/javascript" src="../../../styles/main.js"></script>
-  </body>
-</html>
