@@ -1,5 +1,5 @@
 ﻿---
-title: LICENSECOST
+title: LICENSE COST
 ---
 <style>
   /* This creates a general setup for THIS page only */
@@ -17,4 +17,14 @@ title: LICENSECOST
 <li>On the page Cost overview, you will see name, month and year, and status, which shows whether the payment of a particular invoice is open, paid, approved or payment is pending.</li>
 <li>The last column displays the total costs for that specific month.</li>
 </ul>
-<p>Below a video to understand the steps visually: 	<iframe src="https://player.vimeo.com/video/886375295?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="13 view supplychain365 cost" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation"></iframe></p>
+<b>Below a video to understand the steps visually:
+<div style="padding:56.25% 0 0 0;position:relative;">
+  <iframe 
+    src="https://player.vimeo.com/video/886375295?h=9a2283030d&title=0&byline=0&portrait=0" 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+    frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>

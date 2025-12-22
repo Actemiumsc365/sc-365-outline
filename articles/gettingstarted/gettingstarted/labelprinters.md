@@ -1,5 +1,5 @@
 ﻿---
-title: LABELPRINTERS
+title: LABELP RINTERS
 ---
 <style>
   /* This creates a general setup for THIS page only */
@@ -17,5 +17,14 @@ Here you see a list of all the printers with complete information about the devi
 Here you can edit a printer's details, e.g. if you want to change the IP address or assign a new port number.
 In order to delete a printer, simply click delete.</p>
 <p>It is important that your device can connect the printer by IP and port directly in the network infrastructure.</p>
-<p>below a video to help users understand the steps visually:
-<iframe src="https://player.vimeo.com/video/884391016?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="10 How to add label printers to SupplyChain365" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation"></iframe></p>
+<b>below a video to help users understand the steps visually:
+<div style="padding:56.25% 0 0 0;position:relative;">
+  <iframe 
+    src="https://player.vimeo.com/video/884391016?h=9a2283030d&title=0&byline=0&portrait=0" 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+    frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>

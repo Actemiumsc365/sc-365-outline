@@ -1,5 +1,5 @@
 ﻿---
-title: HOWTOGETEXTENSION
+title: HOW TO GET EXTENSION
 ---
 <style>
   /* This creates a general setup for THIS page only */
@@ -19,6 +19,14 @@ In the search results the SupplyChain365 App will be displayed.
 By clicking the 'Free trial' button a confirmation window will be displayed.
 Click the 'Free trial' button again to install the SupplyChain365 Extension.
 SupplyChain365 has now been installed and is available for all companies within the environment.</p>
-<p>Watch the SupplyChain365 extension video:</p>
-<pre><code>&lt;iframe src=&quot;https://player.vimeo.com/video/883993529?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;top:0;left:0;width:100%;height:100%;&quot; title=&quot;4HOWTO~1&quot; sandbox=&quot;allow-scripts allow-forms allow-same-origin allow-presentation&quot;&gt;&lt;/iframe&gt;
-</code></pre>
+<b>Watch the SupplyChain365 extension video:
+<div style="padding:56.25% 0 0 0;position:relative;">
+  <iframe 
+    src="https://player.vimeo.com/video/883993529?h=9a2283030d&title=0&byline=0&portrait=0" 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+    frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>

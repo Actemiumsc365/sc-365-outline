@@ -1,5 +1,5 @@
 ﻿---
-title: LINKENVIRONMENT
+title: LINK ENVIRONMENT
 ---
 <style>
   /* This creates a general setup for THIS page only */
@@ -21,5 +21,15 @@ title: LINKENVIRONMENT
 <li>Now paste copied link from clipboard by pressing CTRL + V, linked successfully</li>
 </ol>
 <p>now you can use SupplyChain365 in business central.</p>
-<p>Below a video to help users understand the steps visually:
-<iframe src="https://player.vimeo.com/video/884390884?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="7 How to link Environment to SupplyChain365" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation" data-identifyelement="499"></iframe></p>
+<b>Below a video to help users understand the steps visually:
+
+<div style="padding:56.25% 0 0 0;position:relative;">
+  <iframe 
+    src="https://player.vimeo.com/video/884390884?h=9a2283030d&title=0&byline=0&portrait=0" 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+    frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>

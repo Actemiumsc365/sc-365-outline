@@ -1,5 +1,5 @@
 ﻿---
-title: PORTALOVERVIEW
+title: PORTAL OVERVIEW
 ---
 <style>
   /* This creates a general setup for THIS page only */
@@ -18,5 +18,14 @@ title: PORTALOVERVIEW
 <p>The components menu consists of different options like labels, printers, devices and more.
 The admin menu consists of administration and management options regarding different aspects of the SupplyChain365 Portal.
 The last one is the help button, with which you can navigate to the support portal, where you will find information about the Supplychain365 Portal. In upcoming videos we will jump deeper into each of these menus.</p>
-<p>Below a video to understand the steps in an overview:
-<iframe src="https://player.vimeo.com/video/882109242?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="3 How to Use the SupplyChain365 Portal (overview)" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation"></iframe></p>
+<b>Below a video to understand the steps in an overview:
+<div style="padding:56.25% 0 0 0;position:relative;">
+  <iframe 
+    src="https://player.vimeo.com/video/882109242" 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+    frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>

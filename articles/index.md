@@ -19,6 +19,9 @@ title: Knowledge Base
                 <li><a href="gettingstarted/generalinformation/generalinformation.html">📄 SC365 General Information</a></li>
                 <li><a href="gettingstarted/generalinformation/userlicenseagreement.html">📄 SC365 User License Agreement</a></li>
                 <li><a href="gettingstarted/generalinformation/democompanyskynet.html">📄 SC365 Demo Company Skynet</a></li>
+                <li><a href="gettingstarted/generalinformation/releaseplanning.html">📄 SC365 Release Note</a></li>
+                <li><a href="gettingstarted/generalinformation/roadmap.html">📄 SC365 Roadmap</a></li>
+                <li><a href="gettingstarted/generalinformation/systemrequirements.html">📄 SC365 System Requirements</a></li>
             </ul>
         </div>
 
@@ -73,13 +76,13 @@ title: Knowledge Base
 <div class="kb-main-header">
 <span class="kb-main-icon">📦</span>
 <div>
-<h2>Module Warehouse (2)</h2>
+<h2>Module Warehouse</h2>
 </div>
 </div>
 
 <div class="kb-grid-2">
 <div class="kb-category">
-<h3 class="kb-folder"><span class="icon">📂</span> Warehouse Extension (24)</h3>
+<h3 class="kb-folder"><span class="icon">📂</span> Warehouse Extension </h3>
 <ul class="kb-list">
 <li><a href="#">📄 How to create warehouse shipments (basic)</a></li>
 <li><a href="#">📄 How to create warehouse shipments (with item tracking)</a></li>
@@ -88,7 +91,7 @@ title: Knowledge Base
 
 </div>
 <div class="kb-category">
-<h3 class="kb-folder"><span class="icon">📂</span> Warehouse Mobile APP (17)</h3>
+<h3 class="kb-folder"><span class="icon">📂</span> Warehouse Mobile APP </h3>
 <ul class="kb-list">
 <li><a href="#">📄 How the inbound process with receive works</a></li>
 <li><a href="#">📄 Show content of a bin on the mobile app</a></li>
@@ -103,21 +106,21 @@ title: Knowledge Base
 <div class="kb-main-header">
 <span class="kb-main-icon">🚀</span>
 <div>
-<h2>Release Notes (31)</h2>
+<h2>Release Notes </h2>
 <p>SC365 Release Notes</p>
 </div>
 </div>
 
 <div class="kb-grid-2">
 <div class="kb-category">
-<h3 class="kb-folder"><span class="icon">📂</span> Release Notes Sprint 12-2025 (2)</h3>
+<h3 class="kb-folder"><span class="icon">📂</span> Release Notes Sprint 12-2025</h3>
 <ul class="kb-list">
 <li><a href="#">📄 Release Notes - Extension - 2025-12</a></li>
 <li><a href="#">📄 Release Notes - App - 2025-12</a></li>
 </ul>
 </div>
 <div class="kb-category">
-<h3 class="kb-folder"><span class="icon">📂</span> Release Notes Sprint 07-2025 (2)</h3>
+<h3 class="kb-folder"><span class="icon">📂</span> Release Notes Sprint 07-2025</h3>
 <ul class="kb-list">
 <li><a href="#">📄 Release Notes - Extension - 2025-07</a></li>
 <li><a href="#">📄 Release Notes - App - 2025-07</a></li>

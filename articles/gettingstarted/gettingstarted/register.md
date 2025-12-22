@@ -1,5 +1,5 @@
 ﻿---
-title: REGISTER
+title: How to register for SC365
 ---
 <style>
   /* This creates a general setup for THIS page only */

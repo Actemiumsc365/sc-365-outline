@@ -1,5 +1,5 @@
 ﻿---
-title: INSTALLMOBILEAPP
+title: INSTALL MOBILE APP
 ---
 <style>
   /* This creates a general setup for THIS page only */
@@ -43,5 +43,14 @@ If you want to install the mobile application on your Android device go to the a
 <li>In the SupplyChain365 portal you can edit and delete the devices that have been connected.</li>
 </ul>
 <p>Mobile users can download the application from the Supplychain365 Portal or in the Play Store.</p>
-<p>Below a video to understand the steps visually:
-<iframe src="https://player.vimeo.com/video/883993567?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="5ADDMO~1" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation" data-identifyelement="501"></iframe></p>
+<b>Below a video to understand the steps visually:
+<div style="padding:56.25% 0 0 0;position:relative;">
+  <iframe 
+    src="https://player.vimeo.com/video/883993567?h=9a2283030d&title=0&byline=0&portrait=0" 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+    frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>

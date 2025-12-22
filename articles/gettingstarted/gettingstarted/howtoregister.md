@@ -1,5 +1,5 @@
 ﻿---
-title: HOWTOREGISTER
+title: HOW TO REGISTER for SC365
 ---
 <style>
   /* This creates a general setup for THIS page only */
@@ -25,7 +25,25 @@ Go to the registration portal and enter your information. You have a valid EU VA
 Follow the instructions sent to you via email. you will receive an email confirming your registration as soon as your Supplychain365 environment is ready for use.</p>
 <p>Step 3: Install the extension and link you environment
 Install the Supplychain365 extension via the AppSource MarketPlace and code-link your Business Central Environment to the extension. The system is now ready for use.
-SupplyChain365 Registration Video instruction Part 1:</p>
-<iframe title="vimeo-player" src="https://player.vimeo.com/video/753909619?h=0a8fd081f5" width="640" height="360" frameborder="0" referrerpolicy="strict-origin-when-cross-origin" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" allowfullscreen></iframe>
-<p>SupplyChain365 Registration Video instruction Part 2:
-<iframe src="https://player.vimeo.com/video/754670523?h=2241a27d11" width="640" height="564" frameborder="0" allowfullscreen="" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation"></iframe></p>
+<b>SupplyChain365 Registration Video instruction Part 1:
+<div style="padding:56.25% 0 0 0;position:relative;">
+  <iframe 
+    src="https://player.vimeo.com/video/753909619?h=9a2283030d&title=0&byline=0&portrait=0" 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+    frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
+<b>SupplyChain365 Registration Video instruction Part 2:
+<div style="padding:56.25% 0 0 0;position:relative;">
+  <iframe 
+    src="https://player.vimeo.com/video/2241a27d11?h=9a2283030d&title=0&byline=0&portrait=0" 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+    frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
