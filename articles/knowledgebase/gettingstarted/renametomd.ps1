@@ -1,1 +1,0 @@
-Get-ChildItem *.html | Rename-Item -NewName { $_.Name -replace '\.html$','.md' }
