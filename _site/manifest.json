@@ -12,320 +12,1180 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/components/app.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/components/app.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/components/extension.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/components/extension.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/components/portal.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/components/portal.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/generalinformation/democompanyskynet.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/generalinformation/democompanyskynet.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/generalinformation/generalinformation.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/generalinformation/generalinformation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/generalinformation/releaseplanning.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/generalinformation/releaseplanning.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/generalinformation/roadmap.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/generalinformation/roadmap.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/generalinformation/systemrequirements.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/generalinformation/systemrequirements.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/generalinformation/userlicenseagreement.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/generalinformation/userlicenseagreement.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/createnewcompany.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/createnewcompany.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/createsandbox.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/createsandbox.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/demodata.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/demodata.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/gettingstarted.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/gettingstarted.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/howtogetextension.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/howtogetextension.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/howtoregister.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/howtoregister.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/installmobileapp.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/installmobileapp.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/labelfields.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/labelfields.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/labelprinterlayouts.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/labelprinterlayouts.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/labelprinters.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/labelprinters.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/licensecost.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/licensecost.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/linkenvironment.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/linkenvironment.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/portaloverview.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/portaloverview.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/register.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/register.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/updatelicenes.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/updatelicenes.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/gettingstarted/zplcode.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/gettingstarted/zplcode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/modules/3plandval.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/modules/3plandval.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/modules/collaborateandexchange.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/modules/collaborateandexchange.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/modules/modulesoverview.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/modules/modulesoverview.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/modules/scheduler.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/modules/scheduler.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/modules/transport.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/modules/transport.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/gettingstarted/modules/warehouse.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/gettingstarted/modules/warehouse.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "articles/index.md",
       "output": {
         ".html": {
           "relative_path": "articles/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/FAQs/business-central-asked-question.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/FAQs/business-central-asked-question.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/FAQs/ext-frq-ask-ques.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/FAQs/ext-frq-ask-ques.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/FAQs/general-question.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/FAQs/general-question.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/FAQs/mobileapp-freq-question.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/FAQs/mobileapp-freq-question.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/components/app.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/components/app.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/components/componentoverview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/components/componentoverview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/components/extension.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/components/extension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/components/portal.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/components/portal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/components/ppcomponent.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/components/ppcomponent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/generalinformation/democompanyskynet.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/generalinformation/democompanyskynet.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/generalinformation/generalinformation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/generalinformation/generalinformation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/generalinformation/releaseplanning.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/generalinformation/releaseplanning.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/generalinformation/roadmap.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/generalinformation/roadmap.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/generalinformation/systemrequirements.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/generalinformation/systemrequirements.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/generalinformation/userlicenseagreement.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/generalinformation/userlicenseagreement.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/createnewcompany.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/createnewcompany.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/createsandbox.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/createsandbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/demodata.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/demodata.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/gettingstarted.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/gettingstarted.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/howtogetextension.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/howtogetextension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/howtoregister.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/howtoregister.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/installmobileapp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/installmobileapp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/labelfields.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/labelfields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/labelprinterlayouts.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/labelprinterlayouts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/labelprinters.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/labelprinters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/licensecost.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/licensecost.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/linkenvironment.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/linkenvironment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/portaloverview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/portaloverview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/register.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/register.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/updatelicenes.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/updatelicenes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/zplcode.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/gettingstarted/zplcode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/modules/3plandval.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/modules/3plandval.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/modules/collaborateandexchange.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/modules/collaborateandexchange.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/modules/modulesoverview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/modules/modulesoverview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/modules/scheduler.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/modules/scheduler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/modules/transport.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/modules/transport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/gettingstarted/modules/warehouse.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/gettingstarted/modules/warehouse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/m3plandval/3plcostanddim.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/m3plandval/3plcostanddim.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/m3plandval/3plcustomer.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/m3plandval/3plcustomer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/m3plandval/adddimesion.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/m3plandval/adddimesion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/m3plandval/customer3plcustomer.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/m3plandval/customer3plcustomer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/m3plandval/invoceperiods.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/m3plandval/invoceperiods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/m3plandval/item3pl.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/m3plandval/item3pl.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/m3plandval/reportperiod.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/m3plandval/reportperiod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/addorderindocx.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/addorderindocx.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/adress-pp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/adress-pp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/azurestorage.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/azurestorage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/create-order-pp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/create-order-pp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/createitempp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/createitempp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/deliversi-pp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/deliversi-pp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/exchfilesazure.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/exchfilesazure.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/invitetopp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/invitetopp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/option-3pl-pp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/option-3pl-pp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/option-cust-pp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/option-cust-pp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/option-vendor-pp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/option-vendor-pp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/partnerportal.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/partnerportal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/ppoverview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/ppoverview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/setup-acc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/setup-acc.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/shipto-cus-pp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/shipto-cus-pp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mcollaandexch/stock3plinfo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mcollaandexch/stock3plinfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mtransport/app/transport.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mtransport/app/transport.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mtransport/ext/trasporte.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mtransport/ext/trasporte.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/Block Warehouse Activity.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/Block Warehouse Activity.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/Block or unblock Items in different processes..md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/Block or unblock Items in different processes..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/Control Orders in SupplyChain365.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/Control Orders in SupplyChain365.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/General Information About License Plate.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/General Information About License Plate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to Block or Unblock Serial Numbers or Lot Numbers.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to Block or Unblock Serial Numbers or Lot Numbers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to Track Time of Warehouse Users and Processes.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to Track Time of Warehouse Users and Processes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to create a inventory cycle count to execute mobile.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to create a inventory cycle count to execute mobile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to create movements to execute mobile.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to create movements to execute mobile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to create replenishment tasks to execute mobile.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to create replenishment tasks to execute mobile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to create warehouse receipt (basic).md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to create warehouse receipt (basic).html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to create warehouse shipments (basic).md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to create warehouse shipments (basic).html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to create warehouse shipments (with item tracking).md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to create warehouse shipments (with item tracking).html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to handle defects in SupplyChain365.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to handle defects in SupplyChain365.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to set up printing with SupplyChain365.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to set up printing with SupplyChain365.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to setup Warehouse Employees (Groups and Permissions).md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to setup Warehouse Employees (Groups and Permissions).html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to use advanced mobile settings on location and documents.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to use advanced mobile settings on location and documents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to use workflows in the warehouse proces.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to use workflows in the warehouse proces.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to work with the Role Centre of SupplyChain365.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to work with the Role Centre of SupplyChain365.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to work with the gamification option of the pick process.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/How to work with the gamification option of the pick process.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/Item Classification.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/Item Classification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/Pack and Ship.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/Pack and Ship.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/Priority Order.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/Priority Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/Reclassification.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/Reclassification.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/Replenishment on Demand.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/Replenishment on Demand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/SupplyChain365 Advance Settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/SupplyChain365 Advance Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/Understand the app queue and sessions.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/Understand the app queue and sessions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/all-workflow.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/all-workflow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-extension/ass-order.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-extension/ass-order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/GS1 Steps and information.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/GS1 Steps and information.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/Getting started with the app queue.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/Getting started with the app queue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How Unit of Measure feature works in mobile app.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How Unit of Measure feature works in mobile app.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How the advanced inbound process with put-away works.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How the advanced inbound process with put-away works.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How the inbound process with receive works.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How the inbound process with receive works.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How the outbound process of picking works.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How the outbound process of picking works.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How the proces of shipment works (Joost).md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How the proces of shipment works (Joost).html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to Execute Movements from the Mobile APP.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to Execute Movements from the Mobile APP.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to Receive a Large Number of License Plate.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to Receive a Large Number of License Plate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to change the location on mobile app.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to change the location on mobile app.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to create adhoc movements from the mobile app.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to create adhoc movements from the mobile app.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to execute a inventory by the mobile app.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to execute a inventory by the mobile app.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to register defects and add photos in the logistic process.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to register defects and add photos in the logistic process.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to show item availability on the mobile app.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/How to show item availability on the mobile app.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/License Plate(APP).md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/License Plate(APP).html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/Mobile login and application overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/Mobile login and application overview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/Record the License plate on the Receipt process.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/Record the License plate on the Receipt process.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/Screen Orientation Settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/Screen Orientation Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/Show content of a bin on the mobile app.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/Show content of a bin on the mobile app.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/SupplyChain365 Column Chooser.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/SupplyChain365 Column Chooser.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/SupplyChain365 Mobile Workflow.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/SupplyChain365 Mobile Workflow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/add-rem-lp-and-item.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/add-rem-lp-and-item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/ass-order.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mwarehouse/w-mobile-app/ass-order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/releasenote/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/releasenote/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/releasenote/release-sp-12-2025/app/rel-note-app-2025-12.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/releasenote/release-sp-12-2025/app/rel-note-app-2025-12.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/releasenote/release-sp-12-2025/extension/rel-note-ext-12-2025.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/releasenote/release-sp-12-2025/extension/rel-note-ext-12-2025.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/releasenote/release-sp-12-2025/pp/rel-note-pp-12-2025.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/releasenote/release-sp-12-2025/pp/rel-note-pp-12-2025.html"
         }
       },
       "version": ""
@@ -339,316 +1199,6 @@
         },
         ".json": {
           "relative_path": "articles/toc.json"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/components/app.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/components/app.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/components/extension.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/components/extension.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/components/portal.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/components/portal.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/generalinformation/democompanyskynet.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/generalinformation/democompanyskynet.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/generalinformation/generalinformation.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/generalinformation/generalinformation.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/generalinformation/releaseplanning.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/generalinformation/releaseplanning.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/generalinformation/roadmap.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/generalinformation/roadmap.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/generalinformation/systemrequirements.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/generalinformation/systemrequirements.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/generalinformation/userlicenseagreement.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/generalinformation/userlicenseagreement.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/createnewcompany.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/createnewcompany.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/createsandbox.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/createsandbox.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/demodata.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/demodata.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/gettingstarted.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/gettingstarted.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/howtogetextension.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/howtogetextension.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/howtoregister.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/howtoregister.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/installmobileapp.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/installmobileapp.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/labelfields.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/labelfields.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/labelprinterlayouts.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/labelprinterlayouts.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/labelprinters.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/labelprinters.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/licensecost.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/licensecost.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/linkenvironment.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/linkenvironment.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/portaloverview.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/portaloverview.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/register.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/register.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/updatelicenes.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/updatelicenes.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/gettingstarted/zplcode.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/gettingstarted/zplcode.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/modules/3plandval.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/modules/3plandval.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/modules/collaborateandexchange.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/modules/collaborateandexchange.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/modules/modulesoverview.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/modules/modulesoverview.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/modules/scheduler.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/modules/scheduler.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/modules/transport.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/modules/transport.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/tutorials/modules/warehouse.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/tutorials/modules/warehouse.html"
         }
       },
       "version": ""
