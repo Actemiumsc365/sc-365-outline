@@ -13,6 +13,15 @@
     - name: SC365 Demo Company Skynet
       href: gettingstarted/generalinformation/democompanyskynet.md
 
+    - name: SC365 Roadmap
+      href: gettingstarted/generalinformation/roadmap.md
+      
+    - name: SC365 System Requirements
+      href: gettingstarted/generalinformation/systemrequirements.md
+      
+    - name: SC365 Release Notes
+      href: gettingstarted/generalinformation/releaseplanning.md
+
 - name: Modules
 
   items:

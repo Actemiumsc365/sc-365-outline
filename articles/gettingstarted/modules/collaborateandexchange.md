@@ -1,5 +1,5 @@
 ﻿---
-title: COLLABORATEANDEXCHANGE
+title: COLLABORATE AND EXCHANGE
 ---
 <style>
   /* This creates a general setup for THIS page only */

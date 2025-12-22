@@ -7,17 +7,13 @@ title: DEMOCOMPANYSKYNET
     text-align: justify;
   }
 </style>
+
+# Demo Data Company
+
 To properly and quickly experience the functionalities of SupplyChain365, a demo company Skynet has been set up. In a sandbox environment it is easily possible to load the demo data associated with this customer case.
 
-TABLE OF CONTENTS
+## Introduction to Skynet
 
-Introduction to Skynet
-Skynet team
-Skynet items
-Warehouse execution
-3PL Customer
-
-Introduction to Skynet
 SkyNet is a company that specializes in Drones. They assemble drones and sell ready-made drones that they purchase from their suppliers. In addition, they have all kinds of drone-related items in their range that they produce, assemble, purchase and sell themselves.
 
 SkyNet sells as many products as possible from stock to end customers and stores. They are known for keeping a neat stock administration because they check their stock very regularly with counts and make corrections if necessary. Because new products are introduced very quickly in the world of drones, it is crucial for SkyNet that they are never left with outdated products that customers no longer want to buy. After all, drones are very expensive. SkyNet has its own fleet of trucks with which they can pick up products from suppliers and deliver them to customers. Possibly with a temporary storage in one of the warehouses. SkyNet also does warehousing and logistics for third parties (3PL-third party logistics), these are webshop and traders who do not have a warehouse and / or transport themselves.
@@ -25,7 +21,8 @@ SkyNet sells as many products as possible from stock to end customers and stores
 SkyNet wants to introduce a new system to support their supply chain execution
 Supply chain execution refers to the process of controlling the flow of goods within the supply chain â€“ from procurement to the delivery of the last mile. Activities included in the execution of the supply chain are production, distribution, storage, fulfillment and transport.
 
-Skynet team
+## Skynet team
+
 SkyNet has assembled a team of employees responsible for implementing a new IT system for the entire supply chain execution of SkyNet.
 
 Naam/Functie
@@ -103,7 +100,8 @@ SkyNet has commodities (purchasing/selling), assembly items (assembling, bill of
 
 SkyNet wants to use an ABC classification for items and thus have an alignment with the warehouse layout and allocation of picking locations. SkyNet wants a regular analysis of this ABC classification based on archived sales order and/or pick orders and/or volume, quantity, kilogram, etc.  and get a recommendation for ABC classification by items or warehouse storage location (bins). Be able to automatically adopt or manually modify this recommendation.
 
-Warehouse execution
+## Warehouse execution
+
 SkyNet has a number of warehouses spread over multiple locations where there is stock to deliver products to the customer as quickly as possible from a local warehouse. SkyNet's warehouses have rack zones and bins. Bins have a unique storage number (bin code). We keep track of which stock is at which storage locations and for how long. At warehouse locations Hardbox and Normbox no controlled storage and removal is used. Corebox does use controlled storage and rash. (directed put-away & pick). The system can then take into account the volume and weight of the items and the capacity volume and weight of the storage location. This allows SkyNet to work with storage location type (BinTypes) and Zones.
 
 Receive Bins
@@ -114,6 +112,6 @@ Shipping Bins
 
 In SkyNet's warehouses, items are placed as much as possible on pallets, containers, bins and boxes (handling units) in the warehouse racks after receipt. In the reception process, SkyNet wants to provide these handling units with a license plate barcode (if there is not one yet) for fast handling of further logistics activities in the warehouse process. As a result, for example, they only have to enter serial or lot numbers once of items that are on a pallet during a storage action by scanning this license plate. For deliveries of, for example, pallets that are already provided with Licenseplates and/or SSCC codes at the time of pre-registration, no serial or lot numbers data needs to be entered at all because it is already digitally present in the system at the warehouse reception. SkyNet bulk wants to put items away in the warehouse and create replenishment orders to provide items with the right amount of stock at pick locations. It is therefore possible that at a certain time of the day stock movement tasks must be automatically made of items that are at a bulk storage location on, for example, a pallet or handling unit with a license plate code that must be moved to a pick location in the warehouse. It is also possible that goods have to be moved between warehouses with transfer orders. SkyNet wants transfer orders to be automatically created based on order planning to have the right stock in the right warehouse as quickly as possible for shipment to the customer. The transport orders for SkyNet can come from a number of different sources. It may be that SkyNet has indicated on a sales order or purchase order that it must be delivered to the customer with its own transport. It is possible that SkyNet 3PL receives result orders (orders from customers of SkyNet's 3PL customers) that have to be delivered with their own transport.
 
-3PL Customer
-Because of their expertise in drone logistics, there are a number of webshop customers (3PL customers) who use SkyNet's logistics organization to have their own products delivered by SkyNet to their customers (3PL fulfillment). SkyNet therefore does stock management and deliveries for third parties. This stock is therefore not from SkyNet but from the relevant 3PL customer. SkyNet charges these customers a custody fee for the use of warehouse locations and rates for handling logistics activities (goods receipt, storage, picking, shipping, transport, delivery, collection, cash on delivery payments, etc.). SkyNet wants to pass on all warehouse and transport activities to 3PL customers based on activity, numbers, weight, volume, distance (kilometers) and time (time registration). SkyNet wants to be able to give 3PL customers a volume discount for the invoicing of these matters.
+## 3PL Customer
 
+Because of their expertise in drone logistics, there are a number of webshop customers (3PL customers) who use SkyNet's logistics organization to have their own products delivered by SkyNet to their customers (3PL fulfillment). SkyNet therefore does stock management and deliveries for third parties. This stock is therefore not from SkyNet but from the relevant 3PL customer. SkyNet charges these customers a custody fee for the use of warehouse locations and rates for handling logistics activities (goods receipt, storage, picking, shipping, transport, delivery, collection, cash on delivery payments, etc.). SkyNet wants to pass on all warehouse and transport activities to 3PL customers based on activity, numbers, weight, volume, distance (kilometers) and time (time registration). SkyNet wants to be able to give 3PL customers a volume discount for the invoicing of these matters.

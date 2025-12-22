@@ -1,5 +1,5 @@
 ﻿---
-title: USERLICENSEAGREEMENT
+title: USER LICENSE AGREEMENT
 ---
 <style>
   /* This creates a general setup for THIS page only */
@@ -7,9 +7,7 @@ title: USERLICENSEAGREEMENT
     text-align: justify;
   }
 </style>
----
-title: User License 
----
+
 <h1 id="supplychain365-general-information">SupplyChain365 General information</h1>
 
 <p>SupplyChain365 is a software-as-a-service (SaaS) supply chain execution software for medium-sized organizations that can be started immediately. Available directly from the Microsoft Azure cloud and 100% integrated with Microsoft Dynamics365 Business Central. Start quickly and easily with Warehouse Execution and/or Transport Execution functions and use the advantages of this modern platform in a short time. The system is easy to use but offers sufficient options for supporting more advanced processes for both Warehouse and Transport Operations in combination with the powerplatform and a modern Microsoft365 workspace. SupplyChain365 consists of 4 modules and a number of components: the Business Central Extension, a portal for management, an App that can be downloaded from the Playstore and the SupplyChain365 API so the system can digitally collaborate with supply chain partners and other systems.</p>
@@ -19,13 +17,13 @@ between
 OPAL Associates BV as Contractor
 and
 SupplyChain365 Tenant user as User</p>
-<p>Parties</p>
+<h2>Parties</h2>
 <ol>
 <li>OPAL Associates BV, having as its address Kerkenbos 1019, 6546 BB Nijmegen, with KvK number 09154054, duly represented for this purpose by Stephan Smink. (the Contractor)</li>
 <li>SupplyChain365 Tenant Administrator, duly represented for this purpose by the User
 OPAL Associates BV and User each being a Party and together Parties.</li>
 </ol>
-<p>Background</p>
+<h2>Background</h2>
 <ol>
 <li>Contractor has developed and exclusively owns the software SupplyChain365 which makes SupplyChain365 an extension (expansion) for Microsoft Dynamics 365 Business Central. SupplyChain365 is a software-as-a-service supply chain execution solution and adds Warehouse management and Transport management functionalities to Microsoft Dynamics 365 Business Central. The system provides internet web-based technology and mobile applications which are available via Cloud computing. SupplyChain365 increases inventory visibility in the supply chain and enables supply chain partners to collaborate digitally. (The Software).</li>
 <li>Contractor provides the Software via Software-as-a-Service (SaaS). This means that Contractor offers User access to the Software via the Internet.</li>

@@ -1,13 +1,4 @@
 ﻿---
-title: INDEX
----
-<style>
-  /* This creates a general setup for THIS page only */
-  p, li {
-    text-align: justify;
-  }
-</style>
----
 title: Knowledge Base
 ---
 
