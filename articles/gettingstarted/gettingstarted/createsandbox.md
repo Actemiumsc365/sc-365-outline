@@ -1,5 +1,5 @@
 ﻿---
-title: CREATESANDBOX
+title: CREATE SANDBOX
 ---
 <style>
   /* This creates a general setup for THIS page only */
@@ -26,5 +26,14 @@ If you have access to a company, you have access to the environment it's in.</p>
 <li>In a new Sandbox, you get 2 companies by default. CRONUS (Microsoft's demo company) and an empty My Company.</li>
 </ul>
 <p>Databases are protected by automatic backups that are kept for 28 days. The backup includes data from any production and sandbox environments in the database.</p>
-<p>Below a video to understand the steps visually:
-<iframe src="https://player.vimeo.com/video/884390860?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="6 How to create a Sandbox Environment" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation" data-identifyelement="492"></iframe></p>
+<b>Below a video to understand the steps visually:
+<div style="padding:56.25% 0 0 0;position:relative;">
+  <iframe 
+    src="https://player.vimeo.com/video/884390860?h=9a2283030d&title=0&byline=0&portrait=0" 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+    frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>

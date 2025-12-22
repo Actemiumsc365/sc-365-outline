@@ -1,3 +1,6 @@
+---
+title: CREATE NEW COMPANY
+---
 <style>
   /* This creates a general setup for THIS page only */
   p, li {
@@ -22,5 +25,14 @@
 <li>Go to the gear icon menu and select My Settings and then Company. Choose the Skynet Corporation and click OK, and then OK again.</li>
 <li>You are now in the Skynet Corporation company, and it is ready for use. Note: once a company is created, you can't change its name, but you can change its display name.</li>
 </ul>
-<p>Below a video to help users understand the steps visually:</p>
-<iframe src="https://player.vimeo.com/video/884390919?badge=0&autopause=0&quality_selector=1&player_id=0&app_id=58479" frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="8 How to create a new company" sandbox="allow-scripts allow-forms allow-same-origin allow-presentation"></iframe>
+<b>Below a video to help users understand the steps visually:
+<div style="padding:56.25% 0 0 0;position:relative;">
+  <iframe 
+    src="https://player.vimeo.com/video/884390919?h=9a2283030d&title=0&byline=0&portrait=0" 
+    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+    frameborder="0" 
+    allow="autoplay; fullscreen; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
