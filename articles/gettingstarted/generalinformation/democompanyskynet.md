@@ -1,43 +1,381 @@
 ﻿---
-title: DEMOCOMPANYSKYNET
+title: SkyNet Demo Company
 ---
-<style>
-  /* This creates a general setup for THIS page only */
-  p, li {
-    text-align: justify;
-  }
-</style>
 
-<div class="col-lg-9 fw-content-wrapper mb-16 mb-lg-0">
-          <div class="fw-content fw-content--single-article line-numbers">
-            <p dir="ltr">To properly and quickly experience the functionalities of SupplyChain365, a demo company Skynet has been set up. In a sandbox environment it is easily possible to load the demo data associated with this customer case.</p><p><br></p><p class="fd-toc"><strong>TABLE OF CONTENTS</strong></p><ul><li><a href="#Introduction-to-Skynet">Introduction to Skynet</a></li><li><a href="#Skynet-team">Skynet team</a></li><li><a href="#Skynet-items">Skynet items</a></li><li><a href="#Warehouse-execution">Warehouse execution</a></li><li><a href="#3PL-Customer">3PL Customer</a></li></ul><p><br></p><h2 dir="ltr" id="Introduction-to-Skynet">Introduction to Skynet</h2><p>SkyNet is a company that specializes in Drones. They assemble drones and sell ready-made drones that they purchase from their suppliers. In addition, they have all kinds of drone-related items in their range that they produce, assemble, purchase and sell themselves.</p><p><br></p><p dir="ltr">SkyNet sells as many products as possible from stock to end customers and stores. They are known for keeping a neat stock administration because they check their stock very regularly with counts and make corrections if necessary. Because new products are introduced very quickly in the world of drones, it is crucial for SkyNet that they are never left with outdated products that customers no longer want to buy. After all, drones are very expensive. SkyNet has its own fleet of trucks with which they can pick up products from suppliers and deliver them to customers. Possibly with a temporary storage in one of the warehouses. SkyNet also does warehousing and logistics for third parties (3PL-third party logistics), these are webshop and traders who do not have a warehouse and / or transport themselves.</p><p dir="ltr"><br></p><blockquote dir="ltr">SkyNet wants to introduce a new system to support their supply chain execution</blockquote><p dir="ltr">Supply chain execution refers to the process of controlling the flow of goods within the supply chain – from procurement to the delivery of the last mile. Activities included in the execution of the supply chain are production, distribution, storage, fulfillment and transport.</p><p dir="ltr"><br></p><h2 dir="ltr" id="Skynet-team">Skynet team</h2><p dir="ltr">SkyNet has assembled a team of employees responsible for implementing a new IT system for the entire supply chain execution of SkyNet.</p><p><br></p><table border="1" cellpadding="0" cellspacing="0"><tbody><tr><td width="33.27814569536424%"><p><strong><span>Naam/Functie</span></strong></p></td><td width="16.05960264900662%"><p><strong><span>Foto</span></strong></p></td><td width="50.66225165562914%"><p><strong><span>Rol</span></strong></p></td></tr><tr><td width="33.27814569536424%"><p><span>Karel van Hamond</span></p><p><span>Supply Chain Manager</span></p><p><span><a href="mailto:karel@skynetcorporation.info">karel@skynetcorporation.info</a></span></p></td><td width="16.05960264900662%"><p><span><img width="75" src="https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324944/original/vYTwgR7y9ynfqCdO3Hi_5TcjmfAkXuXk5g.jpeg?1696513099" class="fr-fic fr-dii fw-lightbox-img" data-attachment="[object Object]" data-id="103054324944" data-index="0"></span></p></td><td width="50.66225165562914%"><p><span dir="ltr">Karel is precise and requires his organization to keep a very accurate stock and have optimal logistical execution. He strives for 100% error-free logistics. It was his idea to make SkyNet a logistics service provider in addition to being a wholesaler. That move turns out to be genius for SkyNet in terms of inventory and revenue speed. Karel therefore finds it very important to have a complete overview of his logistics process from warehouse to transport. Karel likes automated reports, dashboards and KPIs of the SCOR model. Karel wants to be informed by his warehouse and transport manager when bottlenecks arise in the supply chain.</span></p><p><span>Karel wants to automate and optimize as much as possible. He likes standards such as EDI GS1 and OTM (https://www.sutc.nl/) to work digitally with chain partners.</span></p></td></tr><tr><td width="33.27814569536424%"><p><span>Vanessa Enting</span></p><p><span>Warehouse Manager</span></p><p><span><a href="mailto:vanessa@skynetcorporation.info">vanessa@skynetcorporation.info</a></span></p><p><span>&nbsp;</span></p></td><td width="16.05960264900662%"><p><span><img width="75" src="https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324942/original/qbODYNMpUY21Ae14JxWoyWYaU3qn6vle_Q.jpeg?1696513099" class="fr-fic fr-dii fw-lightbox-img" data-attachment="[object Object]" data-id="103054324942" data-index="1"></span></p></td><td width="50.66225165562914%"><p><span>Vanessa is a very experienced Warehouse manager and knows the tricks of the trade. She is actively involved in the continuous improvement of warehouse operations regarding automation (barcodes/rfid/RF/Voice/Pick-to-light/Robots/Mechanization etc). Vanessa uses storage strategy based on data to be able to deliver orders 100% correctly to customers as soon as possible. Her primary KPI is the total time/cost per order/lines from "pick list creation" to "ready to ship". Venessa wants insight into required resources per day/week/month per warehouse location of inbound, storage, picking, packing, shipping so that she can plan well.</span></p></td></tr><tr><td width="33.27814569536424%"><p><span>Christina Tingen</span></p><p><span>Warehouse Employee</span></p><p><span><a href="mailto:christina@skynetcorporation.info">christina@skynetcorporation.info</a></span></p><p><span>&nbsp;</span></p></td><td width="16.05960264900662%"><p><span><img width="75" src="https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324943/original/dtGZSlXBo67Y8qWdddm5QXDmXZGZr8JjQg.jpeg?1696513099" class="fr-fic fr-dii fw-lightbox-img" data-attachment="[object Object]" data-id="103054324943" data-index="2"></span></p></td><td width="50.66225165562914%"><p><span>Christina works at SkyNet mainly in the part of the warehouse where goods arrive and are stored in the warehouse. According to Christina, things can always be better and faster in the warehouse. Her goal is to store incoming products in the warehouse in a smart way so that they can be knocked out as quickly as possible, with as little effort as possible. She hates having to enter information twice and wants the applications she and her team have to work with to be easy to use. Every click is one too many for her.&nbsp;</span></p></td></tr><tr><td width="33.27814569536424%"><p><span>Jim Bronswijk</span></p><p><span>Warehouse Employee</span></p><p><span><a href="mailto:jim@skynetcorporation.info">jim@skynetcorporation.info</a></span></p><p><span>&nbsp;</span></p></td><td width="16.05960264900662%"><p><span><img width="81" src="https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324946/original/xaJBtZS0MRv6czoGSJg2LPKAde-wrNAtLA.jpeg?1696513099" class="fr-fic fr-dii fw-lightbox-img" data-attachment="[object Object]" data-id="103054324946" data-index="3"></span></p></td><td width="50.66225165562914%"><p><span>Jim mainly works on the results side of the warehouse process. They mainly do picking, packing and shipping. With his team, he aims to have all orders at the right time slot at the right shipping dock for shipment to the customer. Jim knows that zone picking and batch picking have major advantages for the speed with which orders can be collected. In his previous work, Jim has gained experience with how items from different zones of one order can be consolidated at a packing bin using bin code on a traffic cone.</span></p></td></tr><tr><td width="33.27814569536424%"><p><span>Erik van Eden</span></p><p><span>Transport Manager</span></p><p><span><a href="mailto:erik@skynetcorporation.info"><span>erik@skynetcorporation.info</span></a></span></p><p><span>&nbsp;</span></p></td><td width="16.05960264900662%"><p><span><img width="75" src="https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324945/original/BUXjDC5ESTQzNkHSEbXOp9BNNJ0Y_ud4rQ.jpeg?1696513099" alt="Afbeelding met persoon, person, kostuum, muur
+# SkyNet Demo Company
 
-Automatisch gegenereerde beschrijving" class="fr-fic fr-dii fw-lightbox-img" data-attachment="[object Object]" data-id="103054324945" data-index="4"></span></p></td><td width="50.66225165562914%"><p><span>Erik is an Ambitious manager. Before joining SkyNet transport manager, he was a transport planner at a logistics service provider who had a super cool TMS system with graphical planboard that helped him get the most out of the available capacity of vehicles and drivers. As a brand new transport manager, he would like to prove himself at SkyNet. He is very critical and manages his transport organization mainly on the basis of costs. Understanding this is crucial for him.</span></p></td></tr><tr><td width="33.27814569536424%"><p><span>Lewis Samuals</span></p><p><span>Transport Employee (Driver)</span></p><p><span><a href="mailto:lewis@skynetcorporation.info">lewis@skynetcorporation.info</a>&nbsp;</span></p><p><span>&nbsp;</span></p></td><td width="16.05960264900662%"><p><span><img width="83" src="https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324948/original/Llqq4dYoB2bghfkjbdoT6fLomh63-dP_-A.jpeg?1696513099" class="fr-fic fr-dii fw-lightbox-img" data-attachment="[object Object]" data-id="103054324948" data-index="5"></span></p></td><td width="50.66225165562914%"><p><span>Lewis is a young driver who can't wait to start working at SkyNet with an automated system. He has already delivered the wrong goods to the wrong customer a few times because he did not have the right information available. He is completely done with going to customers and suppliers with paper documents. He thinks that a driver App can help him to carry out even more assignments in a trip faster and more accurately and to have the right information with him in real-time.&nbsp;</span></p></td></tr><tr><td width="33.27814569536424%"><p><span>Peter van der Vis</span></p><p><span>Transport Employee (Driver)</span></p><p><span><a href="mailto:peter@skynetcorporation.info">peter@skynetcorporation.info</a>&nbsp;</span></p><p><span>&nbsp;</span></p></td><td width="16.05960264900662%"><p><span><img width="79" src="https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324947/original/u91vBO3L-5q1po9EG6kR7uDER9Pmrgib9A.jpeg?1696513099" class="fr-fic fr-dii fw-lightbox-img" data-attachment="[object Object]" data-id="103054324947" data-index="6"></span></p></td><td width="50.66225165562914%"><p><span>Peter is of the old school, he prefers not to work with computers on his truck, only if he really has to. But then it should also be super easy to use. If he has to work with an App, integrated navigation is very important and he wants to be able to call contacts of the company to which he is on his way at all times. He hates paper administration and it often happens that Peter forgets to fill out his papers on deliveries. He also often goes wrong with time registration and when he has to make deliveries that include cash on delivery payments. An App should really help him with that.&nbsp;</span></p></td></tr></tbody></table><p><br></p><h2 dir="ltr" id="Skynet-items">Skynet items</h2><p>SkyNet has several articles. Large and small items, articles in different variants (colours/sizes/designs) and packaging quantities (box/roll container/pallet/piece) a unit of measurement (numbers/length/width/height/volume/weight). Items can have different reference numbers with customers and suppliers and different identification carriers (barcodes). &nbsp;SkyNet items may have serial numbers for warranty and customer registration purposes. SkyNet also has items that contain lot numbers because these items are from a certain delivery or production batch. Often these items also contain an expiration date. Also, SkyNet has Serial Lot number items. These are items that contain a certain delivery/production batch number and a unique serial number for each product of that batch (lot). SkyNet wants to be able to easily scan and label barcodes and RFID serial and lot numbers. It is important for SkyNet that items that have been in the warehouse a little longer are shipped first to prevent products from aging. SkyNet always wants to work FiFo (First-in First out) or FeFo (First Expired First out).</p><p><br></p><p>SkyNet has commodities (purchasing/selling), assembly items (assembling, bill of materials, bom, bill-of-material) and production items (consumption raw materials yield product or semi-finished product). It is important for SkyNet to have a simple registration of which serial/lot number items are used for assembly and/or production.</p><p><br></p><p>SkyNet wants to use an ABC classification for items and thus have an alignment with the warehouse layout and allocation of picking locations. SkyNet wants a regular analysis of this ABC classification based on archived sales order and/or pick orders and/or volume, quantity, kilogram, etc. &nbsp;and get a recommendation for ABC classification by items or warehouse storage location (bins). Be able to automatically adopt or manually modify this recommendation.&nbsp;</p><p><br></p><h2 dir="ltr" id="Warehouse-execution">Warehouse execution</h2><p dir="ltr">SkyNet has a number of warehouses spread over multiple locations where there is stock to deliver products to the customer as quickly as possible from a local warehouse. SkyNet's warehouses have rack zones and bins. Bins have a unique storage number (bin code). We keep track of which stock is at which storage locations and for how long. At warehouse locations Hardbox and Normbox no controlled storage and removal is used. Corebox does use controlled storage and rash. (directed put-away &amp; pick). The system can then take into account the volume and weight of the items and the capacity volume and weight of the storage location. This allows SkyNet to work with storage location type (BinTypes) and Zones.&nbsp;</p><ul><li dir="ltr">Receive Bins</li><li dir="ltr">PutAway Bins</li><li dir="ltr">Pick Bins</li><li dir="ltr">Packing Bins</li><li dir="ltr">Shipping Bins</li></ul><p><br></p><p dir="ltr">In SkyNet's warehouses, items are placed as much as possible on pallets, containers, bins and boxes (handling units) in the warehouse racks after receipt. In the reception process, SkyNet wants to provide these handling units with a license plate barcode (if there is not one yet) for fast handling of further logistics activities in the warehouse process. As a result, for example, they only have to enter serial or lot numbers once of items that are on a pallet during a storage action by scanning this license plate. For deliveries of, for example, pallets that are already provided with Licenseplates and/or SSCC codes at the time of pre-registration, no serial or lot numbers data needs to be entered at all because it is already digitally present in the system at the warehouse reception. SkyNet bulk wants to put items away in the warehouse and create replenishment orders to provide items with the right amount of stock at pick locations. It is therefore possible that at a certain time of the day stock movement tasks must be automatically made of items that are at a bulk storage location on, for example, a pallet or handling unit with a license plate code that must be moved to a pick location in the warehouse. It is also possible that goods have to be moved between warehouses with transfer orders. SkyNet wants transfer orders to be automatically created based on order planning to have the right stock in the right warehouse as quickly as possible for shipment to the customer. The transport orders for SkyNet can come from a number of different sources. It may be that SkyNet has indicated on a sales order or purchase order that it must be delivered to the customer with its own transport. It is possible that SkyNet 3PL receives result orders (orders from customers of SkyNet's 3PL customers) that have to be delivered with their own transport.&nbsp;</p><p dir="ltr"><br></p><h2 dir="ltr" id="3PL-Customer">3PL Customer</h2><p>Because of their expertise in drone logistics, there are a number of webshop customers (3PL customers) who use SkyNet's logistics organization to have their own products delivered by SkyNet to their customers (3PL fulfillment). SkyNet therefore does stock management and deliveries for third parties. This stock is therefore not from SkyNet but from the relevant 3PL customer. SkyNet charges these customers a custody fee for the use of warehouse locations and rates for handling logistics activities (goods receipt, storage, picking, shipping, transport, delivery, collection, cash on delivery payments, etc.). SkyNet wants to pass on all warehouse and transport activities to 3PL customers based on activity, numbers, weight, volume, distance (kilometers) and time (time registration). SkyNet wants to be able to give 3PL customers a volume discount for the invoicing of these matters.</p>
-            
+> **Demo Environment**  
+> To properly and quickly experience the functionalities of SupplyChain365, a demo company SkyNet has been set up. In a sandbox environment it is easily possible to load the demo data associated with this customer case.
 
-<script type="text/javascript" nonce="h7PVcIgtVQby9g5/SZFKrQ==">
-  document.querySelectorAll('.portal-attachment-thumbnail-img').forEach(function(img) {
-    img.addEventListener('error', function () {
-      attachment_error_image(this);
-    });
-  });
+---
 
-  const attachment_error_image = (attachment) => {
-    const parentElement = attachment.parentElement;
-    const defaultIcon = `<span class="icon-file-empty"></span><span class="fw-attachment-ext">${escapeHtml(attachment.dataset.extension)}</span>`;
-    parentElement.innerHTML = defaultIcon;
-  };
-</script>
+## Table of Contents
 
-  <div class="row fw-feedback-negative d-none">
-    <div class="col-md-4 mx-auto text-center">
-      <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="100" height="100" fill="url(#pattern0)"></rect>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0" transform="scale(0.0025)">
-</use>
+- [Introduction to SkyNet](#introduction-to-skynet)
+- [SkyNet Team](#skynet-team)
+- [SkyNet Items](#skynet-items)
+- [Warehouse Execution](#warehouse-execution)
+- [3PL Customer Services](#3pl-customer-services)
 
-  </div>
-</div>
-        </div>
+---
+
+## Introduction to SkyNet
+
+**SkyNet** is a specialized company in the drone industry. They assemble drones and sell ready-made drones purchased from suppliers. Additionally, they maintain an extensive inventory of drone-related items that they produce, assemble, purchase, and sell.
+
+### Business Model
+
+SkyNet operates with a dual focus:
+
+- **Direct Sales**: Selling as many products as possible from stock to end customers and retail stores
+- **Logistics Excellence**: Maintaining precise stock administration through regular inventory counts and corrections
+- **Fleet Operations**: Operating their own fleet of trucks for supplier pickups and customer deliveries
+- **3PL Services**: Providing warehousing and logistics for third parties (webshops and traders without their own infrastructure)
+
+### Strategic Challenge
+
+> **"SkyNet wants to introduce a new system to support their supply chain execution"**
+
+Due to the rapid pace of innovation in the drone market, SkyNet must avoid being stuck with outdated inventory. Their focus on supply chain execution encompasses:
+
+- Production
+- Distribution
+- Storage
+- Fulfillment
+- Transport
+
+This end-to-end approach ensures control over the flow of goods from procurement to last-mile delivery.
+
+---
+
+## SkyNet Team
+
+SkyNet has assembled a dedicated team responsible for implementing a new IT system for their entire supply chain execution.
+
+### Leadership & Management
+
+#### Karel van Hamond — Supply Chain Manager
+📧 [karel@skynetcorporation.info](mailto:karel@skynetcorporation.info)
+
+![Karel van Hamond](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324944/original/vYTwgR7y9ynfqCdO3Hi_5TcjmfAkXuXk5g.jpeg?1696513099)
+
+**Profile**: Precision-focused leader who demands 100% error-free logistics
+
+**Key Responsibilities**:
+- Maintaining optimal logistical execution and accurate inventory
+- Overseeing complete logistics process from warehouse to transport
+- Driving automation and digital transformation initiatives
+
+**Focus Areas**:
+- Automated reports, dashboards, and SCOR model KPIs
+- Standards compliance (EDI GS1, OTM)
+- Digital integration with chain partners
+
+**Vision**: Karel pioneered SkyNet's expansion into logistics services, proving genius in terms of inventory velocity and revenue generation.
+
+---
+
+#### Vanessa Enting — Warehouse Manager
+📧 [vanessa@skynetcorporation.info](mailto:vanessa@skynetcorporation.info)
+
+![Vanessa Enting](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324942/original/qbODYNMpUY21Ae14JxWoyWYaU3qn6vle_Q.jpeg?1696513099)
+
+**Profile**: Experienced warehouse operations expert focused on continuous improvement
+
+**Key Responsibilities**:
+- Implementing warehouse automation (barcodes, RFID, RF, Voice, Pick-to-light, Robotics)
+- Optimizing storage strategy based on data analytics
+- Resource planning across all warehouse operations
+
+**Primary KPI**: Total time/cost per order line from "pick list creation" to "ready to ship"
+
+**Focus Areas**:
+- 100% order accuracy
+- Data-driven storage optimization
+- Resource forecasting (daily/weekly/monthly) for inbound, storage, picking, packing, and shipping operations
+
+---
+
+#### Erik van Eden — Transport Manager
+📧 [erik@skynetcorporation.info](mailto:erik@skynetcorporation.info)
+
+![Erik van Eden](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324945/original/BUXjDC5ESTQzNkHSEbXOp9BNNJ0Y_ud4rQ.jpeg?1696513099)
+
+**Profile**: Ambitious, cost-focused manager with TMS expertise
+
+**Background**: Previously worked as a transport planner at a logistics service provider with advanced TMS systems featuring graphical planboards
+
+**Management Style**:
+- Critical and data-driven
+- Cost-focused transport operations
+- Performance metrics orientation
+
+**Goal**: Prove his value at SkyNet through optimized vehicle and driver capacity utilization
+
+---
+
+### Warehouse Operations Team
+
+#### Christina Tingen — Warehouse Employee (Inbound & Storage)
+📧 [christina@skynetcorporation.info](mailto:christina@skynetcorporation.info)
+
+![Christina Tingen](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324943/original/dtGZSlXBo67Y8qWdddm5QXDmXZGZr8JjQg.jpeg?1696513099)
+
+**Profile**: Efficiency-driven specialist in receiving and storage operations
+
+**Philosophy**: "Things can always be better and faster"
+
+**Goals**:
+- Smart storage strategies for rapid order fulfillment
+- Minimize manual effort and movement
+- Eliminate redundant data entry
+
+**User Experience Priority**: Every click counts — applications must be intuitive and streamlined
+
+---
+
+#### Jim Bronswijk — Warehouse Employee (Picking & Shipping)
+📧 [jim@skynetcorporation.info](mailto:jim@skynetcorporation.info)
+
+![Jim Bronswijk](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324946/original/xaJBtZS0MRv6czoGSJg2LPKAde-wrNAtLA.jpeg?1696513099)
+
+**Profile**: Outbound operations specialist with advanced picking methodology expertise
+
+**Focus Areas**:
+- Picking, packing, and shipping operations
+- Timely delivery to shipping docks
+- Zone picking and batch picking optimization
+
+**Experience**: Skilled in order consolidation using bin codes on traffic cones for multi-zone picking scenarios
+
+**Goal**: Ensure all orders reach the correct shipping dock at the right time slot for customer delivery
+
+---
+
+### Transport Operations Team
+
+#### Lewis Samuals — Transport Employee (Driver)
+📧 [lewis@skynetcorporation.info](mailto:lewis@skynetcorporation.info)
+
+![Lewis Samuals](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324948/original/Llqq4dYoB2bghfkjbdoT6fLomh63-dP_-A.jpeg?1696513099)
+
+**Profile**: Young, tech-savvy driver eager for automated systems
+
+**Challenges**: Has experienced delivery errors due to inadequate information systems
+
+**Expectations**:
+- Driver app for real-time information access
+- Faster, more accurate assignment execution
+- Digital documentation (no more paper)
+
+**Goal**: Increase trip efficiency while improving delivery accuracy
+
+---
+
+#### Peter van der Vis — Transport Employee (Driver)
+📧 [peter@skynetcorporation.info](mailto:peter@skynetcorporation.info)
+
+![Peter van der Vis](https://s3-eu-central-1.amazonaws.com/euc-cdn.freshdesk.com/data/helpdesk/attachments/production/103054324947/original/u91vBO3L-5q1po9EG6kR7uDER9Pmrgib9A.jpeg?1696513099)
+
+**Profile**: Experienced driver preferring simplicity and ease of use
+
+**Technology Stance**: Old school approach — will use technology only if it's intuitive
+
+**Key Requirements**:
+- Integrated navigation
+- Easy contact access for delivery locations
+- Automated time registration
+- Cash-on-delivery payment tracking
+
+**Pain Points**: Paper administration, missed documentation, time tracking errors
+
+---
+
+## SkyNet Items
+
+SkyNet manages a diverse inventory with complex requirements for tracking and handling.
+
+### Item Characteristics
+
+**Physical Attributes**:
+- Variable sizes (large and small items)
+- Multiple variants (colors, sizes, designs)
+- Different packaging quantities (box, roll container, pallet, piece)
+- Multiple units of measurement (numbers, length, width, height, volume, weight)
+
+**Identification Systems**:
+- Different reference numbers for customers and suppliers
+- Multiple barcode formats
+- RFID capabilities
+- Serial numbers for warranty and customer registration
+- Lot numbers for delivery/production batches
+- Expiration dates for time-sensitive items
+- Serial-Lot combinations (batch + unique serial per item)
+
+### Item Categories
+
+| Category | Description |
+|----------|-------------|
+| **Commodities** | Standard purchasing and selling items |
+| **Assembly Items** | Require bill of materials (BOM) for assembly |
+| **Production Items** | Raw material consumption yielding finished/semi-finished products |
+
+### Inventory Management Strategy
+
+**Rotation Methods**:
+- **FIFO** (First-In, First-Out) — Default method to prevent aging
+- **FEFO** (First-Expired, First-Out) — For items with expiration dates
+
+**ABC Classification**:
+- Regular analysis based on sales orders, pick orders, volume, quantity, weight
+- Alignment with warehouse layout and picking location allocation
+- Automated recommendations with manual override capability
+- Dynamic adjustment based on historical data
+
+**Traceability Requirements**:
+- Simple registration of serial/lot numbers used in assembly and production
+- Easy scanning and labeling of barcodes and RFID tags
+- Complete component tracking for assembled/manufactured items
+
+---
+
+## Warehouse Execution
+
+SkyNet operates multiple warehouse locations strategically positioned for rapid local delivery to customers.
+
+### Warehouse Infrastructure
+
+**Locations & Control Methods**:
+
+| Location | Control Method | Features |
+|----------|---------------|----------|
+| **Hardbox** | Manual | No controlled storage/removal |
+| **Normbox** | Manual | No controlled storage/removal |
+| **Corebox** | Automated | Directed put-away & pick with capacity management |
+
+**Storage Structure**:
+- Rack zones with designated bins
+- Unique bin codes for precise location tracking
+- Volume and weight capacity management (Corebox)
+- Bin type and zone classification
+
+### Bin Types & Zones
+
+The warehouse utilizes specialized zones for different operational stages:
+
+- **Receive Bins** — Incoming goods staging
+- **Put-Away Bins** — Bulk storage locations
+- **Pick Bins** — Active picking locations
+- **Packing Bins** — Order consolidation areas
+- **Shipping Bins** — Outbound staging
+
+### Handling Unit Management
+
+**License Plate System**:
+- Items placed on pallets, containers, bins, and boxes
+- Barcode license plates for fast processing
+- Single scan for all items on a handling unit
+- Pre-registration capability for supplier pallets with SSCC codes
+
+**Benefits**:
+- Enter serial/lot numbers only once per handling unit
+- Digital data pre-population for pre-registered deliveries
+- Streamlined warehouse operations
+
+### Advanced Warehouse Operations
+
+#### Bulk Storage & Replenishment
+
+**Bulk Put-Away**:
+- Items stored in bulk locations on pallets or handling units
+- Automated replenishment order generation
+- Stock movement tasks created based on pick location needs
+
+**Replenishment Logic**:
+- Automatic movement from bulk to pick locations
+- Time-based stock level monitoring
+- Optimized pick location stock levels
+
+#### Inter-Warehouse Operations
+
+**Transfer Orders**:
+- Automatically created based on order planning
+- Ensure right stock in right warehouse for customer proximity
+- Optimize shipping speed and costs
+
+### Transport Order Sources
+
+SkyNet's transport operations originate from multiple channels:
+
+1. **Sales Orders** — Customer orders requiring own transport
+2. **Purchase Orders** — Supplier deliveries using own fleet
+3. **3PL Result Orders** — Orders from 3PL customer's end-customers requiring own transport
+
+---
+
+## 3PL Customer Services
+
+SkyNet leverages their drone logistics expertise to provide comprehensive third-party logistics services.
+
+### Service Overview
+
+**3PL Fulfillment**:
+- Webshop customers outsource logistics to SkyNet
+- SkyNet manages inventory not owned by them
+- Complete stock management for third-party products
+- End-to-end delivery services to 3PL customer's customers
+
+### Pricing Structure
+
+**Custody Fees**:
+- Warehouse location usage charges
+- Storage duration-based pricing
+
+**Activity-Based Billing**:
+
+SkyNet charges for all logistics activities based on multiple metrics:
+
+| Activity Category | Billing Metrics |
+|------------------|-----------------|
+| **Warehouse Operations** | Goods receipt, storage, picking, shipping |
+| **Transport Services** | Delivery, collection, distance (kilometers), time |
+| **Special Services** | Cash-on-delivery payments |
+| **General Metrics** | Numbers, weight, volume |
+
+**Volume Discounts**:
+- Available for high-volume 3PL customers
+- Tiered pricing structure
+- Incentivizes long-term partnerships
+
+### Operational Benefits
+
+**For 3PL Customers**:
+- No warehouse infrastructure investment required
+- Access to SkyNet's logistics expertise
+- Scalable operations
+- Professional drone-related logistics handling
+
+**For SkyNet**:
+- Revenue diversification
+- Capacity utilization optimization
+- Market position strengthening
+- Industry expertise monetization
+
+---
+
+## Summary
+
+SkyNet represents a modern, data-driven approach to supply chain execution in the specialized drone industry. Their commitment to accuracy, efficiency, and technology adoption positions them as both a successful wholesaler and a competitive logistics service provider.
+
+**Key Success Factors**:
+- ✅ Precision inventory management
+- ✅ Multi-location warehouse network
+- ✅ Own transport fleet
+- ✅ Advanced tracking systems
+- ✅ 3PL service diversification
+- ✅ Technology-forward approach
+- ✅ Expert team with clear roles and KPIs
+
+---
+
+*This demo company provides a comprehensive testing environment for SupplyChain365 functionality across all supply chain execution domains.*
