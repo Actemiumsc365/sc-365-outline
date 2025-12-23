@@ -133,3 +133,38 @@
           href: knowledgebase/mwarehouse/w-extension/all-workflow.md
         - name: Assembly Order
           href: knowledgebase/mwarehouse/w-extension/ass-order.md
+
+- name: Modules Transport
+  items:
+    
+    # PARENT ITEM
+    - name: APP Tutorials
+      href: knowledgebase/gettingstarted/modules/transport.md
+      # NESTED ITEMS START HERE (Aligned with 'name' above)
+      items: 
+        - name: Trip Planner
+          href: knowledgebase/mtransport/t-app/transport.md
+        - name: Consignments 
+          href: knowledgebase/mwarehouse/t-app/add-rem-lp-and-item.md
+   # PARENT ITEM
+    - name: Extension Tutorials
+      href: knowledgebase/mwarehouse/t-ext
+      # NESTED ITEMS START HERE (Aligned with 'name' above)
+      items: 
+        - name: Trip Planner
+          href: knowledgebase/mwarehouse/t-ext/transport.md
+        - name: Consignments
+          href: knowledgebase/mwarehouse/t-ext/ass-order.md
+
+- name: Release Notes
+  items:
+    
+    # PARENT ITEM
+    - name: Release Notes 12-2025
+      href: knowledgebase/gettingstarted/modules/transport.md
+      # NESTED ITEMS START HERE (Aligned with 'name' above)
+      items: 
+        - name: Release note APP
+          href: knowledgebase/mtransport/t-app/transport.md
+        - name: Release Note Extension
+          href: knowledgebase/mwarehouse/t-app/add-rem-lp-and-item.md

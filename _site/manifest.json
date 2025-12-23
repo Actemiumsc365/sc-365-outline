@@ -622,20 +622,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/knowledgebase/mtransport/app/transport.md",
+      "source_relative_path": "articles/knowledgebase/mtransport/t-app/transport.md",
       "output": {
         ".html": {
-          "relative_path": "articles/knowledgebase/mtransport/app/transport.html"
+          "relative_path": "articles/knowledgebase/mtransport/t-app/transport.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/knowledgebase/mtransport/ext/trasporte.md",
+      "source_relative_path": "articles/knowledgebase/mtransport/t-ext/trasporte.md",
       "output": {
         ".html": {
-          "relative_path": "articles/knowledgebase/mtransport/ext/trasporte.html"
+          "relative_path": "articles/knowledgebase/mtransport/t-ext/trasporte.html"
         }
       },
       "version": ""
