@@ -24,7 +24,7 @@ _disableAffix: true
 </div>
 </a>
 
-<a href="articles/knowledgebase/gettingstarted/modules" class="net-card">
+<a href="articles/knowledgebase/gettingstarted/modules/modulesoverview.html" class="net-card">
 <div class="net-card-icon">⭐</div>
 <div>
 <span class="net-card-label">Modules </span>
@@ -32,7 +32,7 @@ _disableAffix: true
 </div>
 </a>
 
-<a href="articles/knowledgebase/releasenote/index.html" class="net-card">
+<a href="articles/knowledgebase/releasenotes/index.html" class="net-card">
 <div class="net-card-icon">🤖</div>
 <div>
 <span class="net-card-label">Release Notes</span>
