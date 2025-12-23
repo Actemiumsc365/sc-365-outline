@@ -156,15 +156,41 @@
         - name: Consignments
           href: knowledgebase/mwarehouse/t-ext/ass-order.md
 
+- name: Module 3PL and VAL
+
+  items:
+    - name: 3PL Cost and Dimensions
+      href: knowledgebase/m3plandval/3plcostanddim.md
+    
+    - name: 3PL customer 
+      href: knowledgebase/m3plandval/3plcustomer.md
+      
+    - name: Add Dimensions
+      href: knowledgebase/m3plandval/adddimesion.md
+      
+    - name: 3PL customer  and Regular customer
+      href: knowledgebase/m3plandval/customer3plcustomer.md
+
+    - name: Invoice Period
+      href: knowledgebase/m3plandval/invoceperiods.md
+
+    - name: 3PL Items
+      href: knowledgebase/m3plandval/item3pl.md
+      
+    - name: 3PL Report Period
+      href: knowledgebase/m3plandval/reportperiod.md
+
 - name: Release Notes
   items:
     
     # PARENT ITEM
     - name: Release Notes 12-2025
-      href: knowledgebase/gettingstarted/modules/transport.md
+      href: knowledgebase/releasenotes/index.md
       # NESTED ITEMS START HERE (Aligned with 'name' above)
       items: 
         - name: Release note APP
-          href: knowledgebase/mtransport/t-app/transport.md
+          href: knowledgebase/releasenotes/release-sp-12-2025/r_app/r_n_12_25.md
         - name: Release Note Extension
-          href: knowledgebase/mwarehouse/t-app/add-rem-lp-and-item.md
+          href: knowledgebase/releasenotes/release-sp-12-2025/r_ext/r_n_12_25.md
+        - name: Release Note Partner Portal
+          href: knowledgebase/releasenotes/release-sp-12-2025/r_pp/r_n_12_25.md

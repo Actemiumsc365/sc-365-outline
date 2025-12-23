@@ -1152,40 +1152,40 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/knowledgebase/releasenote/index.md",
+      "source_relative_path": "articles/knowledgebase/releasenotes/index.md",
       "output": {
         ".html": {
-          "relative_path": "articles/knowledgebase/releasenote/index.html"
+          "relative_path": "articles/knowledgebase/releasenotes/index.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/knowledgebase/releasenote/release-sp-12-2025/app/rel-note-app-2025-12.md",
+      "source_relative_path": "articles/knowledgebase/releasenotes/release-sp-12-2025/r_app/r_n_12_25.md",
       "output": {
         ".html": {
-          "relative_path": "articles/knowledgebase/releasenote/release-sp-12-2025/app/rel-note-app-2025-12.html"
+          "relative_path": "articles/knowledgebase/releasenotes/release-sp-12-2025/r_app/r_n_12_25.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/knowledgebase/releasenote/release-sp-12-2025/extension/rel-note-ext-12-2025.md",
+      "source_relative_path": "articles/knowledgebase/releasenotes/release-sp-12-2025/r_ext/r_n_12_25.md",
       "output": {
         ".html": {
-          "relative_path": "articles/knowledgebase/releasenote/release-sp-12-2025/extension/rel-note-ext-12-2025.html"
+          "relative_path": "articles/knowledgebase/releasenotes/release-sp-12-2025/r_ext/r_n_12_25.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/knowledgebase/releasenote/release-sp-12-2025/pp/rel-note-pp-12-2025.md",
+      "source_relative_path": "articles/knowledgebase/releasenotes/release-sp-12-2025/r_pp/r_n_12_25.md",
       "output": {
         ".html": {
-          "relative_path": "articles/knowledgebase/releasenote/release-sp-12-2025/pp/rel-note-pp-12-2025.html"
+          "relative_path": "articles/knowledgebase/releasenotes/release-sp-12-2025/r_pp/r_n_12_25.html"
         }
       },
       "version": ""
