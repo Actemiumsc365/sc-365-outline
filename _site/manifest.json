@@ -652,10 +652,10 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/knowledgebase/mtransport/t-ext/trasporte.md",
+      "source_relative_path": "articles/knowledgebase/mtransport/t-ext/trasport.md",
       "output": {
         ".html": {
-          "relative_path": "articles/knowledgebase/mtransport/t-ext/trasporte.html"
+          "relative_path": "articles/knowledgebase/mtransport/t-ext/trasport.html"
         }
       },
       "version": ""
