@@ -122,7 +122,7 @@
       items: 
         - name: Assembly Order
           href: knowledgebase/mwarehouse/w-mobile-app/ass-order.md
-        - name: Add or Remove Items or Child License Plate from Licence plate
+        - name: Add or Remove Items , Child LP from LP
           href: knowledgebase/mwarehouse/w-mobile-app/add-rem-lp-and-item.md
    # PARENT ITEM
     - name: Extension Tutorials
@@ -138,23 +138,20 @@
   items:
     
     # PARENT ITEM
-    - name: APP Tutorials
-      href: knowledgebase/gettingstarted/modules/transport.md
-      # NESTED ITEMS START HERE (Aligned with 'name' above)
+    - name: Transport APP Tutorials
       items: 
         - name: Trip Planner
           href: knowledgebase/mtransport/t-app/transport.md
         - name: Consignments 
-          href: knowledgebase/mwarehouse/t-app/add-rem-lp-and-item.md
+          href: knowledgebase/mtransport/t-app/transport.md
    # PARENT ITEM
-    - name: Extension Tutorials
-      href: knowledgebase/mwarehouse/t-ext
+    - name: Transport Extension Tutorials
       # NESTED ITEMS START HERE (Aligned with 'name' above)
       items: 
         - name: Trip Planner
-          href: knowledgebase/mwarehouse/t-ext/transport.md
+          href: knowledgebase/mtransport/t-ext/transport.md
         - name: Consignments
-          href: knowledgebase/mwarehouse/t-ext/ass-order.md
+          href: knowledgebase/mtransport/t-ext/transport.md
 
 - name: Module 3PL and VAL
 
