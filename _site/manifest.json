@@ -622,6 +622,26 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mmanufucturing/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mmanufucturing/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/knowledgebase/mpackandship/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/knowledgebase/mpackandship/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/knowledgebase/mtransport/t-app/transport.md",
       "output": {
         ".html": {

@@ -4,8 +4,8 @@ from markdownify import markdownify as md
 
 # CONFIGURATION
 # ---------------------------------------------------------
-INPUT_FOLDER = './m3plandval'   # Folder containing your messy HTML files
-OUTPUT_FOLDER = './em3plandval'   # Where to save clean .md files
+INPUT_FOLDER = './mcollaandexch'   # Folder containing your messy HTML files
+OUTPUT_FOLDER = './emcollaandexch'   # Where to save clean .md files
 # ---------------------------------------------------------
 
 def clean_html_to_md(html_content):

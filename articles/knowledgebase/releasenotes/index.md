@@ -1,12 +1,6 @@
 ---
 title: RELEASE_NOTES
 ---
-<style>
-  /* 1. YOUR REQUIRED SETUP: Justified Text */
-  p, li {
-    text-align: justify;
-  }
-
   /* 2. OPTIONAL: Better styling for the Release Home */
   .hero-box {
     background-color: #f3f2f1; /* Light gray background */

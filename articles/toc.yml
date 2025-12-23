@@ -19,7 +19,7 @@
     - name: SC365 System Requirements
       href: knowledgebase/gettingstarted/generalinformation/systemrequirements.md
       
-    - name: SC365 Release Notes
+    - name: SC365 Release Planning
       href: knowledgebase/gettingstarted/generalinformation/releaseplanning.md
 
 - name: Modules Overview
@@ -179,6 +179,66 @@
       
     - name: 3PL Report Period
       href: knowledgebase/m3plandval/reportperiod.md
+
+- name: Module Collaborate & Exchange
+  items:
+    - name: Add order using Excel Template
+      href: knowledgebase/mcollaandexch/addorderindocx.md
+    
+    - name: Create Address in Partnerportal
+      href: knowledgebase/mcollaandexch/adress-pp.md
+      
+    - name: Create Azure Storage Account
+      href: knowledgebase/mcollaandexch/azurestorage.md
+      
+    - name: Create Item in Partnerportal
+      href: knowledgebase/mcollaandexch/createitempp.md
+
+    - name: Create Order in Partnerportal
+      href: knowledgebase/mcollaandexch/create-order-pp.md
+
+    - name: How to see delivris in Partnerportal
+      href: knowledgebase/mcollaandexch/deliversi-pp.md
+      
+    - name: Exchange files using Azure (Automated)
+      href: knowledgebase/mcollaandexch/exchfilesazure.md
+
+    - name: Invite to Partnerportal
+      href: knowledgebase/mcollaandexch/invitetopp.md
+    
+    - name: 3PL customer Option in Partnerportal
+      href: knowledgebase/mcollaandexch/option-3pl-pp.md
+      
+    - name: Customer Option in Partnerportal
+      href: knowledgebase/mcollaandexch/option-cust-pp.md
+      
+    - name: Vendor Option in Partnerportal
+      href: knowledgebase/mcollaandexch/option-vendor-pp.md
+
+    - name: Partnerportal
+      href: knowledgebase/mcollaandexch/partnerportal.md
+
+    - name: Partnerportal Overview
+      href: knowledgebase/mcollaandexch/ppoverview.md
+      
+    - name: setup Account and login 
+      href: knowledgebase/mcollaandexch/setup-acc.md
+
+    - name: Ship to Customer in Partnerportal(3PL)
+      href: knowledgebase/mcollaandexch/shipto-cus-pp.md
+    
+    - name: 3PL stock information (3PL)
+      href: knowledgebase/mcollaandexch/stock3plinfo.md
+
+- name: Module Pack and Ship
+  items:
+    - name: Pack and Ship Overview
+      href: knowledgebase/mpackandship/index.md
+
+- name: Module Manufacturing
+  items:
+    - name: Manufacturing Overview
+      href: knowledgebase/mmanufucturing/index.md
 
 - name: Release Notes
   items:
