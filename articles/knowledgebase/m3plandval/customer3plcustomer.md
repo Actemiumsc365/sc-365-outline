@@ -21,3 +21,28 @@ If you buy your own stock, stock with a value will be placed in the warehouse an
 We also call this 1PL, where PL stands for Party Logistics. There are service providers who can take over the logistics operations for a company. 3PL or Third Party Logistics consists of outsourcing a large part or even the entire logistics process of a company to an external logistics operator. The 3PL acts as an intermediary between the client and its customers, organizing transport activities and storage facilities.Supplychain365 makes this possible in Business Central. The work in the logistics process is then carried out and these can also be charged to the 3PL client per activity. In this way, goods can be centrally stored in large quantities and sent separately to customers at the request of the 3PL client.
 
 ******Below a video to help users understand the steps visually:******
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
+<style>
+  .plyr {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+</style>
+
+<video id="player" playsinline controls data-poster="">
+  <source src="" type="video/mp4" />
+</video>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const player = new Plyr('#player', {
+      controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen'],
+      settings: ['captions', 'quality', 'speed'],
+      speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] }
+    });
+  });
+</script>

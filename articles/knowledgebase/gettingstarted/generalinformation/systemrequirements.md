@@ -11,3 +11,4 @@ title: SYSTEM REQUIREMENTS
 <h1 id="supplychain365-supplychain365-system-requirements">SupplyChain365 SupplyChain365 System requirements</h1>
 
 <p>some tekst</p>
+

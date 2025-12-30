@@ -37,3 +37,28 @@ If the item has a serial number or lot number, select it and click Done.
 The steps to remove a child's license plate from a parent's license plate are the same as removing the item, follow the tutorial to see how to remove a child license plate.
 
 ****Below a video to help users understand the steps visually:****
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
+<style>
+  .plyr {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+</style>
+
+<video id="player" playsinline controls data-poster="">
+  <source src="" type="video/mp4" />
+</video>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const player = new Plyr('#player', {
+      controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen'],
+      settings: ['captions', 'quality', 'speed'],
+      speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] }
+    });
+  });
+</script>

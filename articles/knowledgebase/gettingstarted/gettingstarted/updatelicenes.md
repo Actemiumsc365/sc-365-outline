@@ -24,13 +24,30 @@ In the SupplyChain365 Portal, click on admin, then licenses.
 <p>Also, on the External Licenses page a user can buy licenses for essential users, team members, device users and premium users. Simply increase the counter, add to cart and checkout.
 <br><b>
 Below a video to understand the steps visually:
-<div style="padding:56.25% 0 0 0;position:relative;">
-  <iframe 
-    src="https://player.vimeo.com/video/886375278" 
-    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-    frameborder="0" 
-    allow="autoplay; fullscreen; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
-</div>
+
 <script src="https://player.vimeo.com/api/player.js"></script>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
+<style>
+  .plyr {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+</style>
+
+<video id="player" playsinline controls data-poster="">
+  <source src="https://stsc365videodocs.blob.core.windows.net/stscct365videodocs/SupplyChain365%20Videos%20tutorials/SupplyChain365%20Getting%20Started/12%20buy%20licenses.mp4" type="video/mp4" />
+</video>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const player = new Plyr('#player', {
+      controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen'],
+      settings: ['captions', 'quality', 'speed'],
+      speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] }
+    });
+  });
+</script>

@@ -25,25 +25,35 @@ Go to the registration portal and enter your information. You have a valid EU VA
 Follow the instructions sent to you via email. you will receive an email confirming your registration as soon as your Supplychain365 environment is ready for use.</p>
 <p>Step 3: Install the extension and link you environment
 Install the Supplychain365 extension via the AppSource MarketPlace and code-link your Business Central Environment to the extension. The system is now ready for use.
-<b>SupplyChain365 Registration Video instruction Part 1:
-<div style="padding:56.25% 0 0 0;position:relative;">
-  <iframe 
-    src="https://player.vimeo.com/video/753909619?h=9a2283030d&title=0&byline=0&portrait=0" 
-    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-    frameborder="0" 
-    allow="autoplay; fullscreen; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
-</div>
-<script src="https://player.vimeo.com/api/player.js"></script>
-<b>SupplyChain365 Registration Video instruction Part 2:
-<div style="padding:56.25% 0 0 0;position:relative;">
-  <iframe 
-    src="https://player.vimeo.com/video/2241a27d11?h=9a2283030d&title=0&byline=0&portrait=0" 
-    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-    frameborder="0" 
-    allow="autoplay; fullscreen; picture-in-picture" 
-    allowfullscreen>
-  </iframe>
-</div>
-<script src="https://player.vimeo.com/api/player.js"></script>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
+<style>
+  .plyr {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+</style>
+
+<b>SupplyChain365 Registration Video instruction Part 1</b>
+<video class="player" playsinline controls data-poster="">
+  <source src="" type="video/mp4" />
+</video>
+
+<b>SupplyChain365 Registration Video instruction Part 2:<br>
+<video class="player" playsinline controls data-poster="">
+  <source src="" type="video/mp4" />
+</video>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // This finds ALL elements with class="player" and turns them into Plyr
+    const players = Array.from(document.querySelectorAll('.player')).map(p => new Plyr(p, {
+      controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen'],
+      settings: ['captions', 'quality', 'speed'],
+      speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] }
+    }));
+  });
+</script>

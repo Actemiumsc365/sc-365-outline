@@ -379,3 +379,4 @@ SkyNet represents a modern, data-driven approach to supply chain execution in th
 ---
 
 *This demo company provides a comprehensive testing environment for SupplyChain365 functionality across all supply chain execution domains.*
+

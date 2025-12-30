@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>LABEL FIELDS | SupplyChain365 </title>
+      <title>LABELS_AND_BC_FIELDS | SupplyChain365 </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="LABEL FIELDS | SupplyChain365 ">
+      <meta name="title" content="LABELS_AND_BC_FIELDS | SupplyChain365 ">
     
     
       <link rel="shortcut icon" href="../../../../images/favicon.ico">
@@ -79,331 +79,329 @@
             <article class="content wrap" id="_content" data-uid="">
 
 <style>
-  /* This creates a general setup for THIS page only */
+  /* Global Alignment Rule */
   p, li {
     text-align: justify;
   }
 </style>
-<h1 id="labels--bc-fields-in-supplychain365">Labels &amp; BC-Fields in SupplyChain365?</h1>
-<p>Information about the fields in Business Central and labels in the mobile SupplyChain365 app.</p>
-<p>TABLE OF CONTENTS</p>
-<p>Item label
-Receipt process
-Pick process
-Shipment process
-Receipt process
-Inventory process
-Movement process
-License Plate process</p>
-<p>Item label
-Item</p>
-<p>â€¢ Etag</p>
-<p>â€¢ ItemId</p>
-<p>â€¢ Number</p>
-<p>â€¢ IdentifierCode</p>
-<p>â€¢ Description</p>
-<p>â€¢ Blocked</p>
-<p>â€¢ Type</p>
-<p>â€¢ ItemCategoryId</p>
-<p>â€¢ ItemCategoryCode</p>
-<p>â€¢ BaseUnitOfMeasureId</p>
-<p>â€¢ Gtin</p>
-<p>â€¢ UnitPrice</p>
-<p>â€¢ PriceIncludesTax</p>
-<p>â€¢ UnitCost</p>
-<p>â€¢ TaxGroupId</p>
-<p>â€¢ TaxGroupCode</p>
-<p>â€¢ LastModifiedDateTime</p>
-<p>â€¢ ItemTrackingCode</p>
-<p>â€¢ SerialNos</p>
-<p>â€¢ LotNos</p>
-<p>â€¢ ExpirationCalculation</p>
-<p>â€¢ BaseUnitOfMeasure</p>
-<p>â€¢ OverReceiptCode</p>
-<p>â€¢ OverReceiptTolerancePercentage</p>
-<p>â€¢ DynamicNo (For serial and lotno labels when printing itemtracking)</p>
-<p>Receipt process
-ReceiptHeader</p>
-<p>â€¢ No</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ BinCode</p>
-<p>â€¢ DocumentStatus</p>
-<p>â€¢ PostingDate</p>
-<p>â€¢ VendorShipmentNo</p>
-<p>â€¢ AssignedUserId</p>
-<p>â€¢ AssignmentDate</p>
-<p>â€¢ AssignmentTime</p>
-<p>â€¢ SortingMethod</p>
-<p>â€¢ Blocked</p>
-<p>ReceiptLine</p>
-<p>â€¢ No</p>
-<p>â€¢ LineNo</p>
-<p>â€¢ SourceDocument</p>
-<p>â€¢ SourceNo</p>
-<p>â€¢ ItemNo</p>
-<p>â€¢ Description</p>
-<p>â€¢ BinCode</p>
-<p>â€¢ Quantity</p>
-<p>â€¢ QuantityToReceive</p>
-<p>â€¢ QuantityToCrossDock</p>
-<p>â€¢ QuantityReceived</p>
-<p>â€¢ QuantityOutstanding</p>
-<p>â€¢ DueDate</p>
-<p>â€¢ UnitOfMeasureCode</p>
-<p>â€¢ QuantityPerUnitOfMeasure</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ Picture</p>
-<p>â€¢ ItemId</p>
-<p>â€¢ AuxiliaryIndex1</p>
-<p>â€¢ PictureContentType</p>
-<p>â€¢ Blocked</p>
-<p>â€¢ ItemIdentifierCode</p>
-<p>Pick process
-PickHeader</p>
-<p>â€¢ ActivityType</p>
-<p>â€¢ No</p>
-<p>â€¢ AssignedUserID</p>
-<p>â€¢ WhsGroup</p>
-<p>â€¢ Blocked</p>
-<p>â€¢ AutoOpenHeader</p>
-<p>â€¢ AutoOpenLine</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ LineCount</p>
-<p>â€¢ TotalQty</p>
-<p>â€¢ TotalQuantityHandled</p>
-<p>â€¢ TotalQuantityOutstanding</p>
-<p>â€¢ SourceNo</p>
-<p>â€¢ ExternalDocumentNo</p>
-<p>â€¢ ShiptoName</p>
-<p>â€¢ ShiptoAddress</p>
-<p>â€¢ ShiptoCity</p>
-<p>â€¢ ShiptoPostCode</p>
-<p>â€¢ ShipmentDate</p>
-<p>â€¢ DueDate</p>
-<p>PickLine (not Outbound Transfer)</p>
-<p>â€¢ ActivityType</p>
-<p>â€¢ DueDate</p>
-<p>â€¢ ExternalDocumentNo</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ No</p>
-<p>â€¢ ShipmentDate</p>
-<p>â€¢ ShiptoAddress</p>
-<p>â€¢ ShiptoCity</p>
-<p>â€¢ ShiptoName</p>
-<p>â€¢ ShiptoPostCode</p>
-<p>â€¢ SourceNo</p>
-<p>â€¢ QuantityOutstanding</p>
-<p>â€¢ ItemNo</p>
-<p>â€¢ Description</p>
-<p>â€¢ QuantityToHandle</p>
-<p>â€¢ QuantityHandled</p>
-<p>â€¢ UomCode</p>
-<p>â€¢ BinCode</p>
-<p>â€¢ AuxiliaryIndex1</p>
-<p>â€¢ AuxiliaryIndex2</p>
-<p>â€¢ ShiptoAddress2</p>
-<p>â€¢ ShiptoName2</p>
-<p>â€¢ PromisedDeliveryDate</p>
-<p>â€¢ ShiptoCountryRegionCode</p>
-<p>â€¢ ShiptoCounty</p>
-<p>â€¢ VariantCode</p>
-<p>â€¢ SerialNo</p>
-<p>â€¢ LotNo</p>
-<p>PickLine Outbound Transfer</p>
-<p>â€¢ ActivityType</p>
-<p>â€¢ DueDate</p>
-<p>â€¢ ExternalDocumentNo</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ No</p>
-<p>â€¢ ShipmentDate</p>
-<p>â€¢ ShiptoAddress</p>
-<p>â€¢ ShiptoCity</p>
-<p>â€¢ ShiptoName</p>
-<p>â€¢ ShiptoPostCode</p>
-<p>â€¢ SourceNo</p>
-<p>â€¢ QuantityOutstanding</p>
-<p>â€¢ ItemNo</p>
-<p>â€¢ Description</p>
-<p>â€¢ QuantityToHandle</p>
-<p>â€¢ QuantityHandled</p>
-<p>â€¢ UomCode</p>
-<p>â€¢ BinCode</p>
-<p>â€¢ AuxiliaryIndex1</p>
-<p>â€¢ AuxiliaryIndex2</p>
-<p>â€¢ ShiptoAddress2</p>
-<p>â€¢ ShiptoName2</p>
-<p>â€¢ PromisedDeliveryDate</p>
-<p>â€¢ ShiptoCountryRegionCode</p>
-<p>â€¢ ShiptoCounty</p>
-<p>â€¢ VariantCode</p>
-<p>â€¢ SerialNo</p>
-<p>â€¢ LotNo</p>
-<p>Shipment process
-ShipmentHeader</p>
-<p>â€¢ No</p>
-<p>â€¢ ExternalDocumentNo</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ BinCode</p>
-<p>â€¢ DocumentStatus</p>
-<p>â€¢ PostingDate</p>
-<p>â€¢ AssignedUserId</p>
-<p>â€¢ AssignmentDate</p>
-<p>â€¢ AssignmentTime</p>
-<p>â€¢ SortingMethod</p>
-<p>â€¢ Blocked</p>
-<p>ShipmentLine</p>
-<p>â€¢ No</p>
-<p>â€¢ LineNo</p>
-<p>â€¢ SourceDocument</p>
-<p>â€¢ SourceNo</p>
-<p>â€¢ ItemNo</p>
-<p>â€¢ Description</p>
-<p>â€¢ BinCode</p>
-<p>â€¢ Quantity</p>
-<p>â€¢ QuantityToShip</p>
-<p>â€¢ QuantityToCrossDock</p>
-<p>â€¢ QuantityShipped</p>
-<p>â€¢ QuantityPicked</p>
-<p>â€¢ QuantityOutstanding</p>
-<p>â€¢ DueDate</p>
-<p>â€¢ UnitOfMeasureCode</p>
-<p>â€¢ QuantityPerUnitOfMeasure</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ Picture</p>
-<p>â€¢ ItemId</p>
-<p>â€¢ AuxiliaryIndex1</p>
-<p>â€¢ PictureContentType</p>
-<p>Receipt process
-ReceiptHeader</p>
-<p>â€¢ No</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ BinCode</p>
-<p>â€¢ DocumentStatus</p>
-<p>â€¢ PostingDate</p>
-<p>â€¢ VendorShipmentNo</p>
-<p>â€¢ AssignedUserId</p>
-<p>â€¢ AssignmentDate</p>
-<p>â€¢ AssignmentTime</p>
-<p>â€¢ SortingMethod</p>
-<p>â€¢ Blocked</p>
-<p>ReceiptLine</p>
-<p>â€¢ No</p>
-<p>â€¢ LineNo</p>
-<p>â€¢ SourceDocument</p>
-<p>â€¢ SourceNo</p>
-<p>â€¢ ItemNo</p>
-<p>â€¢ Description</p>
-<p>â€¢ BinCode</p>
-<p>â€¢ Quantity</p>
-<p>â€¢ QuantityToReceive</p>
-<p>â€¢ QuantityToCrossDock</p>
-<p>â€¢ QuantityReceived</p>
-<p>â€¢ QuantityOutstanding</p>
-<p>â€¢ DueDate</p>
-<p>â€¢ UnitOfMeasureCode</p>
-<p>â€¢ QuantityPerUnitOfMeasure</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ Picture</p>
-<p>â€¢ ItemId</p>
-<p>â€¢ AuxiliaryIndex1</p>
-<p>â€¢ PictureContentType</p>
-<p>â€¢ Blocked</p>
-<p>â€¢ ItemIdentifierCode</p>
-<p>Inventory process
-ItemCount</p>
-<p>â€¢ ItemNo</p>
-<p>â€¢ BinCode</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ VariantCode</p>
-<p>â€¢ UnitOfMeasureCode</p>
-<p>â€¢ ReservedQty</p>
-<p>â€¢ ReservedQtyBase</p>
-<p>â€¢ Customer</p>
-<p>LicensePlateHeader</p>
-<p>â€¢ OdataEtag</p>
-<p>â€¢ No</p>
-<p>â€¢ Barcode</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ Zone</p>
-<p>â€¢ BinCode</p>
-<p>â€¢ State</p>
-<p>â€¢ DateTime CreationDate</p>
-<p>â€¢ Blocked</p>
-<p>â€¢ Description</p>
-<p>â€¢ ExternalIdentifier</p>
-<p>â€¢ GS1</p>
-<p>InventoryCountLine</p>
-<p>â€¢ BinCode</p>
-<p>â€¢ DateTime DateRecorded</p>
-<p>â€¢ Description</p>
-<p>â€¢ ItemNo</p>
-<p>â€¢ LineNo</p>
-<p>â€¢ Description2</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ LotNo</p>
-<p>â€¢ OrderLineNo</p>
-<p>â€¢ OrderNo</p>
-<p>â€¢ PersonRecorded</p>
-<p>â€¢ QtyperUnitofMeasure</p>
-<p>â€¢ Quantity</p>
-<p>â€¢ QuantityBase</p>
-<p>â€¢ Recorded</p>
-<p>â€¢ RecordedWithoutOrder</p>
-<p>â€¢ RecordingNo</p>
-<p>â€¢ SerialNo</p>
-<p>â€¢ ShelfNo</p>
-<p>â€¢ TimeRecorded</p>
-<p>â€¢ UnitofMeasure</p>
-<p>â€¢ UnitofMeasureCode</p>
-<p>â€¢ UseItemTracking</p>
-<p>â€¢ VariantCode</p>
-<p>â€¢ Picture</p>
-<p>â€¢ PictureContentType</p>
-<p>â€¢ ItemId</p>
-<p>Movement process
-MovementLine</p>
-<p>â€¢ ActivityType</p>
-<p>â€¢ DueDate</p>
-<p>â€¢ ExternalDocumentNo</p>
-<p>â€¢ LocationCode</p>
-<p>â€¢ No</p>
-<p>â€¢ ShipmentDate</p>
-<p>â€¢ ShiptoAddress</p>
-<p>â€¢ ShiptoCity</p>
-<p>â€¢ ShiptoName</p>
-<p>â€¢ ShiptoPostCode</p>
-<p>â€¢ SourceNo</p>
-<p>â€¢ QuantityOutstanding</p>
-<p>â€¢ ItemNo</p>
-<p>â€¢ Description</p>
-<p>â€¢ QuantityToHandle</p>
-<p>â€¢ QuantityHandled</p>
-<p>â€¢ UomCode</p>
-<p>â€¢ BinCode</p>
-<p>â€¢ AuxiliaryIndex1</p>
-<p>â€¢ AuxiliaryIndex2</p>
-<p>â€¢ ShiptoAddress2</p>
-<p>â€¢ ShiptoName2</p>
-<p>â€¢ PromisedDeliveryDate</p>
-<p>â€¢ ShiptoCountryRegionCode</p>
-<p>â€¢ ShiptoCounty</p>
-<p>â€¢ VariantCode</p>
-<p>â€¢ SerialNo</p>
-<p>â€¢ LotNo</p>
-<p>License Plate process
-License Plate Header</p>
-<p>GTIN
-LotNo
-SerialNo
-ExpirationDate
-ItemDescription
-IsHomogeneous</p>
-<p>SSCC</p>
-<p>Gs1GTIN
-Gs1ExpirationDate</p>
-<p>Gs1Quantity</p>
-<p>TotalQuantity</p>
-<p>CustomerName</p>
+<h1 id="labels--bc-fields-in-superdesk">Labels &amp; BC-Fields in Superdesk</h1>
+<p>Information about the fields in Business Central and labels in the mobile <strong>Superdesk</strong> app.</p>
+<h3 id="table-of-contents">TABLE OF CONTENTS</h3>
+<ul>
+<li><a href="#item-label">Item label</a></li>
+<li><a href="#receipt-process">Receipt process</a></li>
+<li><a href="#pick-process">Pick process</a></li>
+<li><a href="#shipment-process">Shipment process</a></li>
+<li><a href="#inventory-process">Inventory process</a></li>
+<li><a href="#movement-process">Movement process</a></li>
+<li><a href="#license-plate-process">License Plate process</a></li>
+</ul>
+<hr>
+<h2 id="item-label">Item label</h2>
+<h3 id="item">Item</h3>
+<ul>
+<li>Etag</li>
+<li>ItemId</li>
+<li>Number</li>
+<li>IdentifierCode</li>
+<li>Description</li>
+<li>Blocked</li>
+<li>Type</li>
+<li>ItemCategoryId</li>
+<li>ItemCategoryCode</li>
+<li>BaseUnitOfMeasureId</li>
+<li>Gtin</li>
+<li>UnitPrice</li>
+<li>PriceIncludesTax</li>
+<li>UnitCost</li>
+<li>TaxGroupId</li>
+<li>TaxGroupCode</li>
+<li>LastModifiedDateTime</li>
+<li>ItemTrackingCode</li>
+<li>SerialNos</li>
+<li>LotNos</li>
+<li>ExpirationCalculation</li>
+<li>BaseUnitOfMeasure</li>
+<li>OverReceiptCode</li>
+<li>OverReceiptTolerancePercentage</li>
+<li>DynamicNo (For serial and lotno labels when printing itemtracking)</li>
+</ul>
+<hr>
+<h2 id="receipt-process">Receipt process</h2>
+<h3 id="receiptheader">ReceiptHeader</h3>
+<ul>
+<li>No</li>
+<li>LocationCode</li>
+<li>BinCode</li>
+<li>DocumentStatus</li>
+<li>PostingDate</li>
+<li>VendorShipmentNo</li>
+<li>AssignedUserId</li>
+<li>AssignmentDate</li>
+<li>AssignmentTime</li>
+<li>SortingMethod</li>
+<li>Blocked</li>
+</ul>
+<h3 id="receiptline">ReceiptLine</h3>
+<ul>
+<li>No</li>
+<li>LineNo</li>
+<li>SourceDocument</li>
+<li>SourceNo</li>
+<li>ItemNo</li>
+<li>Description</li>
+<li>BinCode</li>
+<li>Quantity</li>
+<li>QuantityToReceive</li>
+<li>QuantityToCrossDock</li>
+<li>QuantityReceived</li>
+<li>QuantityOutstanding</li>
+<li>DueDate</li>
+<li>UnitOfMeasureCode</li>
+<li>QuantityPerUnitOfMeasure</li>
+<li>LocationCode</li>
+<li>Picture</li>
+<li>ItemId</li>
+<li>AuxiliaryIndex1</li>
+<li>PictureContentType</li>
+<li>Blocked</li>
+<li>ItemIdentifierCode</li>
+</ul>
+<hr>
+<h2 id="pick-process">Pick process</h2>
+<h3 id="pickheader">PickHeader</h3>
+<ul>
+<li>ActivityType</li>
+<li>No</li>
+<li>AssignedUserID</li>
+<li>WhsGroup</li>
+<li>Blocked</li>
+<li>AutoOpenHeader</li>
+<li>AutoOpenLine</li>
+<li>LocationCode</li>
+<li>LineCount</li>
+<li>TotalQty</li>
+<li>TotalQuantityHandled</li>
+<li>TotalQuantityOutstanding</li>
+<li>SourceNo</li>
+<li>ExternalDocumentNo</li>
+<li>ShiptoName</li>
+<li>ShiptoAddress</li>
+<li>ShiptoCity</li>
+<li>ShiptoPostCode</li>
+<li>ShipmentDate</li>
+<li>DueDate</li>
+</ul>
+<h3 id="pickline-not-outbound-transfer">PickLine (not Outbound Transfer)</h3>
+<ul>
+<li>ActivityType</li>
+<li>DueDate</li>
+<li>ExternalDocumentNo</li>
+<li>LocationCode</li>
+<li>No</li>
+<li>ShipmentDate</li>
+<li>ShiptoAddress</li>
+<li>ShiptoCity</li>
+<li>ShiptoName</li>
+<li>ShiptoPostCode</li>
+<li>SourceNo</li>
+<li>QuantityOutstanding</li>
+<li>ItemNo</li>
+<li>Description</li>
+<li>QuantityToHandle</li>
+<li>QuantityHandled</li>
+<li>UomCode</li>
+<li>BinCode</li>
+<li>AuxiliaryIndex1</li>
+<li>AuxiliaryIndex2</li>
+<li>ShiptoAddress2</li>
+<li>ShiptoName2</li>
+<li>PromisedDeliveryDate</li>
+<li>ShiptoCountryRegionCode</li>
+<li>ShiptoCounty</li>
+<li>VariantCode</li>
+<li>SerialNo</li>
+<li>LotNo</li>
+</ul>
+<h3 id="pickline-outbound-transfer">PickLine Outbound Transfer</h3>
+<ul>
+<li>ActivityType</li>
+<li>DueDate</li>
+<li>ExternalDocumentNo</li>
+<li>LocationCode</li>
+<li>No</li>
+<li>ShipmentDate</li>
+<li>ShiptoAddress</li>
+<li>ShiptoCity</li>
+<li>ShiptoName</li>
+<li>ShiptoPostCode</li>
+<li>SourceNo</li>
+<li>QuantityOutstanding</li>
+<li>ItemNo</li>
+<li>Description</li>
+<li>QuantityToHandle</li>
+<li>QuantityHandled</li>
+<li>UomCode</li>
+<li>BinCode</li>
+<li>AuxiliaryIndex1</li>
+<li>AuxiliaryIndex2</li>
+<li>ShiptoAddress2</li>
+<li>ShiptoName2</li>
+<li>PromisedDeliveryDate</li>
+<li>ShiptoCountryRegionCode</li>
+<li>ShiptoCounty</li>
+<li>VariantCode</li>
+<li>SerialNo</li>
+<li>LotNo</li>
+</ul>
+<hr>
+<h2 id="shipment-process">Shipment process</h2>
+<h3 id="shipmentheader">ShipmentHeader</h3>
+<ul>
+<li>No</li>
+<li>ExternalDocumentNo</li>
+<li>LocationCode</li>
+<li>BinCode</li>
+<li>DocumentStatus</li>
+<li>PostingDate</li>
+<li>AssignedUserId</li>
+<li>AssignmentDate</li>
+<li>AssignmentTime</li>
+<li>SortingMethod</li>
+<li>Blocked</li>
+</ul>
+<h3 id="shipmentline">ShipmentLine</h3>
+<ul>
+<li>No</li>
+<li>LineNo</li>
+<li>SourceDocument</li>
+<li>SourceNo</li>
+<li>ItemNo</li>
+<li>Description</li>
+<li>BinCode</li>
+<li>Quantity</li>
+<li>QuantityToShip</li>
+<li>QuantityToCrossDock</li>
+<li>QuantityShipped</li>
+<li>QuantityPicked</li>
+<li>QuantityOutstanding</li>
+<li>DueDate</li>
+<li>UnitOfMeasureCode</li>
+<li>QuantityPerUnitOfMeasure</li>
+<li>LocationCode</li>
+<li>Picture</li>
+<li>ItemId</li>
+<li>AuxiliaryIndex1</li>
+<li>PictureContentType</li>
+</ul>
+<hr>
+<h2 id="inventory-process">Inventory process</h2>
+<h3 id="itemcount">ItemCount</h3>
+<ul>
+<li>ItemNo</li>
+<li>BinCode</li>
+<li>LocationCode</li>
+<li>VariantCode</li>
+<li>UnitOfMeasureCode</li>
+<li>ReservedQty</li>
+<li>ReservedQtyBase</li>
+<li>Customer</li>
+</ul>
+<h3 id="licenseplateheader">LicensePlateHeader</h3>
+<ul>
+<li>OdataEtag</li>
+<li>No</li>
+<li>Barcode</li>
+<li>LocationCode</li>
+<li>Zone</li>
+<li>BinCode</li>
+<li>State</li>
+<li>DateTime CreationDate</li>
+<li>Blocked</li>
+<li>Description</li>
+<li>ExternalIdentifier</li>
+<li>GS1</li>
+</ul>
+<h3 id="inventorycountline">InventoryCountLine</h3>
+<ul>
+<li>BinCode</li>
+<li>DateTime DateRecorded</li>
+<li>Description</li>
+<li>ItemNo</li>
+<li>LineNo</li>
+<li>Description2</li>
+<li>LocationCode</li>
+<li>LotNo</li>
+<li>OrderLineNo</li>
+<li>OrderNo</li>
+<li>PersonRecorded</li>
+<li>QtyperUnitofMeasure</li>
+<li>Quantity</li>
+<li>QuantityBase</li>
+<li>Recorded</li>
+<li>RecordedWithoutOrder</li>
+<li>RecordingNo</li>
+<li>SerialNo</li>
+<li>ShelfNo</li>
+<li>TimeRecorded</li>
+<li>UnitofMeasure</li>
+<li>UnitofMeasureCode</li>
+<li>UseItemTracking</li>
+<li>VariantCode</li>
+<li>Picture</li>
+<li>PictureContentType</li>
+<li>ItemId</li>
+</ul>
+<hr>
+<h2 id="movement-process">Movement process</h2>
+<h3 id="movementline">MovementLine</h3>
+<ul>
+<li>ActivityType</li>
+<li>DueDate</li>
+<li>ExternalDocumentNo</li>
+<li>LocationCode</li>
+<li>No</li>
+<li>ShipmentDate</li>
+<li>ShiptoAddress</li>
+<li>ShiptoCity</li>
+<li>ShiptoName</li>
+<li>ShiptoPostCode</li>
+<li>SourceNo</li>
+<li>QuantityOutstanding</li>
+<li>ItemNo</li>
+<li>Description</li>
+<li>QuantityToHandle</li>
+<li>QuantityHandled</li>
+<li>UomCode</li>
+<li>BinCode</li>
+<li>AuxiliaryIndex1</li>
+<li>AuxiliaryIndex2</li>
+<li>ShiptoAddress2</li>
+<li>ShiptoName2</li>
+<li>PromisedDeliveryDate</li>
+<li>ShiptoCountryRegionCode</li>
+<li>ShiptoCounty</li>
+<li>VariantCode</li>
+<li>SerialNo</li>
+<li>LotNo</li>
+</ul>
+<hr>
+<h2 id="license-plate-process">License Plate process</h2>
+<h3 id="license-plate-header">License Plate Header</h3>
+<ul>
+<li>GTIN</li>
+<li>LotNo</li>
+<li>SerialNo</li>
+<li>ExpirationDate</li>
+<li>ItemDescription</li>
+<li>IsHomogeneous</li>
+<li>SSCC</li>
+<li>Gs1GTIN</li>
+<li>Gs1ExpirationDate</li>
+<li>Gs1Quantity</li>
+<li>TotalQuantity</li>
+<li>CustomerName</li>
+</ul>
 
 </article>
           </div>

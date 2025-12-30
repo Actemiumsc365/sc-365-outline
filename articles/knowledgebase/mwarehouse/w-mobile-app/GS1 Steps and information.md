@@ -87,3 +87,28 @@ Open Business Central search for the license plate and click the related link
 On the license plate page click on the left side on the number to change its order to descending so you can see lastly created license plates. Here is the scanned license plate number, click it to open yes here is the internal identifier that we have scanned and the SSCC code also scroll down to see all information about the item.
 
 ***below a video to help users understand the steps visually:***
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
+<style>
+  .plyr {
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+</style>
+
+<video id="player" playsinline controls data-poster="">
+  <source src="" type="video/mp4" />
+</video>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const player = new Plyr('#player', {
+      controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen'],
+      settings: ['captions', 'quality', 'speed'],
+      speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] }
+    });
+  });
+</script>
