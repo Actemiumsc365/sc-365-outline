@@ -57,28 +57,3 @@ It is possible to print reports of the consignments and trips before and after. 
 ## Automatic trip planning
 It is possible to automatically schedule all consignments on trips via Supplychain365by means of the PTV trip planning that is available as standard in the solution. Additional transactions are charged for this.
 
-<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
-<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
-
-<style>
-  .plyr {
-    border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-</style>
-
-<video id="player" playsinline controls data-poster="">
-  <source src="" type="video/mp4" />
-</video>
-
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const player = new Plyr('#player', {
-      controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen'],
-      settings: ['captions', 'quality', 'speed'],
-      speed: { selected: 1, options: [0.5, 0.75, 1, 1.25, 1.5, 2] }
-    });
-  });
-</script>

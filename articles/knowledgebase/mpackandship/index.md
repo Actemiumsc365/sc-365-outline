@@ -73,7 +73,7 @@ Optimize your outbound logistics. The Pack & Ship module streamlines the process
 </style>
 
 <video id="player" playsinline controls data-poster="">
-  <source src="" type="video/mp4" />
+  <source src="https://stsc365videodocs.blob.core.windows.net/stscct365videodocs/SupplyChain365%20Videos%20tutorials/SupplyChain365%20Module%20Warehouse/Pack&Ship/Pack%20and%20ship.mp4" type="video/mp4" />
 </video>
 
 <script>

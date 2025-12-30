@@ -34,7 +34,7 @@ To create stock for a 3PL customer, it is important to do this via an incoming 3
 </style>
 
 <video id="player" playsinline controls data-poster="">
-  <source src="" type="video/mp4" />
+  <source src="https://stsc365videodocs.blob.core.windows.net/stscct365videodocs/SupplyChain365%20Videos%20tutorials/3PL%20and%20VAL/Create%203pl%20Customer.mp4" type="video/mp4" />
 </video>
 
 <script>

@@ -84,7 +84,7 @@ Below a video to understand the steps visually:
 </style>
 
 <video id="player" playsinline controls data-poster="">
-  <source src="" type="video/mp4" />
+  <source src="https://stsc365videodocs.blob.core.windows.net/stscct365videodocs/SupplyChain365%20Videos%20tutorials/SPP%20Collaborate%20and%20Exchange/Exchange%20files%20automatically.mp4" type="video/mp4" />
 </video>
 
 <script>

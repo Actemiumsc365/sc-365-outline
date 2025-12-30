@@ -29,6 +29,7 @@ Toggle on enable 3PL option if not enabled.
 These are the steps on how to add cost and dimension for a specific warehouse activity.
 
 **Below a video to help users understand the steps visually:**
+
 <script src="https://player.vimeo.com/api/player.js"></script>
 <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
 <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>

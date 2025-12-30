@@ -35,7 +35,7 @@ Now it is possible to add items in the warehouse for a 3PL Customer:
 </style>
 
 <video id="player" playsinline controls data-poster="">
-  <source src="" type="video/mp4" />
+  <source src="https://stsc365videodocs.blob.core.windows.net/stscct365videodocs/SupplyChain365%20Videos%20tutorials/3PL%20and%20VAL/create%20items%20for%20a%203PL%20customer.mp4" type="video/mp4" />
 </video>
 
 <script>

@@ -34,7 +34,7 @@ We also call this 1PL, where PL stands for Party Logistics. There are service pr
 </style>
 
 <video id="player" playsinline controls data-poster="">
-  <source src="" type="video/mp4" />
+  <source src="https://stsc365videodocs.blob.core.windows.net/stscct365videodocs/SupplyChain365%20Videos%20tutorials/3PL%20and%20VAL/Different%20between%20a%20customer%20and%20a%203pl%20cus.mp4" type="video/mp4" />
 </video>
 
 <script>
